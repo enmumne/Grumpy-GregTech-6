@@ -15,6 +15,7 @@ https://github.com/graalvm/graalvm-ce-builds/releases
 Even better if you use the "enterprise" edition, but it requires registration on Oracle:  
 https://www.oracle.com/downloads/graalvm-downloads.html
  
+(remove "-Darchaicfix.debug.noUpdateAcceleration=true" from Java flags for much faster chunk generation) 
  
  Known Issues:
  - Xaero worldmap can only be zoomed in/out with the buttons, not the scrolling wheel. Problem with Java 19.
