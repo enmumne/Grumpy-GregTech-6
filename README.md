@@ -20,7 +20,6 @@ https://www.oracle.com/downloads/graalvm-downloads.html
  Known Issues:
  - Xaero worldmap can only be zoomed in/out with the buttons, not the scrolling wheel. Problem with Java 19.
  - This still contains my old edit of the questbook, and an outdated version of Bear's questbook, as it was around June 2022. I should probably update it.
- - No scripts (I should re-add those in Bear's pack)
  - No Immersive Engineering, due to incompatibility on Java 19, waiting on a fix.
 
 Bear's GT6 default pack:  
