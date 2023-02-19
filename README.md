@@ -5,7 +5,7 @@ What it is:
 + GregTech 6 on Java 19, based on Bear's default testing pack.
 + all Thaumcraft and most of everything from GTNH
 + performance mods: NotFine + Neodymium + Archaicfix + CoreTweaks
-+ HBM, Electrical Age and more cursed stuff
++ HBM, Electrical Age, IHL and more cursed stuff
  
 This is a straight copy of my test instance, it should import and run with PolyMC/Prism, doesn't work on MultiMC because it needs to load patches to run on Java 19.
 
