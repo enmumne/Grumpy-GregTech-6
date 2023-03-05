@@ -18,7 +18,6 @@ https://www.oracle.com/downloads/graalvm-downloads.html
 (remove "-Darchaicfix.debug.noUpdateAcceleration=true" from Java flags for much faster chunk generation) 
  
  Known Issues:
- - Xaero worldmap can only be zoomed in/out with the buttons, not the scrolling wheel. Problem with Java 19.
  - This still contains my old edit of the questbook, and an outdated version of Bear's questbook, as it was around June 2022. I should probably update it.
 
 Bear's GT6 default pack:  
