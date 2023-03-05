@@ -20,7 +20,6 @@ https://www.oracle.com/downloads/graalvm-downloads.html
  Known Issues:
  - Xaero worldmap can only be zoomed in/out with the buttons, not the scrolling wheel. Problem with Java 19.
  - This still contains my old edit of the questbook, and an outdated version of Bear's questbook, as it was around June 2022. I should probably update it.
- - No Immersive Engineering, due to incompatibility on Java 19, waiting on a fix.
 
 Bear's GT6 default pack:  
 https://bearsden.overminddl1.com/Downloads/Gregtech%206%20packs/Surviving%20GT6%20Season%203(cont.%20from%20Take%202)/
