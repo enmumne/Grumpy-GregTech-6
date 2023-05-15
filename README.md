@@ -14,6 +14,7 @@ https://github.com/graalvm/graalvm-ce-builds/releases
 
 Even better if you use the "enterprise" edition, but it requires registration on Oracle:  
 https://www.oracle.com/downloads/graalvm-downloads.html
+Currently, you need to go "Archived Enterprise Releases" > 22.3.1 Java version 19
  
 (remove "-Darchaicfix.debug.noUpdateAcceleration=true" from Java flags for much faster chunk generation) 
  
