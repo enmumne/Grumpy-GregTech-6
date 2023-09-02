@@ -19,6 +19,9 @@ https://download.oracle.com/graalvm/20/latest/graalvm-jdk-20_windows-x64_bin.zip
 For the old Java 19 release I was previously using, you need to go "Archived Enterprise Releases" > 22.3.1 Java version 19
  
 (remove "-Darchaicfix.debug.noUpdateAcceleration=true" from Java flags for much faster chunk generation) 
+
+If you want to mess with Java 20 support in a different setup, more info here:  
+https://github.com/GTNewHorizons/lwjgl3ify
  
  Known Issues:
  - This still contains my old edit of the questbook, and an outdated version of Bear's questbook, as it was around June 2022. I should probably update it.
