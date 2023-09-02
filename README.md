@@ -10,7 +10,7 @@ What it is:
 This is a straight copy of my test instance, it should import and run with PolyMC/Prism, doesn't work on MultiMC because it needs to load patches to run on Java 20.
 
 Since it's a copy of my own instance, you should redirect it to your local Java 20 copy. My Java flags work with GraalVM:  
-https://github.com/graalvm/graalvm-ce-builds/releases
+https://github.com/graalvm/graalvm-ce-builds/releases  
 (current one) https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-20.0.2/graalvm-community-jdk-20.0.2_windows-x64_bin.zip
 
 "Enterprise" editions used to perform better, but they have been recently removed. The main distribution is here (may require a free registration to download):  
