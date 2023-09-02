@@ -15,6 +15,7 @@ https://github.com/graalvm/graalvm-ce-builds/releases
 
 "Enterprise" editions used to perform better, but they have been recently removed. The main distribution is here (may require a free registration to download):    
 https://www.oracle.com/downloads/graalvm-downloads.html  
+https://download.oracle.com/graalvm/20/latest/graalvm-jdk-20_windows-x64_bin.zip  
 For the old Java 19 release I was previously using, you need to go "Archived Enterprise Releases" > 22.3.1 Java version 19
  
 (remove "-Darchaicfix.debug.noUpdateAcceleration=true" from Java flags for much faster chunk generation) 
