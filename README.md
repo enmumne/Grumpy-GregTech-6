@@ -2,7 +2,7 @@
 Grumpy and experimental
 
 What it is: 
-+ GregTech 6 on Java 20, based on Bear's default testing pack.
++ GregTech 6 on Java 20, based on Bear's default testing pack
 + all Thaumcraft and most of everything from GTNH
 + performance mods: NotFine + Neodymium + Archaicfix + CoreTweaks
 + HBM, Electrical Age, IHL and more cursed stuff
