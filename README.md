@@ -2,25 +2,24 @@
 Grumpy and experimental
 
 What it is: 
-+ GregTech 6 on Java 20, based on Bear's default testing pack
++ GregTech 6 on Java 21, based on Bear's default testing pack
 + all Thaumcraft and most of everything from GTNH
 + performance mods: NotFine + Neodymium + Archaicfix + CoreTweaks
 + HBM, Electrical Age, IHL and more cursed stuff
  
-This is a straight copy of my test instance, it should import and run with PolyMC/Prism, doesn't work on MultiMC because it needs to load patches to run on Java 20.
+This is a straight copy of my test instance, it should import and run with PolyMC/Prism, doesn't work on MultiMC because it needs to load patches to run on Java 21.
 
-Since it's a copy of my own instance, you should redirect it to your local Java 20 copy. My Java flags work with GraalVM:  
-https://github.com/graalvm/graalvm-ce-builds/releases  
-(current one) https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-20.0.2/graalvm-community-jdk-20.0.2_windows-x64_bin.zip
+Since it's a copy of my own instance, you should redirect it to your local Java 21 copy. My Java flags work with GraalVM.
+Due to Java 21 not being officially out at this moment, I'm using dev builds:  
+https://github.com/graalvm/graalvm-ce-dev-builds/releases
+(direct link for windows) https://github.com/graalvm/graalvm-ce-dev-builds/releases/download/23.1.0-dev-20230905_1517/graalvm-community-java21-windows-amd64-dev.zip
 
-"Enterprise" editions used to perform better, but they have been recently removed. The main distribution is here (may require a free registration to download):    
+When Java 21 is officially out I'll use the build offered directly by Oracle, as they usually have very slightly better peformance:    
 https://www.oracle.com/downloads/graalvm-downloads.html  
-https://download.oracle.com/graalvm/20/latest/graalvm-jdk-20_windows-x64_bin.zip  
-For the old Java 19 release I was previously using, you need to go "Archived Enterprise Releases" > 22.3.1 Java version 19
  
 (remove "-Darchaicfix.debug.noUpdateAcceleration=true" from Java flags for much faster chunk generation) 
 
-If you want to mess with Java 20 support in a different setup, more info here:  
+If you want to mess with Java 21 support in a different setup, more info here:  
 https://github.com/GTNewHorizons/lwjgl3ify
  
  Known Issues:
