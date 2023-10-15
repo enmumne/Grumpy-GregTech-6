@@ -1,0 +1,92 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 64
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 258
+    },
+    "2:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 259
+    },
+    "3:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 30
+    }
+  },
+  "questIDLow:4": 31,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "ALWAYS",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.multitileentity",
+        "Count:3": 1,
+        "Damage:2": 31000,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Readouts to Go",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Let\u0027s make a temperature sensor which will give us a creadout of the temperature that way we don\u0027t have to right click wiith a thermometer and read chat to know how hot our crucible is.  The sensor can also be put into other modes to trigger redstone signal when certain criteria is reached.  You will see more in the Early Automation Quest.\n\nYou will need to make some red alloy plates and use your anvil and hammer to make red alloy foil.  Next you can use your wire cutters to make red alloy fine wires needed for the temperature sensor.  You will also need some redstone.  Use can use the regular redstone gems or the redstone dust.\n\nJust make a double tin alloy plate and include your thermometer and you can craft a temperature sensor.\n\nTo use your sensor, just place on the side of the crucible and there you go.  You can now see the temperature of your crucible.\n§f§a\nTo complete this quest you need to craft:\n1 Double Tin Alloy Plate\n1 Thermometer Sensor\n"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.meta.plateDouble",
+          "Count:3": 1,
+          "Damage:2": 8667,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.multitileentity",
+          "Count:3": 1,
+          "Damage:2": 31000,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:choice",
+      "index:3": 0,
+      "choices:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.multiitem.food",
+          "Count:3": 1,
+          "Damage:2": 2005,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.multiitem.food",
+          "Count:3": 1,
+          "Damage:2": 2003,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

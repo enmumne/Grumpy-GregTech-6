@@ -1,0 +1,78 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 304
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 18
+    }
+  },
+  "questIDLow:4": 306,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "ALWAYS",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.multitileentity",
+        "Count:3": 1,
+        "Damage:2": 25352,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Arsenic Copper Item Pipes",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "As of Gregtech 6.16.02 Greg added Arsenic Alloys.  Once of these alloys, Arsenic Copper can be used as item pipes and can be used with other item pipes like the brass ones to make networks.  By mixing different types of material item pipes you can control the path that items can take as it would find the shortest distance.  Arsenic Copper pipes count as half the distance (step size) than brass item pipes.\n§b\nNote: Gregs pipes have a concept called step size.  To determine a path that an item would take depends on the shortest path from the input to an avbailalbe storage spot (Machine, barrel, chest, etc).  This shorted path is calculated by adding up the step size.  A normal tier 1 item pipe uses a step  size of 32,768.  The arsenic copper item pipe uses a step size 16,384. So using the same number of arsenic copper item pipes as brass item pipes, an item would ues the arsenic copper pipes as a shorter path.\n§a\nTo ocmplete this quest craft:\n4 Arsenic Copper Item Pipe"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.multitileentity",
+          "Count:3": 4,
+          "Damage:2": 25352,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:choice",
+      "index:3": 0,
+      "choices:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.multiitem.food",
+          "Count:3": 1,
+          "Damage:2": 2005,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.multiitem.food",
+          "Count:3": 1,
+          "Damage:2": 2003,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

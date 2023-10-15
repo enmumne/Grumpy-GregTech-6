@@ -1,0 +1,75 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 49
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 37
+    }
+  },
+  "questIDLow:4": 39,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "OR",
+      "visibility:8": "ALWAYS",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.meta.chemtube",
+        "Count:3": 1,
+        "Damage:2": 9835,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Sulfur Trioxide",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "We need some sulfuric acid. Not only can we refine many things with it, we can make other acids out of it too!\nAnd what laboratory is complete without a full set of acids.\n\nTo set up the mixer system for Sulphur Trioxide you will need the following:\n1 Bronze Burning Box (any type)\n1 Bronze Boiler\n1 Bronze Turbine\n1 Bronze Mixer\n\n-OR-\n1 Bronze Diesel Generator\n1 Bronze Mixer\n\n\nFirst step is to pipe the sulfur dioxide that we got from the roaster to your mixer.  Next we mix that sulfur dioxide with air so we can add pipe the air from the tank behind the roaster.  The final step we will need a catalyst like platinium or vanadium pentroxide dust in order to make the chemical reaction to work. It doesn\u0027t get used up but needs to be there.\n§b\nNote:  You can get vanadium pentoxide dust from centrifuging basaltic or granitic sand.  You can get platinum from Sperrylite or Sheldonite but then you need to shred it down to dust.  This recipe only need 16RU so a single bronze turbine, boiler and burning box will work.\n§a§6\nThe recipe for the mixer:\n{Platinum Dust or Vanadium Pentoxide Dust} + 750L Sulphur Dioxide + 1000L Air \u003d\u003e [Mixer 16RU/t] \u003d\u003e 1000L Sulphur Trioxide\n§f§1§2§3§4§5§6§a\nTo complete this quest collect:\n1000L of Sulphur Trioxide in a drum\n\n\n"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "requiredFluids:9": {
+        "0:10": {
+          "FluidName:8": "sulfurtrioxide",
+          "Amount:3": 1000
+        }
+      },
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "taskID:8": "bq_standard:fluid"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:choice",
+      "index:3": 0,
+      "choices:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.multiitem.food",
+          "Count:3": 1,
+          "Damage:2": 2005,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.multiitem.food",
+          "Count:3": 1,
+          "Damage:2": 2003,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

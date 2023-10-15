@@ -1,0 +1,50 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {},
+  "questIDLow:4": 762,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.meta.scrapGt",
+        "Count:3": 4,
+        "Damage:2": 8500,
+        "OreDict:8": "scrapGtAnyStone"
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Oh scraps!",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "One of the quirky principles of GT6 is that nothing is wasted.\n\nWhen you\u0027ll hear the typical sound indicating that a tool got broken, you\u0027ll notice that it won\u0027t simply disappear from your inventory, but it will leave some scraps or pebbles.\n\nThese can usually be recycled in some ways, if you care.\n\nThe same happens with piles of ores, ashes and other things, that can be broken in smaller and smaller quantities, or compoased back into larger wholes (and save space). All of this is useful to introduce another important concept: you can convert between these types, back and forth.\n\nYou won\u0027t find these crafting recipes in NEI. There are \"shapeless\" recipes that would clutter too much the interface, so their indication only appears in the tooltips.\n\nLook at the first few lines in a tooltip, you\u0027ll frequently find a field saying \n\"Has Shapeless Recipes in Amounts: \"\n\nThe numbers listed will indicate what kind of recipes are available. If you find the same number repeated, like [1, 1], then it means you get a different recipes depending on which slot you use (left/right).\n\nGT6 information is scattered in that way, sometimes in dedicated NEI pages, sometimes in very detailed tooltips. Make sure to check everything.\n\n"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.meta.scrapGt",
+          "Count:3": 1,
+          "Damage:2": 8500,
+          "OreDict:8": "scrapGtAnyStone"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {}
+}

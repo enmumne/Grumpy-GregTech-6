@@ -1,0 +1,91 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2
+    }
+  },
+  "questIDLow:4": 263,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "OR",
+      "visibility:8": "ALWAYS",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.meta.ingot",
+        "Count:3": 1,
+        "Damage:2": 8666,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Ultimet",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Ultimet is an alloy or cobalt, Nickel, Chrome, and Moly.  This ally make high capacity hoppers and higher capacity item pipes.\n§6\nRecipe:\n5 Cobalt ingots/dusts + 1 Nickel ingot/dust + 2 Chromium ingots/dusts + 1 Molybdenum ingot/dusts \u003d\u003e [Crucible 2180K] \u003d\u003e 9 Ultimet ingots/plates\n§a\nTo Complete this quest craft:\n9 Ultimet ingots or plates"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.meta.ingot",
+          "Count:3": 9,
+          "Damage:2": 8666,
+          "OreDict:8": "ingotUltimet"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.meta.plate",
+          "Count:3": 9,
+          "Damage:2": 8666,
+          "OreDict:8": "plateUltimet"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:choice",
+      "index:3": 0,
+      "choices:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.multiitem.food",
+          "Count:3": 1,
+          "Damage:2": 2005,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.multiitem.food",
+          "Count:3": 1,
+          "Damage:2": 2003,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

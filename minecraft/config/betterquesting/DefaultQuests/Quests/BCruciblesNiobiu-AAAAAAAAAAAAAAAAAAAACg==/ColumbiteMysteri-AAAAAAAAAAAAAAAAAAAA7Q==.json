@@ -1,0 +1,74 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 236
+    }
+  },
+  "questIDLow:4": 237,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "ALWAYS",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.meta.dust",
+        "Count:3": 1,
+        "Damage:2": 8461,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Columbite Mysteries",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Niobium can no longer be smelted in a crucible with Gregtech 6 version 6.14.24 and above.  So first you need to get ? from Columbine.  So how do you get Columbine?  You get it from washing Tantalite ore in a sluice which will get you purtified Columbite and purified Coltan ores.  You can centrifuge Coltan in a bronze centrifuge to get more Columbite.  You can also do additional processing to turn you purified Columbite into refined Columbite if you choose.  In the end you want to run your Columbite through your shredder to get Columbite Dust.\n\nOnce you have your Columbite Dust, you will need a MV Electrolyzer to get Niobium Perntoxide.\n\nYou will need the following machines:\n1 MV Electrolyzer\nPower system for MV Electrolzer such as MV Battery Box if you have circuites or MV Dynamo\n§a§6\nElectrolyzer Recipe:\n{Tag 0} + 8 Columbine Dust \u003d\u003e [MV Electrolyzer 112EU/t] \u003d\u003e 7 Niobium Pentoxide Dust + 1 Pyrolusite Dust\n§6§a\nTo Complete this quest collect:\n7 Niobium Pentoxide Dust"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.meta.dust",
+          "Count:3": 7,
+          "Damage:2": 8461,
+          "OreDict:8": "dustNiobiumPentoxide"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:choice",
+      "index:3": 0,
+      "choices:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.multiitem.food",
+          "Count:3": 1,
+          "Damage:2": 2005,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.multiitem.food",
+          "Count:3": 1,
+          "Damage:2": 2003,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

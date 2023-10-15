@@ -1,0 +1,71 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 217
+    }
+  },
+  "questIDLow:4": 40,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "ALWAYS",
+      "isMain:1": 1,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.meta.chemtube",
+        "Count:3": 1,
+        "Damage:2": 9826,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Hydrocloric Acid",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Now we need to make the acid we need to process tungsten.  That would be Hydrocloric Acid.  You combine your sulfuric acid from the previous mixer and add some salt.  You will get Hydrocloric acid and sodium\n\nMake sure you use the stainless steel pipes to connect the output of the Sulfuric acid mixer to the hydroloric acid mixer you are setting up.  Put some salt in the input of the mixer and you should be set.\n\nJust like the previous mixers, you only need a single bronze burning box, boiler, and turbine.\n\nYou will need the following machines:\n1 Bronze Burnign box [any type]\n1 Bronze Boiler\n1 Bronze Turbine\n1 Bronze Mixer\n\n-OR-\n1 Bronze Diesel Generator\n1 Bronze Mixer\n§b\nYou will also need:\nsome Small Stainless Steel Fluid Pipes\n§e\nWarning:  Just like with Sulfuric Acid you need to use stainless steel drums and pipes.\n\n§a§6\nMixer Recipe:\n2 salt or rock salt dust + 7000L Sulfuric Acid \u003d\u003e [Mixer 16 RU/t] \u003d\u003e 7 Sodium Bisulfate Dust + 2000L Hydrochloric Acid\n\n§6§a\nTo complete the quest collect:\n1000L of Hydrocloric Acid in a drum"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "requiredFluids:9": {
+        "0:10": {
+          "FluidName:8": "hydrochloricacid",
+          "Amount:3": 1000
+        }
+      },
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "taskID:8": "bq_standard:fluid"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:choice",
+      "index:3": 0,
+      "choices:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.multiitem.food",
+          "Count:3": 1,
+          "Damage:2": 2005,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.multiitem.food",
+          "Count:3": 1,
+          "Damage:2": 2003,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

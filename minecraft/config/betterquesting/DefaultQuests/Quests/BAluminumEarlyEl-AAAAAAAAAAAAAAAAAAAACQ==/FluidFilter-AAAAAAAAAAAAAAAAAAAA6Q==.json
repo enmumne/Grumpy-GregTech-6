@@ -1,0 +1,86 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 231
+    }
+  },
+  "questIDLow:4": 233,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "ALWAYS",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.multiitem.technological",
+        "Count:3": 1,
+        "Damage:2": 1024,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Fluid Filter",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "We can also make a Fluid Filter from the Blank Cover.  You only need 4 zinc foils in the corners and a blank cover in the center.  The fluid filter will default to a white list and will only allow specific fluids to pass between 2 fluid pipes.  This works very well with Quad or Nonuple  pipes to direct a specific fluid like water in another direction.  Using a screwdriver will change the filter mode to black list so you can pass any fluid except the one in the filter.  To set the filter just place the fliter and then right-click a container that contains the specific fluid.  Any contain will work like bottles, measuring pot, drum, barometer gas cylinder, etc.\n§6§a\nTo complete this quest craft:\n1 Blank Cover\n4 Zinc Foils\n1 Fluid Filter"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.multiitem.technological",
+          "Count:3": 1,
+          "Damage:2": 1000,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.meta.foil",
+          "Count:3": 4,
+          "Damage:2": 300,
+          "OreDict:8": "foilZinc"
+        },
+        "2:10": {
+          "id:8": "gregtech:gt.multiitem.technological",
+          "Count:3": 1,
+          "Damage:2": 1024,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:choice",
+      "index:3": 0,
+      "choices:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.multiitem.food",
+          "Count:3": 1,
+          "Damage:2": 2005,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.multiitem.food",
+          "Count:3": 1,
+          "Damage:2": 2003,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

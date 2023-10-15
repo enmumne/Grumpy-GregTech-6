@@ -1,2 +1,0 @@
-if you already have a world you need to run
-/bq_admin default load

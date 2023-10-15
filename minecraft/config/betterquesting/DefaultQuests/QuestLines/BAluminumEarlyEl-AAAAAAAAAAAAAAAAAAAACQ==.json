@@ -1,0 +1,229 @@
+{
+  "quests:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -1068,
+      "y:3": -504,
+      "questIDLow:4": 93,
+      "sizeY:3": 24
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -1008,
+      "y:3": -504,
+      "questIDLow:4": 94,
+      "sizeY:3": 24
+    },
+    "2:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -1008,
+      "y:3": -444,
+      "questIDLow:4": 95,
+      "sizeY:3": 24
+    },
+    "3:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -936,
+      "y:3": -504,
+      "questIDLow:4": 96,
+      "sizeY:3": 24
+    },
+    "4:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -864,
+      "y:3": -540,
+      "questIDLow:4": 97,
+      "sizeY:3": 24
+    },
+    "5:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -864,
+      "y:3": -492,
+      "questIDLow:4": 98,
+      "sizeY:3": 24
+    },
+    "6:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -996,
+      "y:3": -576,
+      "questIDLow:4": 99,
+      "sizeY:3": 24
+    },
+    "7:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 36,
+      "x:3": -1068,
+      "y:3": -576,
+      "questIDLow:4": 225,
+      "sizeY:3": 36
+    },
+    "8:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -948,
+      "y:3": -408,
+      "questIDLow:4": 226,
+      "sizeY:3": 24
+    },
+    "9:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -876,
+      "y:3": -384,
+      "questIDLow:4": 227,
+      "sizeY:3": 24
+    },
+    "10:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -804,
+      "y:3": -384,
+      "questIDLow:4": 228,
+      "sizeY:3": 24
+    },
+    "11:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -840,
+      "y:3": -444,
+      "questIDLow:4": 229,
+      "sizeY:3": 24
+    },
+    "12:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -720,
+      "y:3": -408,
+      "questIDLow:4": 230,
+      "sizeY:3": 24
+    },
+    "13:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -684,
+      "y:3": -444,
+      "questIDLow:4": 231,
+      "sizeY:3": 24
+    },
+    "14:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -672,
+      "y:3": -492,
+      "questIDLow:4": 232,
+      "sizeY:3": 24
+    },
+    "15:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -636,
+      "y:3": -468,
+      "questIDLow:4": 233,
+      "sizeY:3": 24
+    },
+    "16:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -912,
+      "y:3": -444,
+      "questIDLow:4": 234,
+      "sizeY:3": 24
+    },
+    "17:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -684,
+      "y:3": -372,
+      "questIDLow:4": 235,
+      "sizeY:3": 24
+    },
+    "18:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -624,
+      "y:3": -372,
+      "questIDLow:4": 236,
+      "sizeY:3": 24
+    },
+    "19:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -720,
+      "y:3": -468,
+      "questIDLow:4": 256,
+      "sizeY:3": 24
+    },
+    "20:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -1008,
+      "y:3": -336,
+      "questIDLow:4": 285,
+      "sizeY:3": 24
+    },
+    "21:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -948,
+      "y:3": -336,
+      "questIDLow:4": 286,
+      "sizeY:3": 24
+    },
+    "22:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -672,
+      "y:3": -540,
+      "questIDLow:4": 287,
+      "sizeY:3": 24
+    },
+    "23:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -588,
+      "y:3": -468,
+      "questIDLow:4": 288,
+      "sizeY:3": 24
+    },
+    "24:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -624,
+      "y:3": -540,
+      "questIDLow:4": 289,
+      "sizeY:3": 24
+    },
+    "25:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -588,
+      "y:3": -504,
+      "questIDLow:4": 290,
+      "sizeY:3": 24
+    }
+  },
+  "questLineIDLow:4": 9,
+  "questLineIDHigh:4": 0,
+  "properties:10": {
+    "betterquesting:10": {
+      "visibility:8": "NORMAL",
+      "name:8": "[B] Aluminum \u0026 Early Electricity",
+      "icon:10": {
+        "id:8": "gregtech:gt.meta.ingot",
+        "Count:3": 1,
+        "Damage:2": 130,
+        "OreDict:8": ""
+      },
+      "bg_image:8": "",
+      "bg_size:3": 256,
+      "desc:8": "Now it time to get electrical.  We will start out with getting you to the point where you can add a LV magnetic separator and a LV electrolyzer. Once you get the electrolyzer you can start the process to get your first aluminium.\n\nAs of GT6 version 6.14.24, Aluminum processing no longer requires a smelter.  In addition aluminum is a requirement in the processing of Niobium and aluminum is required to get a MV Electrolyzer to process Tantalite.  So aluminum is now a requirement before tungsten.  Aluminum is also needed to make useful itemes including filters and Aluminum is also required to progress further into the electrical age."
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 39
+    }
+  },
+  "questIDLow:4": 217,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "OR",
+      "visibility:8": "ALWAYS",
+      "isMain:1": 1,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.meta.chemtube",
+        "Count:3": 1,
+        "Damage:2": 9824,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Sulfuric Acid",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Now we have sulfur trioxide, which we can now mix it with some water and we get sulfuric acid!\n\nAll you need to do is pipe over the sulfer trioxide and water and then pipe out the sulfuric acid.  You can use a bronze turbine as the mixer only need 16RU to make the sulfuric acid.  The pipes that you use to pipe over the water and sulfur trioxide are up to you.  Bronze or rubber will work.\n\nYou will need the following machines:\n1 Bronze burning Box [any type]\n1 Bronze Boiler\n1 Bronze Turbine\n1 Bronze Mixer\n\n-OR-\n1 Bronze Diesel Generator\n1 Bronze Mixer\n§b\nYou will also need the following:\nsome small bornze/invar pipes for gas input\nsome small stainless steel pipes for output\n§6§e\nWarning:  Be careful with the fluid output from your mixer.  make sure the pipes and drum can handle acids before using them.  Hint:  wonder why this quest was placed in the stainless steel tab?\n§f§6§7§8§9§a§b§c§d§e§d§e§f§k§f§6§b§a§6\nMixer Recipe:\n1000L Sulfur Trioxide + 750L Water \u003d\u003e [Mixer 16RU/t] \u003d\u003e  1750L Sulfuric Acid\n§6§a\nTo complete the quest collect the following:\n1000L Sulfuric Acid in a drum (USE STAINLESS STEEL!!)\n\n"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "requiredFluids:9": {
+        "0:10": {
+          "FluidName:8": "sulfuricacid",
+          "Amount:3": 1000
+        }
+      },
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "taskID:8": "bq_standard:fluid"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:choice",
+      "index:3": 0,
+      "choices:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.multiitem.food",
+          "Count:3": 1,
+          "Damage:2": 2005,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.multiitem.food",
+          "Count:3": 1,
+          "Damage:2": 2003,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

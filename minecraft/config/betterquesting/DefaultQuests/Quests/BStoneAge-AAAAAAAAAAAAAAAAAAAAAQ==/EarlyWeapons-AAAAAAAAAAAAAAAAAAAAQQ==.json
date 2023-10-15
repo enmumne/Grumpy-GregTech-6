@@ -1,0 +1,109 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 9
+    }
+  },
+  "questIDLow:4": 65,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "ALWAYS",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.metatool.01",
+        "Count:3": 1,
+        "tag:10": {
+          "ench:9": {},
+          "GT.ToolStats:10": {
+            "a:2": 9188,
+            "d:8": "AnyWood",
+            "j:2": 1600
+          }
+        },
+        "Damage:2": 24,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Early Weapons",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "You will need to defend yourself from mobs while you are out exploring.  You also may need to get meat from some animals.  With gregtech you have a couple options.\n\nThe first is to use a piece of flint and a stick to make a knife.  The knife has fire aspect which give burning damage to mobs.  It also will cook the meat from animals giving you something you can eat.\n\nThe other option is a club.  You can make a club from the stones that you collect.  This will last abit longer than the knife, it does not give ticking burning damage like the knife.\n§b\nTip:  You can now make a bone club using 2 bones and a stick or 3 bones.  Now you can use those useless bones dropped by skeletons.\n§a\nMake the following:\n1 Flint Knife\n1 Stone or Bone Club"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.metatool.01",
+          "Count:3": 1,
+          "tag:10": {
+            "ench:9": {
+              "0:10": {
+                "lvl:2": 1,
+                "id:2": 20
+              }
+            },
+            "GT.ToolStats:10": {
+              "a:2": 8002,
+              "d:8": "AnyWood",
+              "j:2": 4800
+            }
+          },
+          "Damage:2": 34,
+          "OreDict:8": "toolCuttingboard"
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.metatool.01",
+          "Count:3": 1,
+          "tag:10": {
+            "ench:9": {},
+            "GT.ToolStats:10": {
+              "a:2": 9188,
+              "d:8": "AnyWood",
+              "j:2": 1600
+            }
+          },
+          "Damage:2": 24,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:choice",
+      "index:3": 0,
+      "choices:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.multiitem.food",
+          "Count:3": 1,
+          "Damage:2": 2005,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.multiitem.food",
+          "Count:3": 1,
+          "Damage:2": 2003,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

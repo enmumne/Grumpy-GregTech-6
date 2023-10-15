@@ -1,0 +1,50 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {},
+  "questIDLow:4": 761,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "ALWAYS",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.meta.rockGt",
+        "Count:3": 1,
+        "Damage:2": 8500,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Priorities",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "(you can complete this quest with any rock type)\n\nYou\u0027ll notice that scattered around the overworld are sticks and stones on top of the surface. You can gather both types with a right click, precisely aimed, and the corresponding item will appear in your inventory.\n\nSurface stones are important because they signal a large ore vein you can find by digging down at that location (the vein can be placed at any point of the Y/vertical axis, the presence of the surface stone only guarantees there\u0027s one ore block straight below, but it doesn\u0027t signal close proximity). So §cBEFORE §c§c§ryou start roaming and picking everything up, it\u0027s important that every time you pick a stone, you stop and pay attention to what type it is.\n\nIf it\u0027s an ore-bearing stone you should create a bookmark at that location, so that you can return later to it when you need that type of resource.\n\nAlso consider that you can find both flint and coal types of stones. With flint you can proceed to the next quests and make some basic tools. With a coal stone you could immediately craft a torch.\n\nA suggestion: move common types of stones to your main inventory, leave some spaces free on your hotbar and select one of the free slots. This way, whenever you pick an ore-bearing stone you\u0027ll immediately notice, and place a bookmark. It could also be a good idea to place these stones back in the world after you registered their position. So they won\u0027t clutter your inventory and you won\u0027t have to keep count if you find another of the same type that signals a different vein. With a shift+right click you can do that.\n\nBeside ore-bearing stones you should also pay attention to a few more types:\n\n- Red/Black Granite (level 3)\n- §lRaw§l §l§rore stones\n- Meteorite pieces\n\n§rWhat you can or cannot harvest doesn\u0027t depend on the ore type, as in vanilla Minecraft, but on the rock layer you\u0027re mining. This also means that small ore types you can find in the sand can be obtained with bare hands.\n\nLook specifically for level 3 rock types, red or black granite. When you find one of these rocks then it means there\u0027s a rock layer of that type below, and you can scour the surface to collect more of these stones. With three of them you can craft a level 3 pickaxe, and with that you can mine through all type of rocks and won\u0027t have to worry about mining levels anymore.\n\nOre types can appear both as ore-bearing rocks, or as \"raw\". Whereas the ore-bearing indicate large veins you can mine, the raw ores instead indicate *bedrock* veins. These provide an infinite source of that ore, accessible at the late game, and will require special machinery.\n\nMeteorite is randomly generated, like flint, and does not indicate a vein below. Just collect these since they become useful later."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.meta.rockGt",
+          "Count:3": 1,
+          "Damage:2": 8507,
+          "OreDict:8": "rockGtAnyStone"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {}
+}

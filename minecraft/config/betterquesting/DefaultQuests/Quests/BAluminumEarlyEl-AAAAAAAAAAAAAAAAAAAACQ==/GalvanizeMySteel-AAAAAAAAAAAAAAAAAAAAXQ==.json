@@ -1,0 +1,201 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 38
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 23
+    }
+  },
+  "questIDLow:4": 93,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "OR",
+      "visibility:8": "ALWAYS",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.meta.plate",
+        "Count:3": 4,
+        "Damage:2": 8651,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Galvanize My Steel",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "To start with some basic electrical machines, you will need to make Galvanized Steel.  These are steel parts(plates, rods, bolts, etc) that are bathed in molton zinc.  So how do we bathe our Steel?  Very simple, set up a crucible.  Put you stainless steel bathing pot at the same level as the burning box.  You should not put a wooden bathing pot next to a burning box.  It could catch fire at any moment.  Next put a tap on the side of the crucible just above the bathing pot.  Now put some zinc in the crucible and run the burning box until the zinc melts.  Now right click the tab and the molton zinc should pour into the bathing pot.  Finally put your steel parts into the bath and right click until you get them back. You can either galvanize the plates and rods or you can galvanize the machine casings.  You however cannot galvanize the entire machine. \n§b\nNote:  This is one time where touching molton metal in the bathing pot will not burn you so you will not need any special tools to make your galvanized steel.  You can use a ceramic jug to pull out any molten zinc from the bathing pot and store for later use.  You can pass the ceramic tap and just use a Ceramic Jug to get the motlen zinc from the crucible.\n§f§a\nTo complete this quest get the needed parts to set up a galvanized steel bath and make some galvanized steel:\n1 Ceramic Crucible\n1 Ceramic Faucet\n1 Stainless Steel Bathing Pot (1/2 size)\n6 Galvanized Steel plates or 6 Galvanized Double Steel Plates or 1 Galvanized Steel Casing or 1 Robust Galvanized Steel Casing\n§b\nPro Tip:  Use Ceramic Measuring Pot and Ceramic Jug to store excess molten metals so you can use the Crucible and Bathing Pot for other metals.  See quest under Utility for information on measuring pots and jugs.  There is a quest in the Utility tab for making a Ceramic Jug and Ceramic Measureing Pot."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.multitileentity",
+          "Count:3": 1,
+          "Damage:2": 1005,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.multitileentity",
+          "Count:3": 1,
+          "Damage:2": 1705,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "gregtech:gt.multitileentity",
+          "Count:3": 1,
+          "Damage:2": 32708,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "gregtech:gt.meta.plate",
+          "Count:3": 6,
+          "Damage:2": 8651,
+          "OreDict:8": "plateSteelGalvanized"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.multitileentity",
+          "Count:3": 1,
+          "Damage:2": 1005,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.multitileentity",
+          "Count:3": 1,
+          "Damage:2": 1705,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "gregtech:gt.multitileentity",
+          "Count:3": 1,
+          "Damage:2": 32708,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "gregtech:gt.meta.plateDouble",
+          "Count:3": 6,
+          "Damage:2": 8651,
+          "OreDict:8": "plateDoubleSteelGalvanized"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "2:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 2,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.multitileentity",
+          "Count:3": 1,
+          "Damage:2": 1005,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.multitileentity",
+          "Count:3": 1,
+          "Damage:2": 1705,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "gregtech:gt.multitileentity",
+          "Count:3": 1,
+          "Damage:2": 32708,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "gregtech:gt.meta.machine",
+          "Count:3": 1,
+          "Damage:2": 8651,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "3:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 3,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.multitileentity",
+          "Count:3": 1,
+          "Damage:2": 1005,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.multitileentity",
+          "Count:3": 1,
+          "Damage:2": 1705,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "gregtech:gt.multitileentity",
+          "Count:3": 1,
+          "Damage:2": 32708,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "gregtech:gt.meta.machine.double",
+          "Count:3": 1,
+          "Damage:2": 8651,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:choice",
+      "index:3": 0,
+      "choices:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.multiitem.food",
+          "Count:3": 1,
+          "Damage:2": 2005,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.multiitem.food",
+          "Count:3": 1,
+          "Damage:2": 2003,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

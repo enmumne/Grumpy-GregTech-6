@@ -1,0 +1,92 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 86
+    }
+  },
+  "questIDLow:4": 87,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "ALWAYS",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.multiitem.technological",
+        "Count:3": 1,
+        "Damage:2": 10211,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Low Heat Extruder Shapes",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Now that you have your low heat extrucer, you need low heat extruder shapes.  You first need to make steel double plates.  Once you have your steel double plate, you will need your wire cutrters, file, and hammer to make the empty extruder shape. Then you use your wire cutters and the empty extrucer shape in a crafting grid to get the approciate shape.  Some shapes may require you to make a different shape first.  We will try a few useful shapes.\n§b\nPro Tip:  You can use the plate mold with rock dust such as marble, granite, andesite, and others to make rock plates.  The plates act as covers and can be used to cover up pipes, wires and any other ugly holes you have around your base.  You can select the pattern by using your Gregtech chisel.  This way you can make a nice tidy base and hide all the plumbing and wiring.\n§a\nTo complete this quest:\nMake 3 Low Heat Empty Extruder Shapes\nMake 1 Plate Extruder Shape\nMake 1 Wire Extruder Shape\nMake 1 Normal Pipe Extruder Shape"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.multiitem.technological",
+          "Count:3": 3,
+          "Damage:2": 10200,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.multiitem.technological",
+          "Count:3": 1,
+          "Damage:2": 10201,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "gregtech:gt.multiitem.technological",
+          "Count:3": 1,
+          "Damage:2": 10207,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "gregtech:gt.multiitem.technological",
+          "Count:3": 1,
+          "Damage:2": 10211,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:choice",
+      "index:3": 0,
+      "choices:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.multiitem.food",
+          "Count:3": 1,
+          "Damage:2": 2005,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.multiitem.food",
+          "Count:3": 1,
+          "Damage:2": 2003,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

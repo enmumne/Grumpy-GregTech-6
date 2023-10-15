@@ -1,0 +1,87 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {},
+  "questIDLow:4": 224,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "ALWAYS",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.multitileentity",
+        "Count:3": 1,
+        "Damage:2": 32738,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Does it measure up",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Ever wondered how you can move some partial liquids (less than a bottle or bucket)?  You can.  You can scoop up liquids from your baths by using a measuring pot.  You can also store the liquids in a ceramic jug.  The easiest measuring pot and jug is made from clay.  Just make a clay measuring pot and clay jug and then cook them in a furnace.  The only issue is you cannot store acids or hot liquids above 2,400 K in a ceramic jug or measuring pot.\n§b\nNote:  For acids there are stainless steel measuring pot.  You can also use stainless steel drum for acids and high tier metal drums for hotter liquids.\n§f§a\nTo complete this quest craft:\n1 clay measuring pot\n1 ceramic measuring pot (cook the clay pot in a furnace)\n1 clay jug\n1 ceramic jug (cook the clay jug in a furnace)"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.multiitem.randomtools",
+          "Count:3": 1,
+          "Damage:2": 997,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.multitileentity",
+          "Count:3": 1,
+          "Damage:2": 32738,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "gregtech:gt.multiitem.randomtools",
+          "Count:3": 1,
+          "Damage:2": 996,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "gregtech:gt.multitileentity",
+          "Count:3": 1,
+          "Damage:2": 32740,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:choice",
+      "index:3": 0,
+      "choices:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.multiitem.food",
+          "Count:3": 1,
+          "Damage:2": 2005,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.multiitem.food",
+          "Count:3": 1,
+          "Damage:2": 2003,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

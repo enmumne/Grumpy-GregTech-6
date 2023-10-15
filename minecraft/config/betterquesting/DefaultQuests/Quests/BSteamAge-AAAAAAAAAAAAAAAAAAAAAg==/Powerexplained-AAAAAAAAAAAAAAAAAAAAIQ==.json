@@ -1,0 +1,42 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2
+    }
+  },
+  "questIDLow:4": 33,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.meta.rotor",
+        "Count:3": 1,
+        "Damage:2": 760,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Power explained",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "You might have noticed that NEI shows recipes in machines with GU/t as power usage and total GU used for a recipe.\nGregtech 6 has many different power types, which can be converted between each other (for example you can use EU (electrical units) to power a motor with will produce RU (rotational units).  Here is a list of all of the types of power that exist in Gregtech 6:\n\nGU - Generic Units (just used in NEI to show recipes, the machine itself will convert any other power types 1:1 into GU to produce the recipe)\n\nEU - Electrical Units\n\nRF - Redstone Flux\n\nRU - Rotational Units (for everything that needs some spin)\n\nKU - Kinetic Units\n\nHU - Heat Units\n\nLU - Light Units (made by lasers to power welders etc)\n\nQU - Quantum Units (used by high tech machines)\n\nConverting between different energy types is not always looseless, it depends on the machines you use (always check the tooltips)\n\n\n"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  },
+  "rewards:9": {}
+}

@@ -1,0 +1,86 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 38
+    }
+  },
+  "questIDLow:4": 52,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "ALWAYS",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.multitileentity",
+        "Count:3": 1,
+        "Damage:2": 17101,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Refinement",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "I hope you made that stainless steel automation system, because otherwise this will feel very grindy.\nTo process oil into all types of different fuels and other sideproducts we need a distillation tower.\n\nWhy would we do such an insane expensive project? Glad you asked. Not only do we get much more Energy out of the process than we spent, we also get some important side products that are required to make plastics, and plastic means circuits. Still not interested?\n\nThe 9 Heat Transmitters go on the bottom and will sit just above your burning boxes of choice.  Next Put the controller in the middle of one side above the Heat Transmitters and then fill in a bottom layer of Distallation parts to make the bottom of the distallation tower.  Next continue to add 9 distalation parts to build each layer of the tower until you have 8 layers above the Heat Transmitters.\n\nThe amount of burning boxes you need will depend of the oil that you are using.  Fox example Heavy Oil needs 64 HU/t.  Ypu will get different proportions of the byprodusts depending on the type of oil you process in the distallation tower.\n§a\nTo complete this quest you will need to craft:\n9 Heat Transmitters\n71 Distallation Parts\n1 Distallation Tower Controller"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.multitileentity",
+          "Count:3": 1,
+          "Damage:2": 17101,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.multitileentity",
+          "Count:3": 71,
+          "Damage:2": 18102,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "gregtech:gt.multitileentity",
+          "Count:3": 9,
+          "Damage:2": 18101,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:choice",
+      "index:3": 0,
+      "choices:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.multiitem.food",
+          "Count:3": 1,
+          "Damage:2": 2005,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.multiitem.food",
+          "Count:3": 1,
+          "Damage:2": 2003,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

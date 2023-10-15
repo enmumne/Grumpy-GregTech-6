@@ -1,0 +1,81 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {},
+  "questIDLow:4": 13,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "ALWAYS",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.block.sapling",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Rubber Trees",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Search for some rubber tree saplings and plant them near your base. You can find rubber trees in cold biomes.\nWhen they are grown you can right click the yellow\u0027ish spots to extract some sticky resin. If you are lazy make a sap bag and place it on the resin spot, it will auto collect resin until it is full (64 items). Sadly you cannot auto extract from the bag, that has to be done by hand.\n\nSticky resin is useful for all kinds of things:\n- You can craft torches from it\n- You can mix it together with some water (in the mixer) to make glue\n- and later you can make rubber from it, which will be a huge step for your automation.\n- Use as a replacement for slime balls like sticky pistons or leads.\n\n§cCareful: When you break the naturally grown leave blocks of the tree, the resin will replenish slower and slower until it completely stops. Let those poor trees breath!\n§a\n§aTo complete this quest gather the following items:\n1 Rubber Tree Sapling\n1 Sap Bag\n8 Resin"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.block.sapling",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.multitileentity",
+          "Count:3": 1,
+          "Damage:2": 32736,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "IC2:itemHarz",
+          "Count:3": 8,
+          "Damage:2": 0,
+          "OreDict:8": "itemResin"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:choice",
+      "index:3": 0,
+      "choices:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.multiitem.food",
+          "Count:3": 1,
+          "Damage:2": 2005,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.multiitem.food",
+          "Count:3": 1,
+          "Damage:2": 2003,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

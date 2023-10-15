@@ -1,0 +1,104 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 58
+    }
+  },
+  "questIDLow:4": 72,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.metatool.01",
+        "Count:3": 1,
+        "tag:10": {
+          "ench:9": {},
+          "GT.ToolStats:10": {
+            "a:2": 8001,
+            "c:2": 8221,
+            "j:1": 100,
+            "k:1": 2
+          }
+        },
+        "Damage:2": 62,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Its Better to See You my Dear",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Now that we have a grindstone lets make a magnifying glass.  The magnifying glass is made from glass panes and right-clicking on the sandstone in the grindstine.  Magnifying glasses are great for letting you know how much fluids you have in your tanks, the type and amount of fluids in your pipes.  A Magnifying glass will even tell you the type, and amount of fluid and if any calcification are in your boilers,  This is an extremely useful tool to have.\n\nYou can make more durable magnifying glasses from gems but for now we will make a glass one.  Get a pane of glass and right-click on the grindstone until you get a lens.  Then craft a stick and lens to make your magnifying glass.\n§b\nTip:  You can craft glass panes by using the default Minecraft recipe or you can use your crucible and pour the glass into the plate mold.  The default recipe you get 16 glass panes from 6 glass blocks.  By using the crucible you can get 9 glass panes from 1 glass block.\n§a\nTo complete the quest:\nGet 1 pane of glass\nGet 1 stick\nCraft 1 Magnifying Glass"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "minecraft:glass_pane",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "plateGlass"
+        },
+        "1:10": {
+          "id:8": "minecraft:stick",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "stickWood"
+        },
+        "2:10": {
+          "id:8": "gregtech:gt.metatool.01",
+          "Count:3": 1,
+          "tag:10": {
+            "ench:9": {},
+            "GT.ToolStats:10": {
+              "a:2": 8001,
+              "c:2": 8221,
+              "j:1": 100,
+              "k:1": 2
+            }
+          },
+          "Damage:2": 62,
+          "OreDict:8": "craftingToolMagnifyingGlass"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:choice",
+      "index:3": 0,
+      "choices:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.multiitem.food",
+          "Count:3": 1,
+          "Damage:2": 2005,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.multiitem.food",
+          "Count:3": 1,
+          "Damage:2": 2003,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {},
+  "questIDLow:4": 772,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.meta.rockGt",
+        "Count:3": 1,
+        "Damage:2": 9132,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "It begins",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "And so it begins.\n\nYou should now have enough tools and knowledge to start gathering small ores, and look for veins.\n\nIn order to make some progress you need to be looking for Copper and Tin, with the goal to make some Bronze.\n\nA copper vein should be easy to spot, indicated by either Copper or Tetrahedrite ore-bearing stones. Tin or Cassiterite are less frequent, but you need in smaller amounts.\n\nMake sure to bookmark all other veins."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.meta.rockGt",
+          "Count:3": 1,
+          "Damage:2": 9132,
+          "OreDict:8": "rockGtTetrahedrite"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {}
+}

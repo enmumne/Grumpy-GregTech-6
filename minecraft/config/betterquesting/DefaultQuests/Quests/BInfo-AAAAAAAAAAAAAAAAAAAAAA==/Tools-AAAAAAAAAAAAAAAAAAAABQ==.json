@@ -1,0 +1,37 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {},
+  "questIDLow:4": 5,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "ALWAYS",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.metatool.01",
+        "Count:3": 1,
+        "Damage:2": 2,
+        "OreDict:8": "craftingToolPickaxe"
+      },
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Tools",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "You can make tools (e.g. hammer, chisel, sword, pickaxe, axe etc) out of maaaaaany different materials. If you look in NEI you might see that some ingots/materials have something like Q: 2 S: 6.0 D: 256 (e.g iron) in their tooltip. Whenever a material has those 3 properties in their tooltip it means you can make a tool out of it and the tool will have those stats.\nQ stands for quality, which means the mining/harvesting level.\nS stands for speed, which is just as you already guessed the speed which you can mine/harvest blocks with\nD stands for durability and is the number of uses you can use the item. The real number will be D * 100 because each use costs 100 durability on average (harvesting harder materials costs more durability, softer materials cost less)\n\nYou might have also noticed the \"possible enchantments\" part in the tooltip. That means if you make a tool out of that material the tool will automatically be enchanted with those enchantments, isn\u0027t that great?\n\nOne enchant is Fortune.  Starting in Gregtech version 6.14.12 Greg\u0027s ores now drop Raw Ore similar to Minecraft 1.17 if your tool contains Fortune.  Higher the fortune level, the more Raw Ore that drops.  To get fortune you need the right material.  The first material is Soularium (9 soulsand dusts and 1 gold) in the crucible.  This will give Fortune I.  Later there is Efrine tools that give Fortune II.  The final material is Jade which will give you Fortune III.  Jade is available as small ores in the world and can be made into gems using an autoclave.  You can also make Greg\u0027s Boomsticks and dynamite to bast ores for up to Fortune V.\n\nClick the button to the right to continue."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  },
+  "rewards:9": {}
+}

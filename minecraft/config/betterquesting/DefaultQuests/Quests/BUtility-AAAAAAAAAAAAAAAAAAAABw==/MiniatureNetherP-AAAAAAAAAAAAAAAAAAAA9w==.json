@@ -1,0 +1,74 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2
+    }
+  },
+  "questIDLow:4": 247,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "ALWAYS",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.multitileentity",
+        "Count:3": 1,
+        "Damage:2": 32766,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Miniature Nether Portals",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Ever wondered how you can get fluids like oil and natural gas for a significant distace from your base without using a ton of pipes and chunk loaders?  Greg has a option for you: The Miniature Nether Portal.  This portal will transport fluids, items, redstone, and GT Electricity between the Overworld and the Nether.  This way you could put a portal next to where you are collecting the natural gas or oil and put a corresponding one in the nether *divide the coordinates by 8).  Do the same for you base and now you will only need enough pipes in the Nether instead of a long pipeline in the overworld.  To make a nether portal you just need 8 obsidian long rods.  Place the portal and click it with a fire start just like the large portals and there you go.\n§b\nTip: The Miniature Portas work similar to the big brother ones you use,  You enter on one side and you exit on the other side in the other dimension.  You will need to do the same with you pipes.  If you connect you pipe at the top in ther Overworld, you will need to connect to the bottom in the Nether.\n§a\nTo complete this quest craft:\n4 Miniature Nether Portals\n§b\nNote:  There are also portals for the End and if other mods are installed Twillight Forest, Atum, etc"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.multitileentity",
+          "Count:3": 4,
+          "Damage:2": 32766,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:choice",
+      "index:3": 0,
+      "choices:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.multiitem.food",
+          "Count:3": 1,
+          "Damage:2": 2005,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.multiitem.food",
+          "Count:3": 1,
+          "Damage:2": 2003,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

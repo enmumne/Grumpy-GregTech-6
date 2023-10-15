@@ -1,0 +1,112 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2
+    }
+  },
+  "questIDLow:4": 267,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "ALWAYS",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.metatool.01",
+        "Count:3": 1,
+        "tag:10": {
+          "ench:9": {
+            "0:10": {
+              "lvl:2": 2,
+              "id:2": 35
+            }
+          },
+          "GT.ToolStats:10": {
+            "a:2": 8747,
+            "c:2": 8221,
+            "j:3": 50000
+          }
+        },
+        "Damage:2": 2,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Fortune and Loot (Efrine)",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Gregtech 6 has enchanted properties depending on which material you use.  This includes Fortune and Looting enchants.  There are various materials but the easiest to get early to mid game will be Efrine.  Efrine is a tier 3 material which contains Fortuen II and Looting II enchants.  Efrine makes it a great material to use to mine ores and killing mobs.  Efrine is not found as an ore but you can get a a byproduct of washing Nether Quartz.  Nether Quarts is a white rock layer ore deposit in the nether.  If you do not have a crusher, use a hammer to get the crushed ores.\n\nTo get the best from looting mobs, make a Butchery Knife.  A Butchery Knife gives you Looting I.  Since Efrine gives Looting II, you will get a Butchery Knife with Looting III.  Now you can collect Leather and Ender pearls with ease.  You will need 4 Efrine plates, 1 efrine rod and a hammer and a file to make the Butchery Knife\n§c\nWarning:  Efrine metls at 2246K close to the temperature of the ceramic crucible at 2500K so you will want to use a fuel that does not burn very long such a Lignight nuggets (tiny dusts), or liquid or gas fuel.\n§a\nTo complete this quest gather and craft:\n4 Purified Efrine Ore\n1 Efrine Pickaxe\n1 Efrine Butchery Knife\n"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.meta.crushedPurified",
+          "Count:3": 4,
+          "Damage:2": 8747,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.meta.toolHeadPickaxe",
+          "Count:3": 1,
+          "Damage:2": 8747,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "gregtech:gt.metatool.01",
+          "Count:3": 1,
+          "tag:10": {
+            "ench:9": {
+              "0:10": {
+                "lvl:2": 3,
+                "id:2": 21
+              }
+            },
+            "GT.ToolStats:10": {
+              "a:2": 8747,
+              "c:2": 8747,
+              "j:3": 50000
+            }
+          },
+          "Damage:2": 36,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:choice",
+      "index:3": 0,
+      "choices:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.multiitem.food",
+          "Count:3": 1,
+          "Damage:2": 2005,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.multiitem.food",
+          "Count:3": 1,
+          "Damage:2": 2003,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

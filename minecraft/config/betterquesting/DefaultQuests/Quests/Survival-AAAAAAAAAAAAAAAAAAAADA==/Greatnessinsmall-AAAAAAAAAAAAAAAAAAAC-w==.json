@@ -1,0 +1,55 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 760
+    }
+  },
+  "questIDLow:4": 763,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "ALWAYS",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "ExtraTrees:misc",
+        "Count:3": 1,
+        "Damage:2": 2,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Greatness in small things",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Sometimes the quality of a mod is in the small details.\n\nWhile you\u0027ve already used an axe, you probably don\u0027t know there are some options. The previous quest has already shown that by targeting the lowest wood block of a tree, you can harvest it all the way up. If you instead start from the topmost block, moving down, you can manually harvest single block by single block.\n\nThis still doesn\u0027t cover all options.\n\nYou can obtain some advantages by doing a bit more work: with a right click you can debark a single block of a tree. Doing this disables the possibility to auto-harvest, but the durability cost is decreased, and the time is reduced.\n\nMore importantly, the de-barked wood you obtain this way is called \"beam\" and it produces three planks rather than the two from all other wood types.\n\nThe bark you obtain can be thrown in a furnace or a crucible as early fuel.\n\nYou\u0027ll notice that the process is rather quick: debark and harvest the two blocks that are usually exposed at the bottom of a tree, then move right under the next block, and you can then aim up and debark the rest from the bottom. As long the tree isn\u0027t very tall, this lets you harevest it quickly. A debarked wood block will also get the surrounding leaves removed automatically.\n\n(you can complete this quest with any type of beam)\n\n§7§o§9§oNote: while you might consider this not very useful, since there are plenty of trees, it shows a principle that is used through the mod. More complex \"processes\" lead to improved production."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.block.beam.b",
+          "Count:3": 1,
+          "Damage:2": 2,
+          "OreDict:8": "beamWood"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {}
+}

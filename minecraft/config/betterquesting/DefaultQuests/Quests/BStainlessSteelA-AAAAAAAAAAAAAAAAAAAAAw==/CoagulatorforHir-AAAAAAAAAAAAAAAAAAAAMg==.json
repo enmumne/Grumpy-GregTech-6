@@ -1,0 +1,74 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 38
+    }
+  },
+  "questIDLow:4": 50,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "ALWAYS",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.multitileentity",
+        "Count:3": 1,
+        "Damage:2": 22000,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Coagulator for Hire",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Now it is time to use the sticky resin to make something more useful than glue and torches.  Lets use some of that stainless steel and make a coagulator.  This will turn the sticky resin into rubber which can be used to replace your wooden pipes with some that will not burn (i.e. rubber pipes).\n§e§b\nPro Tip:  A good setup would to have a juicer on top of the coafulator and an item barrel below.  You right click the juicer with sticky resin in your hand and it will fill the coagulator below.  The barrrel will store your rubber nuggets that the coagulator makes.  Once the first run is done, take 9 rubber nuggets and manually craft a rubber bar (ingot).  Break the item barrel (with an axe) and replace it back and put the rubber bar in the barrel.  Now the barrel will make your rubber bars as it collect the nuggets from the coagulator.  The next quest will allow for you to add the item barrel and make rubber bars.  Now you have rubber bars that you can use in your low heat extruder to make your rubber sheets, pipes or what ever rubber part you need.\n\nEventurally tou can use a squeezer to get more latex out of your sticky resin or you can use a centrifuge to get both latex and glue instead of using the juicer.\n§f§a\nTo complete the quest:\nCraft 1 Coagulator"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.multitileentity",
+          "Count:3": 1,
+          "Damage:2": 22000,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:choice",
+      "index:3": 0,
+      "choices:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.multiitem.food",
+          "Count:3": 1,
+          "Damage:2": 2005,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.multiitem.food",
+          "Count:3": 1,
+          "Damage:2": 2003,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

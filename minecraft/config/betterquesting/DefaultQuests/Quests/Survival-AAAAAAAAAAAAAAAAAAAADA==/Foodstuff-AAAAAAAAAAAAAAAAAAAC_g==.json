@@ -1,0 +1,90 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 760
+    }
+  },
+  "questIDLow:4": 766,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "ALWAYS",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.multitileentity",
+        "Count:3": 1,
+        "tag:10": {
+          "gt.tank:10": {
+            "FluidName:8": "blueberryjuice",
+            "Amount:3": 25
+          }
+        },
+        "Damage:2": 32740,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Food stuff",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "To survive you\u0027ll have to handle hunger, and you have some convenient options.\n\nThanks to \"Pam\u0027s HarvestCraft\" mod, you should be able to find plant-like object called \"gardens\" that you can break with a left click to obtain various types of fruit or vegetables. These can be eaten directly, or planted as crops to grow more.\n\nIf you get fruit, or berries, with a flint knife you can craft a Fruit Salad. By just placing the flint knife in a crafting slot, and the two pieces of fruit one under the knife, and the other on its right. This is a very straightforward recipe that accepts most types.\n\nBushes with berries should be quite common. Make sure to harvest some, and that they are of the \"Currants\" type, rather than Blueberries or Cranberries. This because the Currants are a type of berries appearing as black, white or red varieties, and that can be mixed together.\n\nSo if you find Currant bushes, the suggestion is to break them and move them to your home base.\n\nCraft a Rolling Pin (look up the recipe, you only need some wood and a knife), go gather some clay (they come in different colors, but they have the same function), and then make a clay juicer and jug. Harden them in a furnace as the tooltip says, and they\u0027ll be ready.\n\nYou can then place the juicer and with a right click use the harvested berries on it. The juice will be stored there until full. Remember that different types of juices cannot be mixed, but for \"currants\" juice all three types of black, white and red will be accepted (in GT6 nothing is ever wasted, so you could also throw the fruit remains in a furnace as cheap fuel).\n\nOnce done, you can then fill the jug with the juice from the juicer, with another right click. And you can place the juicer so you can drink directly from it.\n\nBEWARE one of the counter-intuitive quirks in GT6: the juicer has a certain capacity, but depending on how much you drink from it, it won\u0027t empty completely. This can create a problem where you cannot drink from it, because it\u0027s \"almost\" empy, but at the same time can\u0027t refill it if you have a different type of juice in the juicer (again, different juices cannot mix, and it\u0027s helpful to understand this because it will happen as well with normal and distilled water. If you have a container with some water, and want to add some distilled water, you won\u0027t be able to because different types cannot mix for technical reasons).\n\nRather then getting empty, the jug will contain just a little bit of juice that isn\u0027t technically enough to be drunk.\n\nThe tooltip in this case won\u0027t be helpful because it will tell you the max (2000L) but not the drinkable minimum. You need at least 250L in the jug for it to be drinkable.\n\nIf you eat enough fruit, which is rich on sugar, you\u0027ll get a short lived buff: you\u0027ll run very fast and jump very high. But beware because GT6 tracks some nutrients and encourages a... balanced diet. If you eat too much sugar you can get diabetes and die. Yeah, that\u0027s a thing here too."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "harvestcraft:fruitsaladItem",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "foodFruitsalad"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.metatool.01",
+          "Count:3": 1,
+          "Damage:2": 46,
+          "OreDict:8": "craftingToolRollingPin"
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.multiitem.randomtools",
+          "Count:3": 1,
+          "Damage:2": 994,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "gregtech:gt.multiitem.randomtools",
+          "Count:3": 1,
+          "Damage:2": 996,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {}
+}

@@ -1,0 +1,874 @@
+{
+  "quests:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -528,
+      "y:3": -288,
+      "questIDLow:4": 104,
+      "sizeY:3": 24
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -528,
+      "y:3": -264,
+      "questIDLow:4": 105,
+      "sizeY:3": 24
+    },
+    "2:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -504,
+      "y:3": -264,
+      "questIDLow:4": 106,
+      "sizeY:3": 24
+    },
+    "3:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -528,
+      "y:3": -240,
+      "questIDLow:4": 107,
+      "sizeY:3": 24
+    },
+    "4:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -504,
+      "y:3": -240,
+      "questIDLow:4": 108,
+      "sizeY:3": 24
+    },
+    "5:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -528,
+      "y:3": -216,
+      "questIDLow:4": 109,
+      "sizeY:3": 24
+    },
+    "6:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -504,
+      "y:3": -216,
+      "questIDLow:4": 110,
+      "sizeY:3": 24
+    },
+    "7:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -480,
+      "y:3": -216,
+      "questIDLow:4": 111,
+      "sizeY:3": 24
+    },
+    "8:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -456,
+      "y:3": -216,
+      "questIDLow:4": 112,
+      "sizeY:3": 24
+    },
+    "9:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -432,
+      "y:3": -216,
+      "questIDLow:4": 113,
+      "sizeY:3": 24
+    },
+    "10:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -408,
+      "y:3": -216,
+      "questIDLow:4": 114,
+      "sizeY:3": 24
+    },
+    "11:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -384,
+      "y:3": -216,
+      "questIDLow:4": 115,
+      "sizeY:3": 24
+    },
+    "12:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -360,
+      "y:3": -216,
+      "questIDLow:4": 116,
+      "sizeY:3": 24
+    },
+    "13:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -336,
+      "y:3": -216,
+      "questIDLow:4": 117,
+      "sizeY:3": 24
+    },
+    "14:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -312,
+      "y:3": -216,
+      "questIDLow:4": 118,
+      "sizeY:3": 24
+    },
+    "15:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -288,
+      "y:3": -216,
+      "questIDLow:4": 119,
+      "sizeY:3": 24
+    },
+    "16:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -264,
+      "y:3": -216,
+      "questIDLow:4": 120,
+      "sizeY:3": 24
+    },
+    "17:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -240,
+      "y:3": -216,
+      "questIDLow:4": 121,
+      "sizeY:3": 24
+    },
+    "18:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -240,
+      "y:3": -240,
+      "questIDLow:4": 122,
+      "sizeY:3": 24
+    },
+    "19:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -240,
+      "y:3": -264,
+      "questIDLow:4": 123,
+      "sizeY:3": 24
+    },
+    "20:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -216,
+      "y:3": -216,
+      "questIDLow:4": 124,
+      "sizeY:3": 24
+    },
+    "21:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -216,
+      "y:3": -240,
+      "questIDLow:4": 125,
+      "sizeY:3": 24
+    },
+    "22:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -192,
+      "y:3": -216,
+      "questIDLow:4": 126,
+      "sizeY:3": 24
+    },
+    "23:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -216,
+      "y:3": -264,
+      "questIDLow:4": 127,
+      "sizeY:3": 24
+    },
+    "24:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -192,
+      "y:3": -240,
+      "questIDLow:4": 128,
+      "sizeY:3": 24
+    },
+    "25:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -192,
+      "y:3": -264,
+      "questIDLow:4": 129,
+      "sizeY:3": 24
+    },
+    "26:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -168,
+      "y:3": -216,
+      "questIDLow:4": 130,
+      "sizeY:3": 24
+    },
+    "27:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -168,
+      "y:3": -240,
+      "questIDLow:4": 131,
+      "sizeY:3": 24
+    },
+    "28:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -168,
+      "y:3": -264,
+      "questIDLow:4": 132,
+      "sizeY:3": 24
+    },
+    "29:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -144,
+      "y:3": -216,
+      "questIDLow:4": 133,
+      "sizeY:3": 24
+    },
+    "30:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -144,
+      "y:3": -240,
+      "questIDLow:4": 134,
+      "sizeY:3": 24
+    },
+    "31:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -144,
+      "y:3": -264,
+      "questIDLow:4": 135,
+      "sizeY:3": 24
+    },
+    "32:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -120,
+      "y:3": -216,
+      "questIDLow:4": 136,
+      "sizeY:3": 24
+    },
+    "33:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -120,
+      "y:3": -240,
+      "questIDLow:4": 137,
+      "sizeY:3": 24
+    },
+    "34:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -120,
+      "y:3": -264,
+      "questIDLow:4": 138,
+      "sizeY:3": 24
+    },
+    "35:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -120,
+      "y:3": -288,
+      "questIDLow:4": 139,
+      "sizeY:3": 24
+    },
+    "36:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -528,
+      "y:3": -192,
+      "questIDLow:4": 140,
+      "sizeY:3": 24
+    },
+    "37:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -504,
+      "y:3": -192,
+      "questIDLow:4": 141,
+      "sizeY:3": 24
+    },
+    "38:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -480,
+      "y:3": -192,
+      "questIDLow:4": 142,
+      "sizeY:3": 24
+    },
+    "39:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -456,
+      "y:3": -192,
+      "questIDLow:4": 143,
+      "sizeY:3": 24
+    },
+    "40:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -432,
+      "y:3": -192,
+      "questIDLow:4": 144,
+      "sizeY:3": 24
+    },
+    "41:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -408,
+      "y:3": -192,
+      "questIDLow:4": 145,
+      "sizeY:3": 24
+    },
+    "42:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -384,
+      "y:3": -192,
+      "questIDLow:4": 146,
+      "sizeY:3": 24
+    },
+    "43:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -360,
+      "y:3": -192,
+      "questIDLow:4": 147,
+      "sizeY:3": 24
+    },
+    "44:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -336,
+      "y:3": -192,
+      "questIDLow:4": 148,
+      "sizeY:3": 24
+    },
+    "45:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -312,
+      "y:3": -192,
+      "questIDLow:4": 149,
+      "sizeY:3": 24
+    },
+    "46:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -288,
+      "y:3": -192,
+      "questIDLow:4": 150,
+      "sizeY:3": 24
+    },
+    "47:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -264,
+      "y:3": -192,
+      "questIDLow:4": 151,
+      "sizeY:3": 24
+    },
+    "48:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -240,
+      "y:3": -192,
+      "questIDLow:4": 152,
+      "sizeY:3": 24
+    },
+    "49:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -216,
+      "y:3": -192,
+      "questIDLow:4": 153,
+      "sizeY:3": 24
+    },
+    "50:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -192,
+      "y:3": -192,
+      "questIDLow:4": 154,
+      "sizeY:3": 24
+    },
+    "51:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -168,
+      "y:3": -192,
+      "questIDLow:4": 155,
+      "sizeY:3": 24
+    },
+    "52:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -144,
+      "y:3": -192,
+      "questIDLow:4": 156,
+      "sizeY:3": 24
+    },
+    "53:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -120,
+      "y:3": -192,
+      "questIDLow:4": 157,
+      "sizeY:3": 24
+    },
+    "54:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -528,
+      "y:3": -168,
+      "questIDLow:4": 158,
+      "sizeY:3": 24
+    },
+    "55:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -504,
+      "y:3": -168,
+      "questIDLow:4": 159,
+      "sizeY:3": 24
+    },
+    "56:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -456,
+      "y:3": -168,
+      "questIDLow:4": 160,
+      "sizeY:3": 24
+    },
+    "57:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -432,
+      "y:3": -168,
+      "questIDLow:4": 161,
+      "sizeY:3": 24
+    },
+    "58:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -408,
+      "y:3": -168,
+      "questIDLow:4": 162,
+      "sizeY:3": 24
+    },
+    "59:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -384,
+      "y:3": -168,
+      "questIDLow:4": 163,
+      "sizeY:3": 24
+    },
+    "60:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -360,
+      "y:3": -168,
+      "questIDLow:4": 164,
+      "sizeY:3": 24
+    },
+    "61:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -336,
+      "y:3": -168,
+      "questIDLow:4": 165,
+      "sizeY:3": 24
+    },
+    "62:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -312,
+      "y:3": -168,
+      "questIDLow:4": 166,
+      "sizeY:3": 24
+    },
+    "63:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -288,
+      "y:3": -168,
+      "questIDLow:4": 167,
+      "sizeY:3": 24
+    },
+    "64:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -264,
+      "y:3": -168,
+      "questIDLow:4": 168,
+      "sizeY:3": 24
+    },
+    "65:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -240,
+      "y:3": -168,
+      "questIDLow:4": 169,
+      "sizeY:3": 24
+    },
+    "66:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -216,
+      "y:3": -168,
+      "questIDLow:4": 170,
+      "sizeY:3": 24
+    },
+    "67:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -192,
+      "y:3": -168,
+      "questIDLow:4": 171,
+      "sizeY:3": 24
+    },
+    "68:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -168,
+      "y:3": -168,
+      "questIDLow:4": 172,
+      "sizeY:3": 24
+    },
+    "69:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -144,
+      "y:3": -168,
+      "questIDLow:4": 173,
+      "sizeY:3": 24
+    },
+    "70:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -120,
+      "y:3": -168,
+      "questIDLow:4": 174,
+      "sizeY:3": 24
+    },
+    "71:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -528,
+      "y:3": -144,
+      "questIDLow:4": 175,
+      "sizeY:3": 24
+    },
+    "72:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -504,
+      "y:3": -144,
+      "questIDLow:4": 176,
+      "sizeY:3": 24
+    },
+    "73:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -216,
+      "y:3": -108,
+      "questIDLow:4": 177,
+      "sizeY:3": 24
+    },
+    "74:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -264,
+      "y:3": -108,
+      "questIDLow:4": 178,
+      "sizeY:3": 24
+    },
+    "75:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -480,
+      "y:3": -108,
+      "questIDLow:4": 179,
+      "sizeY:3": 24
+    },
+    "76:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -456,
+      "y:3": -108,
+      "questIDLow:4": 180,
+      "sizeY:3": 24
+    },
+    "77:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -408,
+      "y:3": -108,
+      "questIDLow:4": 181,
+      "sizeY:3": 24
+    },
+    "78:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -312,
+      "y:3": -108,
+      "questIDLow:4": 182,
+      "sizeY:3": 24
+    },
+    "79:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -480,
+      "y:3": -84,
+      "questIDLow:4": 183,
+      "sizeY:3": 24
+    },
+    "80:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -456,
+      "y:3": -84,
+      "questIDLow:4": 184,
+      "sizeY:3": 24
+    },
+    "81:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -360,
+      "y:3": -84,
+      "questIDLow:4": 185,
+      "sizeY:3": 24
+    },
+    "82:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -336,
+      "y:3": -84,
+      "questIDLow:4": 186,
+      "sizeY:3": 24
+    },
+    "83:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -240,
+      "y:3": -84,
+      "questIDLow:4": 187,
+      "sizeY:3": 24
+    },
+    "84:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -168,
+      "y:3": -84,
+      "questIDLow:4": 188,
+      "sizeY:3": 24
+    },
+    "85:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -240,
+      "y:3": -108,
+      "questIDLow:4": 189,
+      "sizeY:3": 24
+    },
+    "86:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -192,
+      "y:3": -108,
+      "questIDLow:4": 190,
+      "sizeY:3": 24
+    },
+    "87:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -168,
+      "y:3": -108,
+      "questIDLow:4": 191,
+      "sizeY:3": 24
+    },
+    "88:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -408,
+      "y:3": -264,
+      "questIDLow:4": 192,
+      "sizeY:3": 24
+    },
+    "89:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -432,
+      "y:3": -264,
+      "questIDLow:4": 193,
+      "sizeY:3": 24
+    },
+    "90:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -336,
+      "y:3": -264,
+      "questIDLow:4": 194,
+      "sizeY:3": 24
+    },
+    "91:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -312,
+      "y:3": -264,
+      "questIDLow:4": 195,
+      "sizeY:3": 24
+    },
+    "92:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -288,
+      "y:3": -264,
+      "questIDLow:4": 196,
+      "sizeY:3": 24
+    },
+    "93:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -384,
+      "y:3": -264,
+      "questIDLow:4": 197,
+      "sizeY:3": 24
+    },
+    "94:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -144,
+      "y:3": -108,
+      "questIDLow:4": 198,
+      "sizeY:3": 24
+    },
+    "95:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -120,
+      "y:3": -108,
+      "questIDLow:4": 199,
+      "sizeY:3": 24
+    },
+    "96:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -384,
+      "y:3": -84,
+      "questIDLow:4": 200,
+      "sizeY:3": 24
+    },
+    "97:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -408,
+      "y:3": -84,
+      "questIDLow:4": 201,
+      "sizeY:3": 24
+    },
+    "98:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -312,
+      "y:3": -84,
+      "questIDLow:4": 202,
+      "sizeY:3": 24
+    },
+    "99:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -288,
+      "y:3": -84,
+      "questIDLow:4": 203,
+      "sizeY:3": 24
+    },
+    "100:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -264,
+      "y:3": -84,
+      "questIDLow:4": 204,
+      "sizeY:3": 24
+    },
+    "101:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -456,
+      "y:3": -264,
+      "questIDLow:4": 205,
+      "sizeY:3": 24
+    },
+    "102:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -360,
+      "y:3": -264,
+      "questIDLow:4": 206,
+      "sizeY:3": 24
+    },
+    "103:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -216,
+      "y:3": -84,
+      "questIDLow:4": 207,
+      "sizeY:3": 24
+    },
+    "104:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -192,
+      "y:3": -84,
+      "questIDLow:4": 208,
+      "sizeY:3": 24
+    },
+    "105:10": {
+      "questIDHigh:4": 0,
+      "sizeX:3": 24,
+      "x:3": -288,
+      "y:3": -144,
+      "questIDLow:4": 209,
+      "sizeY:3": 24
+    }
+  },
+  "questLineIDLow:4": 6,
+  "questLineIDHigh:4": 0,
+  "properties:10": {
+    "betterquesting:10": {
+      "visibility:8": "NORMAL",
+      "name:8": "[B] Periodic Table \u0026 Isotopes",
+      "icon:10": {
+        "id:8": "gregtech:gt.multiitem.books",
+        "Count:3": 1,
+        "tag:10": {
+          "author:8": "GITF (Gregorius Industrial Tool Factory)",
+          "book:8": "Manual_Tools",
+          "title:8": "Tool Index"
+        },
+        "Damage:2": 32000,
+        "OreDict:8": ""
+      },
+      "bg_image:8": "",
+      "bg_size:3": 256,
+      "desc:8": "This is the Periodic Table of Elements.  You can gather all of these elements.  For gasses and liq uids you will need to put some in a bottle.  Solids are available in ingots, plates, or dusts.  Just gather the element and get a cookie.  Collect them all."
+    }
+  }
+}

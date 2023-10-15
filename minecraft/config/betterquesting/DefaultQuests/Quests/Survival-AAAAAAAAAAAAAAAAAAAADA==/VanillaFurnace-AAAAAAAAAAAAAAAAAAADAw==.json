@@ -1,0 +1,80 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 759
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 763
+    },
+    "2:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 765
+    }
+  },
+  "questIDLow:4": 771,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "minecraft:furnace",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Vanilla Furnace",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "The recipe for a furnace isn\u0027t the same as vanilla, but not hard either.\n\nAfter completing the quest for torches you know how to obtain dry grass. Just place one piece of dry grass with two sticks, one above and the other on the right, and you should get a fire starter.\n\n(The fire starter can also be made with dry bark. You can collect this by right clicking on dead trees, even the knife should work. Some dead trees are instead rotten, and in that case they should be used for fertilizer.)\n\nThe recipe for the furnace simply requires the usual cobblestone with the fire starter you just crafted placed in the center. The surface stones you\u0027ve found should also work, replacing cobblestone.\n\nThis furnace will only let you smelt the simplest types of metals, like tin, copper, bronze and lead. To move to iron and above you\u0027ll need a crucible.\n\nGlass still uses the vanilla recipe, so it can be obtained from sand with this furnace."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.multiitem.randomtools",
+          "Count:3": 1,
+          "Damage:2": 5014,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "minecraft:furnace",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {}
+}

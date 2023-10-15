@@ -1,0 +1,277 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 8
+    }
+  },
+  "questIDLow:4": 0,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "OR",
+      "visibility:8": "ALWAYS",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.metatool.01",
+        "Count:3": 1,
+        "tag:10": {
+          "ench:9": {},
+          "GT.ToolStats:10": {
+            "a:2": 8508,
+            "d:8": "AnyWood",
+            "j:2": 6400,
+            "k:2": 400
+          }
+        },
+        "Damage:2": 12,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Hammer, anvil, file and wrench [Old Method]",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "§eWarning:  This quest is from the old way to get to the crucible.  The Brick burning Box is a much faster way and you don\u0027t have to waste your metal making a plates, a file or a wrench before you can use a crucible to pour your plates.\n§f\nFor our next major step (the crucible) we need a hammer and an anvil.\n\nWith the crucible we can easily cast those but for now we need another way.\nFirst make a hammer and anvil.  The easiest anvil is made from stone but only has 1 use. Making an anvil from black or red granite will last longer.  Later you can make one from your metals.  Place 2 ingots (I recommend bronze) on the anvil (one left, one right) hammer it and you get double ingot, use the anvil again and you get a plate and some scraps. You will need 8 plates for now.\n\nNow make a file using 2 of your plates.\n\nNext you will want make a wrench and you are almost ready to take on the world.\n\nFinally you will need a rolling pin.  You can make this from wood.  All you need is 1 plank and 2 sticks.\n\nNow you finally have the tools you need to make a crucible, which will be your first way to indirectly increase your ore output (when you cast plates they only cost 1 ingot worth of material, and rods only cost 0.5 ingots)\n§9§b\nNote:  You can make either a stone anvil, black granite anvil, or red granite anvil.  You can see these options by clicking the right arrow in the bottom right of the pane to the right.  The stone anvil will complete the quest but will break when you make your first plate.  I recommend to make a level 3 pick (red/black granite rocks) and mine some red/black granite stone to make the better anvils.\n§f§a\nTo complete this quest make the following:\n1 Hammer from rocks.\n1 Stone or Black Granite or Red Granite anvil\n1 File (recommend bronze or lead)\n1 Wrench (recommend bronze or lead)\n1 Rolling Pin (from wood plank and sticks)\n"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.metatool.01",
+          "Count:3": 1,
+          "Damage:2": 12,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.multitileentity",
+          "Count:3": 1,
+          "tag:10": {
+            "gt.durability:2": 10000
+          },
+          "Damage:2": 32025,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "gregtech:gt.metatool.01",
+          "Count:3": 1,
+          "Damage:2": 18,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "gregtech:gt.metatool.01",
+          "Count:3": 1,
+          "Damage:2": 16,
+          "OreDict:8": ""
+        },
+        "4:10": {
+          "id:8": "gregtech:gt.metatool.01",
+          "Count:3": 1,
+          "tag:10": {
+            "ench:9": {},
+            "GT.ToolStats:10": {
+              "a:2": 9300,
+              "c:2": 8221,
+              "j:2": 3200,
+              "k:2": 2800
+            }
+          },
+          "Damage:2": 46,
+          "OreDict:8": "craftingToolRollingPin"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.metatool.01",
+          "Count:3": 1,
+          "tag:10": {
+            "ench:9": {},
+            "GT.ToolStats:10": {
+              "a:2": 8508,
+              "d:8": "AnyWood",
+              "j:2": 6400,
+              "k:2": 4300
+            }
+          },
+          "Damage:2": 12,
+          "OreDict:8": "craftingToolHardHammer"
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.multitileentity",
+          "Count:3": 1,
+          "tag:10": {
+            "gt.durability:3": 80000
+          },
+          "Damage:2": 32026,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "gregtech:gt.metatool.01",
+          "Count:3": 1,
+          "tag:10": {
+            "ench:9": {},
+            "GT.ToolStats:10": {
+              "a:2": 8610,
+              "c:2": 9314,
+              "j:3": 44800,
+              "k:2": 6800
+            }
+          },
+          "Damage:2": 18,
+          "OreDict:8": "craftingToolFile"
+        },
+        "3:10": {
+          "id:8": "gregtech:gt.metatool.01",
+          "Count:3": 1,
+          "tag:10": {
+            "ench:9": {},
+            "GT.ToolStats:10": {
+              "a:2": 8610,
+              "c:2": 8610,
+              "j:3": 44800
+            }
+          },
+          "Damage:2": 16,
+          "OreDict:8": "craftingToolWrench"
+        },
+        "4:10": {
+          "id:8": "gregtech:gt.metatool.01",
+          "Count:3": 1,
+          "tag:10": {
+            "ench:9": {},
+            "GT.ToolStats:10": {
+              "a:2": 9300,
+              "c:2": 8221,
+              "j:2": 3200,
+              "k:2": 2800
+            }
+          },
+          "Damage:2": 46,
+          "OreDict:8": "craftingToolRollingPin"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "2:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 2,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.metatool.01",
+          "Count:3": 1,
+          "tag:10": {
+            "ench:9": {},
+            "GT.ToolStats:10": {
+              "a:2": 8508,
+              "d:8": "AnyWood",
+              "j:2": 6400,
+              "k:2": 4300
+            }
+          },
+          "Damage:2": 12,
+          "OreDict:8": "craftingToolHardHammer"
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.multitileentity",
+          "Count:3": 1,
+          "tag:10": {
+            "gt.durability:3": 100000
+          },
+          "Damage:2": 32027,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "gregtech:gt.metatool.01",
+          "Count:3": 1,
+          "tag:10": {
+            "ench:9": {},
+            "GT.ToolStats:10": {
+              "a:2": 8610,
+              "c:2": 9314,
+              "j:3": 44800,
+              "k:2": 6800
+            }
+          },
+          "Damage:2": 18,
+          "OreDict:8": "craftingToolFile"
+        },
+        "3:10": {
+          "id:8": "gregtech:gt.metatool.01",
+          "Count:3": 1,
+          "tag:10": {
+            "ench:9": {},
+            "GT.ToolStats:10": {
+              "a:2": 8610,
+              "c:2": 8610,
+              "j:3": 44800
+            }
+          },
+          "Damage:2": 16,
+          "OreDict:8": "craftingToolWrench"
+        },
+        "4:10": {
+          "id:8": "gregtech:gt.metatool.01",
+          "Count:3": 1,
+          "tag:10": {
+            "ench:9": {},
+            "GT.ToolStats:10": {
+              "a:2": 9300,
+              "c:2": 8221,
+              "j:2": 3200,
+              "k:2": 2800
+            }
+          },
+          "Damage:2": 46,
+          "OreDict:8": "craftingToolRollingPin"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:choice",
+      "index:3": 0,
+      "choices:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.multiitem.food",
+          "Count:3": 1,
+          "Damage:2": 2005,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.multiitem.food",
+          "Count:3": 1,
+          "Damage:2": 2003,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

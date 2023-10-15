@@ -1,0 +1,80 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 54
+    }
+  },
+  "questIDLow:4": 55,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "ALWAYS",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.multitileentity",
+        "Count:3": 1,
+        "Damage:2": 20491,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Steam Cracking",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Now that we have Butane and Propane lets further refine that to make ethylene and propolene.  The cracker has 2 recipes that use steam along with the Butane or Propane to create the Ethylene, Propylene, Methane, and Hydrogen.\n\nYou will need a burning box for the cracker.  You will also need a burning box and boiler for the steam.  Given the speed of the cracker, a invar burning box and lead steam boiler will make just a little more than the cracker with an invar burning box would use.  Upgrading to a better burning box will use the steam faster than it can be created at least if it have enough Butane or Propane.  Just pile the steam and the Butane/Propane into the left of top of the cracker.  The outputs will come out of the right by default.\n§c\n\nCareful: The steam cracker can only hold 2000L of steam, so make sure your boiler doesn\u0027t blow up.  You can use a gib-o-meter and piston to shut off the burning box or you can use a pressure valve to let out the over pressurized steam.  Once you get to circuits and electricity, you can replace the burning box with a heater that can shut off when needed.\n§a§a\n§f§aTo complete this quest craft:\n1 Steam Cracker\n1 Lead Steam Boiler\nInvar burning box for boiler\nInvar burning box or better for cracker"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.multitileentity",
+          "Count:3": 1,
+          "Damage:2": 20491,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.multitileentity",
+          "Count:3": 1,
+          "Damage:2": 1200,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:choice",
+      "index:3": 0,
+      "choices:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.multiitem.food",
+          "Count:3": 1,
+          "Damage:2": 2005,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.multiitem.food",
+          "Count:3": 1,
+          "Damage:2": 2003,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

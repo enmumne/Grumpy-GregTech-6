@@ -1,0 +1,108 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 771
+    }
+  },
+  "questIDLow:4": 764,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "OR",
+      "visibility:8": "ALWAYS",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.metatool.01",
+        "Count:3": 1,
+        "tag:10": {
+          "ench:9": {},
+          "GT.ToolStats:10": {
+            "a:2": 8507,
+            "d:8": "AnyWood",
+            "j:2": 6400
+          }
+        },
+        "Damage:2": 12,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Level 3!",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "As described in a previous quest, the goal is to find red/black granite surface stones. When you find one, continue scouring the area for more: red and black granite are rock layers, so they will extend across a relatively large zone, and will likely generate more surface rocks.\n\nSpecifically, keep looking until you have 9 of them (of the same type).\n\nWhy nine? Because you need to craft both a pickaxe and a hammer.\n\nThe recipe for a stone hammer is two columns of three stones each, with a single stick placed in the center of the third column. So six stones go for the hammer, and three for the pickaxe.\n\nWhy you need these two tools, specifically both at level 3? Because once you\u0027ve done this you\u0027ve essentially unlocked an \"endlessly\" renewable source for these tools. And you will be able to go and mine wherever you want, through all rock layers.\n\nFREEDOM!\n\nOnce you have both tools you can dig down to the red/black granite layer itself. Mine some blocks with the new level 3 pickaxe. Then place these blocks BACK into the world. They\u0027ll appear as red/black granite cobblestone. Instead of using the pickaxe again, break these blocks with the hammer. Doing this will produce more stones, that you can use to craft more tools.\n\n§1§§§f§9Note: if you press \"R\" with the mouse over the red/black granite §lsingle§r §9stone, then browse to the \"Ha\"mmer tab, you\u0027ll find the recipe. You can see that a block of cobblestone will give 4 stones. If you read the tooltip of the stone, then you\u0027ll also see that the chance for each is 80%. So it all means that breaking with a (level 3) hammer a block of red/black granite cobblestone can return up to 4 stones, each with a 80% chance.\n\nThese stones stack to a max of 32. Repeat this process to store a good amount. The rock layers are huge, so it means you\u0027ll be able to craft as many level 3 pickaxes and hammers you want.\n\nIn order to use the ores you\u0027ll have to \"crush\" them with the hammer, rather than the pickaxe. But consider that with a crusher machine you\u0027ll already obtain double the amount.\n\nThis doesn\u0027t apply to \"small ores\". Small ores are single ore blocks you can find everywhere randomly, and even mixed in large veins. They are common (and easy to harvest) on the sand. All these small ores cannot be processed in a crusher, and will drop by default as already crushed even when using a pickaxe. So they are usually considered by the expert player as the early game resource, to avoid wasting ores before you have a crusher active.\n\nThe advice is: harvest all the small ores when you see them, because they\u0027ll be useful and best used early."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.metatool.01",
+          "Count:3": 1,
+          "tag:10": {
+            "ench:9": {},
+            "GT.ToolStats:10": {
+              "a:2": 8507,
+              "d:8": "AnyWood",
+              "j:2": 6400
+            }
+          },
+          "Damage:2": 12,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.stone.granite.red",
+          "Count:3": 6,
+          "Damage:2": 1,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.metatool.01",
+          "Count:3": 1,
+          "tag:10": {
+            "ench:9": {},
+            "GT.ToolStats:10": {
+              "a:2": 8508,
+              "d:8": "AnyWood",
+              "j:2": 6400
+            }
+          },
+          "Damage:2": 12,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.stone.granite.black",
+          "Count:3": 6,
+          "Damage:2": 1,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {}
+}

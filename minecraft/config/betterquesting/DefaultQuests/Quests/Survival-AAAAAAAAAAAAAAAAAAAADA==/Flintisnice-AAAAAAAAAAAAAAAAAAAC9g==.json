@@ -1,0 +1,91 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 761
+    }
+  },
+  "questIDLow:4": 758,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "ALWAYS",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "minecraft:flint",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Flint is nice",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Look for gravel in the usual places, like near water and especially rivers. Or get flint by picking up surface stones until you find a piece, it should be quite common.\n\nYou don\u0027t need a tool to gather gravel, you can use your bare hands for now. By breaking gravel there\u0027s a 30% chance of getting flint, and no other gravel to flint fast crafting recipe here. So you can always place the gravel you obtained back in the world, and repeat the process until you have transformed all of it into flint.\n\nBut to speed up the process you can easily craft a shovel, of any kind, using the surface stones you find everywhere. The durability of the tool will of course depend on the material you use. You can quickly survey the durability by looking at the tooltip of the stones you pick up. One of the first lines, in blue, will give Q/S/D values, corresponding to quality, speed and durability.\n\nNo crafting table required. Take one of the sticks you can find all over the ground, place a stone right above it, and you\u0027ll have a shovel. If you make it with flint, even better.\n\nWith another piece of flint you should then craft a flint knife. The recipe is similar, one stick, and a flint piece placed on its right. Done. (Knives cannot be made with other common stone types)\n\n§o§7§o§8§o§0§1§l§k§f§e§d§b§a§9§oNote: if you click on the knife to look the recipe in NEI, you\u0027ll get first the ones crafted with plates. This because there is a large number of materials. If you browse back to the last pages you\u0027ll see the basic flint recipe."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "minecraft:flint",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.metatool.01",
+          "Count:3": 1,
+          "Damage:2": 4,
+          "OreDict:8": "craftingToolShovel"
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.metatool.01",
+          "Count:3": 1,
+          "tag:10": {
+            "ench:9": {
+              "0:10": {
+                "lvl:2": 1,
+                "id:2": 20
+              }
+            },
+            "GT.ToolStats:10": {
+              "a:2": 8002,
+              "d:8": "AnyWood",
+              "j:2": 4800
+            }
+          },
+          "Damage:2": 34,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {}
+}

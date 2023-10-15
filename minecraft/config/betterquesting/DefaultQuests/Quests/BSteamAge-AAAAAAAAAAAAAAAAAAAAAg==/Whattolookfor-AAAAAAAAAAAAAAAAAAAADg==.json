@@ -1,0 +1,42 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2
+    }
+  },
+  "questIDLow:4": 14,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "minecraft:iron_ore",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "What to look for",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "You will want ot find a good base for your growing factory.  Make sure to build close to a renewable fresh water source, otherwise you need many pipes just to transport that water to your factory.  Only rivers give you a unlimitted supply of fresh water.  Other sources like lakes will run dry.  Later you can make cheap rubber pipes, where this wont be much of a problem anymore.  The oceans are also unlimited but they contain salt water.\n\nIn the Steam Age you want to look for:\n\n- Copper, Tetrahedrite, Chalcopyrite (you will need a ton of it)  There are other copper ores but they are not as easy to extract a decent amount of copper from them using a crucible.\n\n- Tin/Casserite\n\n- Garnerite/Pentlandite/Cobalite (Nickel is needed for Invar and Cobalt can be used for good tier 3 tools}\n\n- Black Sand (There are 3 now:  Black Sand, Basaltic Black Sand, and Granitic Black Sand are found in river biomes).  The black sands are needed for you to make iron in the early game with a carbon sourse like coal.  The other iron bearing ores such as Yellow/Brown Limonite, Hematite, and Vanilla Iron Ores require advanced processing and/or calcite to get iron from them.\n\n- Redstone so you can do automation and shufoffs.\n\n- some Pyrolusite as we will need some Manganese soon.\n\n- some Chromite\n\n\nOptional:\n\n- Rubber Trees (their sap is great to make torches and you can make glue out of it).\n§b\nNote:  Out quests will break ores down into base elements and teach new users how to make more complex alloys and recipes.  Some quests will require some alloys expecially if the quests immediately preceeding teaches you how to make it.  For example the Red Steel Quests.  For most quests though, like the stainless steel quest, you will be asked to provide the basic elements in either dust, plate or ingot form.  Limiting quest to base elements also reduces the complexity that would be required to provide every alloy possibility."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  },
+  "rewards:9": {}
+}

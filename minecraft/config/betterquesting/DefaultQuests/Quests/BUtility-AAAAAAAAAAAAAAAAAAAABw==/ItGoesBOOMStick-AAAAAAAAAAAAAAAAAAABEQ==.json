@@ -1,0 +1,74 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 71
+    }
+  },
+  "questIDLow:4": 273,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "ALWAYS",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.multitileentity",
+        "Count:3": 1,
+        "Damage:2": 32104,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "It Goes BOOM-Stick!",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Are you looking for something to blast through your mining needs.  So is there something that can clear a larger area but also have fortune?  Yes there is.  Greg added Boomsticks for this specific use.  Boomsticks clears a 3x3 area with fortune III and does not blow up items.  Boomsticks are made from gunpowder (easily supplied from creepers), string (from spiders or farming), paper and silicon dioxide dust (any kind of quartz dust). \n\nFor the silicon dixode dust, you can use any type of quarts.  This includes milky quartz, nether quartz, quartite dust (that pink stuff) you get from the crusher.  It just needs to be in a dust form.You can even use the dust you can mortar from your broken flint tools.\n\nFor paper you only need some kind of wood splinters and morter into pulp and put them into a bathing pot with water.  Do some right-clicking and you will get paper.  You can also use the bark from stripping your logs into beams and put the bark right into the bathing pot.\n§6§e\nTip:  To use Boomsticks place the Boomstick in the center of the 3x3 area you want to use.  You can light it with a match or you can use some redstone and a switch to save you on matches.  You will get the redstone back.  Just be careful and have an area to hide you you don\u0027t kill youself.\n§c\nWarning: DO NOT USE on flamabile ores (apatite, coal, etc)\n§b\nNote:  Once you can make a press, you will no longer need the paper.  Boomsticks only work on tier I and II rocks so no using this with Black or Red Granite viens.  Tier II Veins will only do the ores but not the rock layer.\n§a\nTo complete this quest craft:\n4 Boomsticks"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.multitileentity",
+          "Count:3": 4,
+          "Damage:2": 32104,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:choice",
+      "index:3": 0,
+      "choices:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.multiitem.food",
+          "Count:3": 1,
+          "Damage:2": 2005,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.multiitem.food",
+          "Count:3": 1,
+          "Damage:2": 2003,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

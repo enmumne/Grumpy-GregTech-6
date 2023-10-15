@@ -1,0 +1,151 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 285
+    }
+  },
+  "questIDLow:4": 286,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "OR",
+      "visibility:8": "ALWAYS",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.meta.dust",
+        "Count:3": 1,
+        "Damage:2": 9105,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Initial Bauxite Processing",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Now it is time to set up to process bauxite dusts into some alumina so we will have more alumina for our aluminium production.  You will need the Autoclave that you mave in the previous quest along with a lead or invar boiler and the invar burning box of your choice (gas or liquid).  You can use lead burnign box but it is only 50% effecient while invar is 100% effecient.  Both but out 16 HU/t.  Both the lead or invar boilers take the same anount of heat and put out the same amount of steam.  Just set the Autoclave on top of the boiler.  You will put the Gib-O-Meter on the side of the boiler.  When starting the burning box watch the Gib-O-Meter value until it stops climing and you will see steam starting to collect in the Autoclave.  Take note of this value as each tank is different.  Change the mode of the Gib-O-Meter to greater than and set the value to 1 plus the number you noted.  Finally wire the Gib-O-Meter wit red alloy wire to a piston to shut of the boiler.  Once the Autoclave is full, the steam will back up into the boiler until the boiler explodes. \n\nNext you will the bath in a closed loop with the Autoclave so you can just recycle the Sodium Hydroxide Dusts or Potassium Hydroxide Dusts.  You will only need 6 of them so both the Autoclave and Bath will run.  The boilers were choosen to supply just enough steam for one recipe to run in the Autoclave.  Just run a few item pipes to a chest just below the input of the Autoclave and Bath to catch the Aluminium Hydroxide Dusts and the Refined Ilmeniyr and Refined Rutile.  Once you get Item filters, you cna hook the pipes up to your barrels.\n§6\nAutoclave\n2 Bauxite Dusts + 3 Sodium Hydroxide Dusts + 96 Steam \u003d\u003e [Autoclave 150 sec] \u003d\u003e 4 Sodium Aluminate Dust + 4 Tiny Ilmenite Ore 50% each + 2 Refined Rutile Ore 50% each + 2100 L of Distilled Water\n\n2 Bauxite Dusts + 3 Potassium Hydroxide Dusts + 96 Steam \u003d\u003e [Autoclave 150 sec] \u003d\u003e 4 Potassium Aluminate Dust + 4 Tiny Ilmenite Ore 50% each + 2 Refined Rutile Ore 50% each + 2100 L of Distilled Water\n\nBath\n4 Sodium Aluminate Dusts + 6000L Water \u003d\u003e [Bath 102 sec] \u003d\u003e 7 Aluminium Hydroxide Dusts + 3 Sodium Hydroxide Dust\n\n4 Potassium Aluminate Dusts + 6 Water \u003d\u003e [Bath 102 sec] \u003d\u003e 7 Aluminium Hydroxide Dusts + 3 Potassium Hydroxide Dust\n§b\nNote: You can put the Aluminium Hydroxide in a crucible at 573K to boil off the Hydrogen to get Alumina Scrap.  You will not get molten Alumina until 2345K so be careful on what burning box you are using because you could melt you ceramic crucible.  This wil lwork until you can craft a smelter.\n§e\nWarning:  you can put a mass storage on top of the Autoclave to feed the Autoclave the Bauxite dusts.  Just do not use an Item barrel because it will burn with the burning box being too close to it.\n§a\nTo complete this quest craft and gather:\n1 Autoclave (use the one from the previous quest)\n1 Bath\n1 Lead or Invar Boiler\n6 Brass Item pipes\n1 Gib-O-Meter\n7 Aluminium Hydroxide Dusts"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.multitileentity",
+          "Count:3": 1,
+          "Damage:2": 22004,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.multitileentity",
+          "Count:3": 1,
+          "Damage:2": 22002,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "gregtech:gt.multitileentity",
+          "Count:3": 1,
+          "Damage:2": 1200,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "gregtech:gt.multitileentity",
+          "Count:3": 6,
+          "Damage:2": 25002,
+          "OreDict:8": ""
+        },
+        "4:10": {
+          "id:8": "gregtech:gt.multitileentity",
+          "Count:3": 1,
+          "Damage:2": 31001,
+          "OreDict:8": ""
+        },
+        "5:10": {
+          "id:8": "gregtech:gt.meta.dust",
+          "Count:3": 7,
+          "Damage:2": 8014,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.multitileentity",
+          "Count:3": 1,
+          "Damage:2": 22004,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.multitileentity",
+          "Count:3": 1,
+          "Damage:2": 22002,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "gregtech:gt.multitileentity",
+          "Count:3": 1,
+          "Damage:2": 1203,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "gregtech:gt.multitileentity",
+          "Count:3": 6,
+          "Damage:2": 25002,
+          "OreDict:8": ""
+        },
+        "4:10": {
+          "id:8": "gregtech:gt.multitileentity",
+          "Count:3": 1,
+          "Damage:2": 31001,
+          "OreDict:8": ""
+        },
+        "5:10": {
+          "id:8": "gregtech:gt.meta.dust",
+          "Count:3": 7,
+          "Damage:2": 8014,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:choice",
+      "index:3": 0,
+      "choices:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.multiitem.food",
+          "Count:3": 1,
+          "Damage:2": 2005,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.multiitem.food",
+          "Count:3": 1,
+          "Damage:2": 2003,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

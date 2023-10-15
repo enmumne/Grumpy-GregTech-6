@@ -1,0 +1,74 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 240
+    }
+  },
+  "questIDLow:4": 241,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "ALWAYS",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.meta.gem",
+        "Count:3": 1,
+        "Damage:2": 730,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Crystalized Tantalum",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "The final step will be to bath the Potassium Heptafluorotantalate Dusts in Molten Sodium to finally give us our Tantalum in form of a gem.  You will also get Sodium Fluoride Dusts which you will need to electrolyze down to get your sodium and Fluorine Gas back.\n§b\nNote:  You will need to get some pure Sodium which you can get from washing the Fluoride ores or electrolyzing Sodium Hydroxide Dusts as it only nereds 42EU/t.  You can use your crucible to get the Sodium into molten form.  You then can use Ceramic Measuring Pot and Ceramic Jug to retrieve the Molten Sodium from the crucible and store it.  For more information on Ceramic Measuring Pot and CEramic Jug, see the quest in the Utility tab.\n§f\nMachines needed\n1 Bath\n1 LV Electrolyzer\n§6\nBath Recipe:\n10 Potassium Heptafluorotantalate Duusts + 720L Monton Sodium \u003d\u003e [Bath] \u003d\u003e 1 Tantalum Gem + 10 Sodium Fluoride Dusts + 4 Potassium Fluoride Dusts\n\nElectrolyzer Recipe:\n{Selector Tag 0} + 2 Sodium Fluoride Dusts \u003d\u003e [LV Electrolyzer 28EU/t] \u003d\u003e 1 Sodium Dust + 1000L Fluorine Gas\n§a\nTo complete the quest gather:\n1 Tantalum Gem\n§b\nNote:  You can keep your Potassium Fluoride Dusts in a closed loop as it is not used up in the chemical process.  You just need to make enough to get it going."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.meta.gem",
+          "Count:3": 1,
+          "Damage:2": 730,
+          "OreDict:8": "gemTantalum"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:choice",
+      "index:3": 0,
+      "choices:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.multiitem.food",
+          "Count:3": 1,
+          "Damage:2": 2005,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.multiitem.food",
+          "Count:3": 1,
+          "Damage:2": 2003,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

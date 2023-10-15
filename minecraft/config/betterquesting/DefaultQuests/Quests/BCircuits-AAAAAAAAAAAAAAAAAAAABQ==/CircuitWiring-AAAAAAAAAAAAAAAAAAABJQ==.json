@@ -1,0 +1,74 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 292
+    }
+  },
+  "questIDLow:4": 293,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "ALWAYS",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.multiitem.technological",
+        "Count:3": 1,
+        "Damage:2": 30001,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Circuit Wiring",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Next we need some wiring for that fancy new Circuit Plate you just crafted.  All you need is some copper.  There are several ways to make the circuit wiring.  You can craft it by hand with 8 Fine Copper Wires and yyour wire cutters or you can use a Precission Laser Engraver and Copper Foil.  Each will use a different amount of copper.\n§b\nNote:  You will need to have T1 Basic Circuits to make a Laser Engraver(T1)\n§6\nCompletely by hand: Anvil Plate into 2 Foils -\u003e Cut Foil into 1 Fine Copper Wire \u003d\u003e Requires 4 Copper plates for 8 fine Copper Wire\nUse Cluster Mill:  1 Copper Plate into 4 Foils -\u003e Use Cutters to make Fine Copper Wire \u003d\u003e 2 Copper plates for 8 Fine Copper Wire\nUse Wire Mill:  i Copper Rod wil make 4 Fine Copper Wires \u003d\u003e 1 Copper Ingot (2 Copper Rods) for 8 Fine Copper Wire\nUse Clujser Mill/Laser Engraver:  1 Copper Plate in Cluser Mill for 4 Copper Foil, 4 Copper Foil in Laser Engraver will create 1 Circuit Wiring.\n§a\nTo Complete the quest craft:\n1 Circuit Wiring (Copper)"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.multiitem.technological",
+          "Count:3": 1,
+          "Damage:2": 30001,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:choice",
+      "index:3": 0,
+      "choices:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.multiitem.food",
+          "Count:3": 1,
+          "Damage:2": 2005,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.multiitem.food",
+          "Count:3": 1,
+          "Damage:2": 2003,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

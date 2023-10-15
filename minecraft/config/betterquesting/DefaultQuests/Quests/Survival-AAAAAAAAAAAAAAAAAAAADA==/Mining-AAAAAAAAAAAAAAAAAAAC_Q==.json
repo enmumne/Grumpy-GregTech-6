@@ -1,0 +1,63 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 760
+    }
+  },
+  "questIDLow:4": 765,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "ALWAYS",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.metatool.01",
+        "Count:3": 1,
+        "tag:10": {
+          "ench:9": {},
+          "GT.ToolStats:10": {
+            "a:2": 8508,
+            "d:8": "AnyWood",
+            "j:2": 6400
+          }
+        },
+        "Damage:2": 2,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Mining",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "With a crafting table you can now make pickaxes and hammers.\n\nUp to this points tools could me made on the go, but a pickaxe will require three adjacents crafting slots, even if these tools still require a single stick.\n\nA reminder: a flint pickaxe works nicely enough, but when you\u0027ll start digging for ores you\u0027ll find harder rock layers that cannot be broken with a flint pickaxe, and often it will mean you won\u0027t have a direct path to the ore. To be sure, you should try to get a red or black granite pickaxe.\n\nRed or black granite is fairly common. Your first goal is roam around to start looking for veins and mark their position. Eventually you\u0027ll get red/black granite surface stones to craft a level 3 pickaxe."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.metatool.01",
+          "Count:3": 1,
+          "Damage:2": 2,
+          "OreDict:8": "craftingToolPickaxe"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {}
+}

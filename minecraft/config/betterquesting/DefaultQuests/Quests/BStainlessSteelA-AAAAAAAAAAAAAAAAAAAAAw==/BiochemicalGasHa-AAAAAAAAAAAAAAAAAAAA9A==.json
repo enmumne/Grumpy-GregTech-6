@@ -1,0 +1,92 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 100
+    }
+  },
+  "questIDLow:4": 244,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "ALWAYS",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.armor.hazmat.biochemgas.chest",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Biochemical Gas Hazard Suit",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Ever wondered if you could do something about the damage to your health when you stumble across a natural gas pocket or the disorientatiing effects you get with oil.  Greg has an answer for you:  The Biochemical Gas Hazard Suit.  This suit is made from rubber and glass and will allow you to work around natural gas and oil without the issues that come with those.  Just make youself some rubber sheets (Lo Heat Extruder will come in handy here) and a pane of glass for the helmet.  \n§b\nTip:  You can use a locker to quickly switch between suit sets.  You can look at the quest in the Utility section for lockers.\n§a\nTo complete this quest craft:\n1 Biochemical Gas Hazard Helmet\n1 Biochemical Gas Hazard Shirt\n1 Biochemical Gas Hazard Pants\n1 Biochemical Gas Hazard Boots\n§b\nNote:  The IC2 Hazmat Suit will also work as an alternate to the Biochem Gas Hazard Suit.  But why would you use that old thing when Greg made you a brand spanking new one (personal bias)."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.armor.hazmat.biochemgas.head",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.armor.hazmat.biochemgas.chest",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "gregtech:gt.armor.hazmat.biochemgas.legs",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "gregtech:gt.armor.hazmat.biochemgas.boots",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:choice",
+      "index:3": 0,
+      "choices:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.multiitem.food",
+          "Count:3": 1,
+          "Damage:2": 2005,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.multiitem.food",
+          "Count:3": 1,
+          "Damage:2": 2003,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 760
+    }
+  },
+  "questIDLow:4": 759,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "ALWAYS",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "minecraft:torch",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Easy torches",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Making a flint knife is a priority for a couple of reasons.\n\nYou can use it as a simple but effective weapon. Being made of flint, it has a chance of setting the target on fire on a hit. If you kill an animal this way, the meat will come already cooked and ready to be eaten.\n\nThe second good reason is that you can use the knife to cut grass all around you. You\u0027ll notice that your inventory will fill with the grass item. Always pay attention to tooltips in GT6. In this case the tooltip for grass says \"make 9 of this into a Bale\". So you need a crafting table with the 3x3 slots. Fill them up to obtain a Grass Bale.\n\nOnce you have the Grass Bale you can place it out in the world so that after a little while it will turn into bright yellow: a dry grass bale. (This works underground too, which might be convenient to avoid the grass getting moldy...)\n\n§o§7§o§9§n§n§o§n§r§9§oNote: do not place the grass bales when it\u0027s raining, or too close to water, because it will get moldy and then rot. \n\nIf you click on the Grass Bale here on the questbook, and then browse tabs at the top, you\u0027ll find a \"Did you know...?\" NEI page. If you hover the mouse pointer on Grass Bale, and press \"U\", and browse back to that tab, you\u0027ll see this same behavior described.\n\n§rBreak the now dry bale to pick it up. And put it in a crafting slot to get 9 pieces of dry grass.\n\nNow you can make a basic torch. Place one or more pieces of dry grass in a upper slot, and one stick below it. A torch. This is probably the best option for torches, until you find some coal or have a Coke Oven running.\n\nThe zone where you originally appeared is protected from monsters spawning, but as soon you go out exploring or start digging for ores, you\u0027ll need plenty of torches to secure the area."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.block.bale.grass",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.multiitem.food",
+          "Count:3": 9,
+          "Damage:2": 12001,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "2:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 2,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "minecraft:torch",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {}
+}

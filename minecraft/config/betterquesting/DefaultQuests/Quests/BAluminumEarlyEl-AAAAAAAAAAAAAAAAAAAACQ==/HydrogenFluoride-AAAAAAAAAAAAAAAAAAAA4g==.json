@@ -1,0 +1,71 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 217
+    }
+  },
+  "questIDLow:4": 226,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "ALWAYS",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.meta.chemtube",
+        "Count:3": 1,
+        "Damage:2": 9829,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Hydrogen Fluoride",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "You will need some hydrogen fluoride for use in making hexafluorosilicic acid and molten cryolite in order to process alumina into aluminium.\n\nTo make the Hydrogen Fluoride craft\n1 Bronze Mixer\n1 Bronze turbine and appropiate burning box and boiler\nor diesel generator\n\nYou will need to pipe in your Sulfuric acid and put in 3 fluorite dusts (any color dust will work).\n\nOnce running you will get 6 Calcium Sulfate Dust and 4 Hydrogen Fluoride fluid.  You will need to pipe the Hydrogen Fluoride to the next quest to continue the process.\n§a§6\nThe recipe:\n3 Fluorite Dusts (any color) + 7000L Sulfuric Acid \u003d\u003e [Mixer 16/RU/t] \u003d\u003e 6 Calcium Sulfacte Dusts + 4000L Hydrogen Sulfide.\n§a§f§6§a\nTo complete the quest colelect in a drum:\n1000L of Hydrogen Fluoride\n§9§b\nNote:  You cannot collect Hydrogen Fluoride with a bucket, you need to use a drum.  You can empty the fluid from the drum into the mixer for the next two quests."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "requiredFluids:9": {
+        "0:10": {
+          "FluidName:8": "hydrogenfluoride",
+          "Amount:3": 1000
+        }
+      },
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "taskID:8": "bq_standard:fluid"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:choice",
+      "index:3": 0,
+      "choices:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.multiitem.food",
+          "Count:3": 1,
+          "Damage:2": 2005,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.multiitem.food",
+          "Count:3": 1,
+          "Damage:2": 2003,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

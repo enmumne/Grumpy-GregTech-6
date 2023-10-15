@@ -1,0 +1,37 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {},
+  "questIDLow:4": 773,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "minecraft:nether_star",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Not Enough Items",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Not Enough Items (NEI), or JEI, HEI, now REI and EMI, or whatever they get called, is the most common tool in modded Minecraft.\n\nIt\u0027s the main tool to browse through the \"tech tree\" and study recipes.\n\nRather than going through great lengths on how to use it, I\u0027ll indicate some default shortcuts that are essential:\n\n- R (or left click in the item list), moving the mouse pointer over an object in the inventory or the item list, and pressing \"R\" will bring up the recipes to obtain that object.\n\n- U rather then bringing up the R-ecipe, U will show the U-ses for that object. So the recipes the object is used for.\n\nBoth R and U lets you browse basically back and forth, between the recipe to obtain an object, and the recipe that object is used for.\n\n- BACKSPACE, is also useful. This shortcut simply brings you back one step, to whatever you were looking at before.\n\n- A, is the manual bookmark. Press A when hovering on a item, and that item will be pinned on the left panel. This way you can maintain a manual list of things that you\u0027re currently interested into. (press A again to remove)\n\nBeware that due to the many materials in GT, often you\u0027ll find tons of pages of recipes. You\u0027ll eventually become familiar with how it all works."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  },
+  "rewards:9": {}
+}

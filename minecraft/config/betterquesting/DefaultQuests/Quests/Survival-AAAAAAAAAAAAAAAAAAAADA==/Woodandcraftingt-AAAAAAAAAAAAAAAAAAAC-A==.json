@@ -1,0 +1,74 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 758
+    }
+  },
+  "questIDLow:4": 760,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "ALWAYS",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "minecraft:crafting_table",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Wood and crafting table",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Another tool you can make on the fly without a crafting table is an axe.\n\nAs in the previous quest, you can make an axe with flint, but this time the recipe will work even with other types of standard stones. If you use stones, they need to be of the same type, and the durability usually lower compared to a flint axe.\n\nPlace a single stick at the bottom, right or left doesn\u0027t matter. Fill the three remaning spaces with flint. Done.\n\nAs with other recipes you only need one stick to make these tools. A pickaxe also requires one stick, but will require three stones placed horizontally, so a crafting table with its 3x3 crafting grid will be necessary.\n\nNow, with the axe you can gather wood, of course. One peculiar aspect is that if you aim at a lower block of wood, every other block, going up, will be automatically harvested too. This function only works from the bottom up, in a single column, and won\u0027t extend in other directions. The harvest time will of course adapt to how many blocks you\u0027re harvesting at the same time, the same for the durability loss on the tool.\n\nRecipes for planks and sticks, from wood, are \"nerfed\". So you\u0027ll get quantities halved... Until you have proper GT tools that will increase production, or... learn some tricks from a quest ahead.\n\nTime to make a crafting table.\n\n§7§o§9§oNote: by picking up sticks from the ground you probably noticed that they clutter your inventory with their different type. But if you want, you can merge them into a single stack, by converting to a generic stick type. This is done by placing sticks on the §llower right§l§l§l§l§m§m§n§n§o§r§o§7 §9§ocrafting slot. The output will be a standard stick.\n§o"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.metatool.01",
+          "Count:3": 1,
+          "tag:10": {
+            "ench:9": {
+              "0:10": {
+                "lvl:2": 1,
+                "id:2": 20
+              }
+            },
+            "GT.ToolStats:10": {
+              "a:2": 8002,
+              "d:8": "AnyWood",
+              "j:2": 4800
+            }
+          },
+          "Damage:2": 6,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "minecraft:crafting_table",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {}
+}

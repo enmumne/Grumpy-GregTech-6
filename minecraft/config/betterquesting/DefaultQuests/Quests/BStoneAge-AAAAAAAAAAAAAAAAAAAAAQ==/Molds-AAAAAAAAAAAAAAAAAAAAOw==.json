@@ -1,0 +1,113 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2
+    }
+  },
+  "questIDLow:4": 59,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "ALWAYS",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.multiitem.randomtools",
+        "Count:3": 1,
+        "Damage:2": 902,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Molds",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Clay molds should be the first molds for you to make. You can reuse them and they can take quite some temperature (up to 2,500K).  You will need your knife and a rooling pin asnd some clay to make the blank molds.\n\nNote: The old way you would cook the raw clay molds in a furnace and then use a chisel to chip out the right pattern into the baked blank molds.  you can still do this if you want but there is a much better way.  You can now define the pattern beforehand in the raw clay mold then cook that mold in a furnace.  No chisel needed.\n\nTo demonstarte the technique, make a plate mold, and a pickaxe mold.  The other 2 blank molds are up to you.  Then put your pattern clay molds in a furnace to create the ready to use molds.  You have quite a few options for the other molds, you can make an ingot mold, rod mold, sword, shovel, and even a hammer mold.  It is all up to you.\n§b\nNote:  Be aware that metal molds dont come with a predefined pattern and you have to chisel those in world (but you dont have to worry about that for now)!\n§c§d§b\nPro Tip:  You can use a clay brick for an ingot, a stick for a rod, some wood planks for plates, and a wooden or flint pickaxe for the pick axe mold.  As these items will be comsumed, you won\u0027t loose your precious metal in making these molds.  Also when making other molds from your metal tools (Axe, File, Hammer, etc) if you use a full tool (the tool head with a handle) instead of just the tool head.  You would lose the tool head if use just a tool head but a full tool will only use some duribility instead of being consumed in the crafting process.\n§f§a\nCraft the follwoing items:\n1 Rolling pin\n1 Plate Clay Mold\n1 Pick Axe Clay Mold\n\nCook the 2 molds in a furnace to get:\n1 Mold (Produces Plates)\n1 Mold (Produces Pickaxe Heads)"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.multiitem.randomtools",
+          "Count:3": 1,
+          "Damage:2": 902,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.multiitem.randomtools",
+          "Count:3": 1,
+          "Damage:2": 912,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "gregtech:gt.multitileentity",
+          "Count:3": 1,
+          "tag:10": {
+            "gt.mold:3": 33554431
+          },
+          "Damage:2": 1055,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "gregtech:gt.multitileentity",
+          "Count:3": 1,
+          "tag:10": {
+            "gt.mold:3": 476160
+          },
+          "Damage:2": 1055,
+          "OreDict:8": ""
+        },
+        "4:10": {
+          "id:8": "gregtech:gt.metatool.01",
+          "Count:3": 1,
+          "tag:10": {
+            "ench:9": {},
+            "GT.ToolStats:10": {
+              "a:2": 9300,
+              "c:2": 8221,
+              "j:2": 3200,
+              "k:2": 2800
+            }
+          },
+          "Damage:2": 46,
+          "OreDict:8": "craftingToolRollingPin"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:choice",
+      "index:3": 0,
+      "choices:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.multiitem.food",
+          "Count:3": 1,
+          "Damage:2": 2005,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.multiitem.food",
+          "Count:3": 1,
+          "Damage:2": 2003,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}
