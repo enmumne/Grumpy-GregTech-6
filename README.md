@@ -2,7 +2,7 @@
 Grumpy and experimental
 
 IMPORTANT: It surfaced during testing that importing and loading the modpack will lead to a crash (something about DynSurround, but may be related to other mods).  
-Launching it a SECOND time seems to fix this issue. So try launching it twice, I guess. I'll try to sort out this problem but it seems ticky.
+Launching it a SECOND time seems to fix this issue. So try launching it twice, I guess. I'll try to sort out this problem but it seems tricky.
 
 What it is: 
 + GregTech 6 on Java 21, based on Bear's default testing pack
