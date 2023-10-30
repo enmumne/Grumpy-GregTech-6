@@ -2,7 +2,7 @@
   "ftbl": {
     "item_ore_names": false,
     "item_reg_names": false,
-    "notifications": "screen",
+    "notifications": "off",
     "player_options_shortcut": false,
     "reload_client_cmd": "reload_client"
   },
