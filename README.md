@@ -1,8 +1,11 @@
 # Grumpy GregTech 6
 Grumpy and experimental
 
-IMPORTANT: It surfaced during testing that importing and loading the modpack will lead to a crash (something about DynSurround, but may be related to other mods).  
+Known issues: 
+- It surfaced during testing that importing and loading the modpack will lead to a crash (something about DynSurround, but may be related to other mods).  
 Launching it a SECOND time seems to fix this issue. So try launching it twice, I guess. I'll try to sort out this problem but it seems tricky.
+
+- If you see too many "mushroom island" biomes, it is due to unsolvable bug with Biome o Plenty. Either select BoP worldgen at world creation, or remove the mod.
 
 What it is: 
 + GregTech 6 on Java 21, based on Bear's default testing pack
