@@ -9,10 +9,10 @@ particles:0
 bobView:true
 anaglyph3d:false
 advancedOpengl:false
-maxFps:120
+maxFps:100
 fboEnable:true
 difficulty:3
-fancyGraphics:false
+fancyGraphics:true
 ao:1
 clouds:true
 resourcePacks:["Old_Plates_for_GT6_v5.zip"]
