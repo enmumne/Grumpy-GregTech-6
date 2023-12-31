@@ -5,9 +5,6 @@ Known issues:
 - It surfaced during testing that importing and loading the modpack will lead to a crash (something about DynSurround, but may be related to other mods).  
 Launching it a SECOND time seems to fix this issue. So try launching it twice, I guess. I'll try to sort out this problem but it seems tricky since it's due to random load order. (It should be fixed now but I'll keep the issue here just in case it's not)
 
-- If you see too many "mushroom island" biomes, it is due to unsolvable bug with Biomes o Plenty used with RTG (or standard worldgen). Either select BoP worldgen at world creation, or remove the mod.  
-(this is fixed now too, added Climate Control to make things work without removing RTG)
-
 What it is: 
 + GregTech 6 on Java 21, based on Bear's default testing pack
 + all Thaumcraft and most of everything from GTNH
@@ -16,7 +13,7 @@ What it is:
  
 This is a straight copy of my test instance, it should import and run with PolyMC/Prism, doesn't work on MultiMC because it needs to load patches to run on Java 21.
 
-Since it's a copy of my own instance, you should redirect it to your local Java 21 copy. My Java flags work with GraalVM.
+Since it's a copy of my own instance, you should redirect it to your local Java 21 copy. My Java flags (included in instance.cfg) work with GraalVM.
 I'm using Oracle official release (select "GraalVM for JDK 21" > "Windows"):  
 https://www.oracle.com/java/technologies/downloads/#graalvmjava21   
 (direct link for windows) https://download.oracle.com/graalvm/21/latest/graalvm-jdk-21_windows-x64_bin.zip
