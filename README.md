@@ -1,10 +1,6 @@
 # Grumpy GregTech 6
 Grumpy and experimental
 
-Known issues: 
-- It surfaced during testing that importing and loading the modpack will lead to a crash (something about DynSurround, but may be related to other mods).  
-Launching it a SECOND time seems to fix this issue. So try launching it twice, I guess. I'll try to sort out this problem but it seems tricky since it's due to random load order. (It should be fixed now but I'll keep the issue here just in case it's not)
-
 What it is: 
 + GregTech 6 on Java 21, based on Bear's default testing pack
 + all Thaumcraft and most of everything from GTNH
@@ -16,12 +12,11 @@ This is a straight copy of my test instance, it should import and run with PolyM
 Since it's a copy of my own instance, you should redirect it to your local Java 21 copy. My Java flags (included in instance.cfg) work with GraalVM.
 I'm using Oracle official release (select "GraalVM for JDK 21" > "Windows"):  
 https://www.oracle.com/java/technologies/downloads/#graalvmjava21   
-(direct link for windows) https://download.oracle.com/graalvm/21/latest/graalvm-jdk-21_windows-x64_bin.zip
-
-When Enterprise releases by Oracle are out I generally switch to them, as they usually have very slightly better peformance:    
-https://www.oracle.com/downloads/graalvm-downloads.html  
+(direct link for windows) https://download.oracle.com/graalvm/21/latest/graalvm-jdk-21_windows-x64_bin.zip  
+Even if the link stays the same, the Java version gets updated every few months. Currently it's 21.0.2  
  
-(remove "-Darchaicfix.debug.noUpdateAcceleration=true" from Java flags for much faster chunk generation) 
+I use the following custom flags, ZGC seems to only work better on newer Minecraft so I stick to these:
+-XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCI -XX:+EagerJVMCI -Dfml.readTimeout=120 -Dgraal.ShowConfiguration=info -XX:+UseG1GC -Dsun.rmi.dgc.server.gcInterval=900000 -XX:+DisableExplicitGC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=51 -XX:G1HeapRegionSize=32M  
 
 If you want to mess with Java 21 support in a different setup like MultiMC, more info here:  
 https://github.com/GTNewHorizons/lwjgl3ify  
