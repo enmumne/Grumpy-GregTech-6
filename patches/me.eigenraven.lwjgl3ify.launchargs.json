@@ -2,7 +2,7 @@
     "formatVersion": 1,
     "name": "LWJGL3ify launch args",
     "uid": "me.eigenraven.lwjgl3ify.launchargs",
-    "version": "2.0.0-alpha-10",
+    "version": "2.1.1",
     "order": 100,
     "mainClass": "com.gtnewhorizons.retrofuturabootstrap.Main"
 }

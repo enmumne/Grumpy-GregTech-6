@@ -1,0 +1,1 @@
+I could have swapped the Electro-Magic-Tools mod for the gtnh version, but it hard depends on modularUI 1, whereas GT6scan hard depends on modularUI 2. So I still haven't made the swap here.
