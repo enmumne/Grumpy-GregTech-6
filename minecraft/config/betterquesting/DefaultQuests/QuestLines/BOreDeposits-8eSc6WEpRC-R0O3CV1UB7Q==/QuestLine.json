@@ -1,0 +1,19 @@
+{
+  "questLineIDLow:4": -7939584724109557267,
+  "questLineIDHigh:4": -1016515089707482065,
+  "properties:10": {
+    "betterquesting:10": {
+      "visibility:8": "NORMAL",
+      "name:8": "[B] Ore Deposits",
+      "icon:10": {
+        "id:8": "gregtech:gt.meta.ore.normal.default",
+        "Count:3": 1,
+        "Damage:2": 9132,
+        "OreDict:8": ""
+      },
+      "bg_image:8": "",
+      "bg_size:3": 256,
+      "desc:8": "Quests for the different ores found in GregTech 6"
+    }
+  }
+}

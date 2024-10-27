@@ -1,0 +1,142 @@
+{
+  "questIDHigh:4": 1308852069788961975,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 2577666186255158542,
+      "questIDLow:4": -4728790362720277808
+    }
+  },
+  "questIDLow:4": -6914413986356688903,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "OR",
+      "visibility:8": "ALWAYS",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.multitileentity",
+        "Count:3": 1,
+        "Damage:2": 14021,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Nickel-Cadmum Batteries",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "You will need some batteries to store power.  The alternate second tier battery is the Nickel-Cadmium Batteries.  This requires you to fill Nickel-Cadmium button cells with Distilled Water.  You can use either a canning machine or right-click the cell on a drum with a tap containing Distilled Water.  Higher tier voltage batteries (HV and EV) require circuits.\n§6\nULV Battery 32,000 EU up to 16 EU Voltage\nLV Battery 128,000 EU up to 32 EU Voltage\nMV Battery 512,000 EU up to 128 EU Voltage\nHV Battery 2,048,000 up to 512 EU Voltage\nEV Battery 8,192,000 up to 2,048 EU Voltage\n§b\nNote:  Nickel-Cadmium batteries are quite expensive compared to the Alkaline Batteries for no diofference in the amount of power you can store store.\n§a\nTo complete the quest craft:\n1 Nickel-Cadmium Batteries (ULV or LV or MV or HV or EV)"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.multitileentity",
+          "Count:3": 1,
+          "Damage:2": 14020,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.multitileentity",
+          "Count:3": 1,
+          "Damage:2": 14021,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "2:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 2,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.multitileentity",
+          "Count:3": 1,
+          "Damage:2": 14022,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "3:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 3,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.multitileentity",
+          "Count:3": 1,
+          "Damage:2": 14023,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "4:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 4,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.multitileentity",
+          "Count:3": 1,
+          "Damage:2": 14024,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:choice",
+      "index:3": 0,
+      "choices:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.multiitem.food",
+          "Count:3": 1,
+          "Damage:2": 2005,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.multiitem.food",
+          "Count:3": 1,
+          "Damage:2": 2003,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

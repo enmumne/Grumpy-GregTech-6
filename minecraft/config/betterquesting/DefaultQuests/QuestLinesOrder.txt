@@ -5,10 +5,13 @@ AAAAAAAAAAAAAAAAAAAAAQ==: [B] Stone Age
 AAAAAAAAAAAAAAAAAAAAAg==: [B] Steam Age
 AAAAAAAAAAAAAAAAAAAABA==: [B] Machine Age
 AAAAAAAAAAAAAAAAAAAAAw==: [B] Stainless Steel & Acids
-AAAAAAAAAAAAAAAAAAAACQ==: [B] Aluminum & Early Electricity
+AAAAAAAAAAAAAAAAAAAACQ==: [B] Aluminum & Early Electric Age
 AAAAAAAAAAAAAAAAAAAACg==: [B] Crucibles, Niobium, Tungsten
 AAAAAAAAAAAAAAAAAAAACA==: [B] Oil, Plastic, Titanium
 AAAAAAAAAAAAAAAAAAAABQ==: [B] Circuits
+kntDcXyXTgyX3j6YucUYhA==: [B] Power Transport & Generation
+o7ew_J75S3qsZRJfzoKfBw==: [B] Going Nuclear
 AAAAAAAAAAAAAAAAAAAACw==: [B] Useful Alloys
 AAAAAAAAAAAAAAAAAAAABw==: [B] Utility
+8eSc6WEpRC-R0O3CV1UB7Q==: [B] Ore Deposits
 AAAAAAAAAAAAAAAAAAAABg==: [B] Periodic Table & Isotopes

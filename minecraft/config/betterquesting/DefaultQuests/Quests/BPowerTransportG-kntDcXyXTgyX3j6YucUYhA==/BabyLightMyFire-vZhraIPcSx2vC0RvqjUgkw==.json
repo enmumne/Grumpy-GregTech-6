@@ -1,0 +1,78 @@
+{
+  "questIDHigh:4": -4784956507448128739,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 8802227331954393549,
+      "questIDLow:4": -4916498703985920086
+    },
+    "1:10": {
+      "questIDHigh:4": -3620430756727536019,
+      "questIDLow:4": -7279830830202614455
+    }
+  },
+  "questIDLow:4": -5833493645940678509,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "ALWAYS",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.multitileentity",
+        "Count:3": 1,
+        "Damage:2": 15010,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "OR",
+      "repeat_relative:1": 1,
+      "name:8": "Baby Light My Fire",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "What do you do if you want to use some of your power to automatically light your burning boxes and/or Coke Ovens?  You can use an Automatic Igniter.  It does not take much power to do an ignite so the Ultra Low Voltage works perfectly for this.  You can use the LV to IV version if you want but why waste that power?  When setting this up make sure to use a Transformer (ULV - LV) to make sure the voltage does not exceed the Igniters limits.\n§a\nTo complete this quest craft:\n1 Automatic Igniter (ULV)"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.multitileentity",
+          "Count:3": 1,
+          "Damage:2": 15010,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:choice",
+      "index:3": 0,
+      "choices:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.multiitem.food",
+          "Count:3": 1,
+          "Damage:2": 2005,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.multiitem.food",
+          "Count:3": 1,
+          "Damage:2": 2003,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

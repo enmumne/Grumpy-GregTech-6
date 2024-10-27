@@ -29,7 +29,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Now that you have some iron, you can make a Grindstone.  A Grindstone is useful in converting raw pickaxe heads into pickaxes heads and to make other useful tools like a magnifying glass.  The grindstone uses sandstone blocks instead of your file duribility.\n§b\nNote:  You can make sandstone by crafting 4 sand into a sandstone block.\n§a\nTo complete the quest:\nCraft 1 Grindstone"
+      "desc:8": "Now that you have some iron, you can make a Grindstone.  A Grindstone is useful in converting raw pickaxe heads into pickaxe heads and to make other useful tools like a magnifying glass.  The grindstone uses sandstone blocks instead of your file durability. One piece of sandstone will sharpen 4 tools.\n§b\nNote:  You can make sandstone by crafting 4 sand into a sandstone block.\n\nPro Tip:  You can remove enchants from gear you get from the mobs that you kill by rubbing that enchanted piece of armor on the sandstone block and you will get some XP.  This does not decrese the durability of the sandstone.\n§a\nTo complete the quest:\nCraft 1 Grindstone"
     }
   },
   "tasks:9": {

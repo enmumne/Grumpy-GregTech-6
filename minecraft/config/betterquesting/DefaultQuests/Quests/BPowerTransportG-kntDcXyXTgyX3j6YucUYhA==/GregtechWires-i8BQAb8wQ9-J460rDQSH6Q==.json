@@ -1,0 +1,37 @@
+{
+  "questIDHigh:4": -8376607338476321825,
+  "preRequisites:9": {},
+  "questIDLow:4": -8510768470386505751,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "ALWAYS",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.multitileentity",
+        "Count:3": 1,
+        "Damage:2": 29269,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Gregtech Wires",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Gregtech wires work differently than other tech mods.  Gregtech 6 wires are available in exposed wires and insulated wires known as cables.  The wires are available in bundles from 1 to 16 wires.  The cables are available in 1x, 2x, 4x, 8x, and 16x cables.  Each Wire/Cable has a maximum voltage (i.e. EU) that the wire/cable can carry.  Each Wire/Cable also has amperage which is the number of machines you can run off that wire/cable at the same time.  Finally each Wire/Cable has a loss which is the number of EU loss per meter of wire/cable.  So you want to check the maximum EU that you need and how many machines you are running to determine your cable that you use.\n\n§e\nWarning:  You can use uninsulated wires at your own risk.  You can be shocked by uninsulated wires and you are not by the insulated cables.  The insulated cables also have less loss than the wires."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 1,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  },
+  "rewards:9": {}
+}

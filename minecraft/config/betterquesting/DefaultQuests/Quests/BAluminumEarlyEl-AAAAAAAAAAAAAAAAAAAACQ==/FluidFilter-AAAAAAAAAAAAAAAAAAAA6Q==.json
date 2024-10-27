@@ -29,7 +29,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "We can also make a Fluid Filter from the Blank Cover.  You only need 4 zinc foils in the corners and a blank cover in the center.  The fluid filter will default to a white list and will only allow specific fluids to pass between 2 fluid pipes.  This works very well with Quad or Nonuple  pipes to direct a specific fluid like water in another direction.  Using a screwdriver will change the filter mode to black list so you can pass any fluid except the one in the filter.  To set the filter just place the fliter and then right-click a container that contains the specific fluid.  Any contain will work like bottles, measuring pot, drum, barometer gas cylinder, etc.\n§6§a\nTo complete this quest craft:\n1 Blank Cover\n4 Zinc Foils\n1 Fluid Filter"
+      "desc:8": "We can also make a Fluid Filter from the Blank Cover.  You only need 4 zinc foils in the corners and a blank cover in the center.  The fluid filter will default to a white list and will only allow specific fluids to pass between 2 fluid pipes.  This works very well with Quad or Nonuple  pipes to direct a specific fluid like water in another direction.  Using a screwdriver will change the filter mode to black list so you can pass any fluid except the one in the filter.  To set the filter just place the filter and then right-click a container that contains the specific fluid.  Any contain will work like bottles, measuring pot, drum, barometer gas cylinder, etc.\n§6§a\nTo complete this quest craft:\n1 Blank Cover\n4 Zinc Foils\n1 Fluid Filter"
     }
   },
   "tasks:9": {

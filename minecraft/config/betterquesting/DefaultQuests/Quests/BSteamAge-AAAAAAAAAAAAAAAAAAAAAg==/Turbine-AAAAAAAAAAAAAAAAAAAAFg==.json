@@ -29,7 +29,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Many machines need RU (Rotation Units) as powersource, a simple bronze steam turbine will suffice for now to supply that need.  If you want you can make an Invar Turbine that can make more power.  The only difference is the the 4 Invar rotors.  The hull is still bronze.\n§6§b\nTip: Steam Turbines outputs distilled water from their sides, so if you want to use that to circulate it back to your boilers, just add some pipes (they output less water than was used to make the steam for it, about 20% loss)\n§f§a\nTo complete the quest by crafting:\n1 Bronze Turbine or Invar Turbine"
+      "desc:8": "Many machines need RU (Rotation Units) as a power source, a simple bronze steam turbine will suffice for now to supply that need.  If you want you can make an Invar Turbine that can make more power.  The only difference is the the 4 Invar rotors.  The hull is still bronze.\n§6§b\nTip: Steam Turbines outputs distilled water from their sides, so if you want to use that to circulate it back to your boilers, just add some pipes (they output less water than was used to make the steam for it, about 20% loss)\n§f§a\nTo complete the quest by crafting:\n1 Bronze Turbine or Invar Turbine"
     }
   },
   "tasks:9": {

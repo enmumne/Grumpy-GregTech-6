@@ -29,7 +29,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "You will need a Crystallisation Crucible with a noble gas and molten metal to make a boule.  You can use Redstone alloy, Silicon, or Germanium.  You will ned a tiny pile of dust as a seed and some molten quanity of the same as the seed dust to make your Boule.\n§b\nTip:  You can make your molten metal in the crucible and transport it to the Crystallisation Crucible using a measuring pot.  Just use a ceramic funnel on top to pour in the molten metal.\n§a\nTo complete the quest craft:\n1 Crystallisation Crucible\n1 Redstone Alloy or Germaninum or Silicon Boule"
+      "desc:8": "You will need a Crystallisation Crucible with a noble gas and molten metal to make a boule.  You can use Redstone Alloy, Silicon, or Germanium.  You will need a tiny pile of dust as a seed and some molten version of the same material as the seed in order to make your Boule.\n§b\nTip:  You can make your molten metal in the crucible and transport it to the Crystallization Crucible using a measuring pot.  Just use a ceramic funnel on top to pour in the molten metal.  The easiest way is to use a smelter so hopefully you have upgraded your crucible to tungsten already.\n§a\nTo complete the quest craft:\n1 Crystallization Crucible\n1 Redstone Alloy or Germanium or Silicon Boule"
     }
   },
   "tasks:9": {

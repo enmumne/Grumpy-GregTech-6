@@ -24,7 +24,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "I hope you marked those oil spots you may have found while exploring, because now we need it.\nIt probably makes sense to build a small rail or small nether portal pipe line to get the oil back to you base.\n§a\nTo complete the quest collect in a drum:\n100mB of Raw Oil, Oil, Light Oil or Heavy Oil"
+      "desc:8": "I hope you marked those oil spots you may have found while exploring, because now we need it.\nIt probably makes sense to build a small rail or small nether portal pipe line to get the oil back to you base.\n§b\nNote:  If you are having issues finding oil, you can get oil by putting oil shale in a Coke Oven to get asphault and oil.  You can process raw oil shale into dust for additional volume instead of putting the raw oil shale in the Coke oven.\n§a\nTo complete the quest collect in a drum:\n100mB of Raw Oil, Oil, Light Oil or Heavy Oil"
     }
   },
   "tasks:9": {
@@ -81,6 +81,20 @@
       },
       "ignoreNBT:1": 1,
       "index:3": 3,
+      "consume:1": 0,
+      "taskID:8": "bq_standard:fluid"
+    },
+    "4:10": {
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "requiredFluids:9": {
+        "0:10": {
+          "FluidName:8": "liquid_extra_heavy_oil",
+          "Amount:3": 1000
+        }
+      },
+      "ignoreNBT:1": 1,
+      "index:3": 4,
       "consume:1": 0,
       "taskID:8": "bq_standard:fluid"
     }

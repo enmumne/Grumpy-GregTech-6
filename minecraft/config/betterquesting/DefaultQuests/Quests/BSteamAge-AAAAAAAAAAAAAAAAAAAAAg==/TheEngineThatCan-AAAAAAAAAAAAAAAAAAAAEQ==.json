@@ -29,7 +29,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Many machines need KU (Kinetic Units) as powersource, a simple bronze steam engine will suffice for now to supply that need.\n§6§b\nTip: Steam Engines output distilled water from their sides, so if you want to use that to circulate it back to your boilers, just add some pipes (they output less water than was used to make the steam for it, about 20% loss).  You can use multiple bronze boilers or 1 steel boiler.\n§a\nTo complete this quest craft:\n1 Bronze Engine"
+      "desc:8": "Many machines need KU (Kinetic Units) as a power source, a simple bronze steam engine will suffice for now to supply that need.  The blue square is the output (i.e. you connect to a machine or a crucible).  The grey square is to connect the steam.\n§6§b\nTip: Steam Engines output distilled water from their sides, so if you want to use that to circulate it back to your boilers, just add some pipes (they output less water than was used to make the steam for it, about 20% loss).  The amount of steam that you will need will depend on the machine and recipe you want to run.  Once you determine how much steam you need you can decide on the appropiate type and amount of boilers you will need.\n§a\nTo complete this quest craft:\n1 Bronze Engine"
     }
   },
   "tasks:9": {

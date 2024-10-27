@@ -29,7 +29,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "The crusher doubles your ore output, over are the days where you had to crush your ores by hand with a hammer, now you can let a machine do the work and even get double the output!\n\nThe crusher will need 16 KU/t to crush ores into crushed ores.  A Bronze engine will provide the KU but you will need 2 Bronze Boilers to get enough steam to get the engine past 16KU/t.  This will put the bronze engine at the very top of its range so the engine will turn red.  Just do not supply more than 96 steam/t to the engine, thus no more than 2 bronze boilers.  You can use a single steel boiler as it only puts out 64 steam/tick.\n§a\nTo complete the quest craft:\n1 Bronze Crusher"
+      "desc:8": "The crusher doubles your ore output.  The days are over when you had to crush your ores by hand with a hammer.  Now you can let a machine do the work and even get double the output!\n\nThe crusher will need 16 KU/t to crush ores into crushed ores.  A Bronze engine will provide the KU but you will need 2 Bronze Boilers to get enough steam to get the engine past 16KU/t.  This will put the bronze engine at the very top of its range so the engine will turn red.  Just do not supply more than 96 steam/t to the engine, thus no more than 2 bronze boilers.  You can use a single steel boiler as it only puts out 64 steam/tick.  There are other options, you will just have to do some math.\n§a\nTo complete the quest craft:\n1 Bronze Crusher"
     }
   },
   "tasks:9": {

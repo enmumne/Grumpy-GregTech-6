@@ -24,7 +24,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "We need a way to transport water.\nCheap wooden pipes are great for water and you can put a drain on the huge wooden pipes but wooden pipes cannot handle hot steam.  Wooden pipes can also burn around burning boxes if they are in contact with an air block.\n\nFor pipes that are exposed to air near burning boxes and that can handle steam something more heat resistant is required.  Such as bronze or copper pipes.\n§d§b\nTip:  Use a wrench to connect pipes to another pipe.  You will see an \u0027X\u0027 at the edge of the pip if they are connecting while you are holding a wrench.  The wrench will connect or disconnect the pipes.  To remove wooden pipes you will need a saw.  To remove metal pipes, you will need a wrench.\n§f§a\nTo compelte this quest you will need to craft:\n8 Huge Wooden Pipes"
+      "desc:8": "We need a way to transport water.\nCheap wooden pipes are great for water and you can put a drain on the huge wooden pipes but wooden pipes cannot handle hot steam.  Wooden pipes can also burn around burning boxes if they are in contact with an air block.\n\nFor pipes that are exposed to air near burning boxes and that can handle steam something more heat resistant is required.  Such as bronze or copper pipes.\n§d§b\nTip:  Use a wrench to connect pipes to another pipe.  You will see an \u0027X\u0027 at the edge of the pipe if they are connecting while you are holding a wrench.  The wrench will connect or disconnect the pipes.  To remove wooden pipes you will need a saw or axe.  To remove metal pipes, you will need a wrench.\n§f§a\nTo compelte this quest you will need to craft:\n8 Huge Wooden Pipes"
     }
   },
   "tasks:9": {

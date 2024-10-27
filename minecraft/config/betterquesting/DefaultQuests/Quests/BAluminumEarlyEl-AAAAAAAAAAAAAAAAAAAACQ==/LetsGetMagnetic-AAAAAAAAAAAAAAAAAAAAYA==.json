@@ -29,7 +29,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Some machines in GT6 require MU Units.  That is Magnetic Energy Unites.  To generate MU\u0027s you need an elctromagnet.  Electromagnects convert electrical energy into magnetic energy.  The LV Electromagnet will convert 32 EU/t into 16 MU/t.  The electromagnet only needs a galvanized steel hull and some copper wires.  So lets make an electromagnet.\n\nIn setting up the electromagnet, you can place the dynamo on any side except the front or back.  You will then put your machine that requires magnetic energy on either the front or back.\n§a\nTo complete this quest:\n1 LV Electromagnet"
+      "desc:8": "Some machines in GT6 require MU Units.  That is Magnetic Energy Unites.  To generate MU\u0027s you need an electromagnet.  Electromagnets convert electrical energy into magnetic energy.  The LV Electromagnet will convert 32 EU/t into 16 MU/t.  The electromagnet only needs a galvanized steel hull and some copper wires.  So lets make an electromagnet.\n\nIn setting up the electromagnet, you can place the dynamo on any side except the front or back.  You will then put your machine that requires magnetic energy on either the front or back.\n§a\nTo complete this quest:\n1 LV Electromagnet"
     }
   },
   "tasks:9": {

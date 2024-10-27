@@ -29,7 +29,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Alloys allow you to make different items and to use are replacement in some machine if you are running short of other metals.\n\nNow we are going to make some Brass.  Brass is 3 ingots of copper and 1 ingot of Zinc,\n\nYou probably got some zinc from small zinc ores on the surface or while mining.  You can also get Zinc from Sphalerite.\n§a\nTo complete this quest:\nPour 4 Brass ingots or 4 Brass plates from the crucible."
+      "desc:8": "Alloys allow you to make different higher tier items or might be a equirement for some machines.  Some alloys can be used as a replacement in some recipes if you are running short of other metals.\n\nNow we are going to make some brass.  Brass is 3 ingots of copper and 1 ingot of zinc,\n\nYou probably got some zinc from small zinc ores on the surface or while mining.  You can also get zinc from sphalerite.\n§6\nReecipe:\n3 Copper ingot/dust + 1 Zinc ingot/dust \u003d\u003e [Crucible 1160°K] \u003d\u003e 4 Brass ingots/plates\n§\n§a\n§a\nTo complete this quest:\nPour 4 Brass ingots or 4 Brass plates from the crucible."
     }
   },
   "tasks:9": {

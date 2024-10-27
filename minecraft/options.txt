@@ -176,7 +176,7 @@ key_railcraft.keybind.loco.slower:0
 key_railcraft.keybind.loco.mode:0
 key_railcraft.keybind.loco.whistle:0
 soundCategory_master:0.35099337
-soundCategory_music:0.5
+soundCategory_music:1.0
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0

@@ -29,7 +29,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Time for steel!\nTo make steel all we have to do is put some iron in a crucible (dont fill it all up, it needs some space for air), heat it to at least 2044K and pump some air in it.\nAfter a while (depending on the speed of which you pump air in) the color of your liquid will become red and your steel is done.  Just pour the steel out into your molds.\n\nHow do you pump air into the crucible you ask?  Oh yeah, you just place the output of the engine to the back of the crucible (dont forget to supply it with steam so it actually runs).\n§a\nTo complete this quest:\nPour 3 steel ingots or 8 steel plates from your crucible."
+      "desc:8": "Time for steel!\nTo make steel all we have to do is put some iron in a crucible (don\u0027t fill it all up, it needs some space for air), heat it to at least 2044°K and pump some air in it.\nAfter a while (depending on the speed of which you pump air in) the color of your liquid will become red and your steel is done.  Just pour the steel out into your molds.\n\nHow do you pump air into the crucible you ask?  Oh yeah, you just place the output of the engine (blue square) to the back of the crucible (don\u0027t forget to supply it with steam so it actually runs).\n§a\nTo complete this quest:\nPour 3 steel ingots or 3 steel plates from your crucible."
     }
   },
   "tasks:9": {

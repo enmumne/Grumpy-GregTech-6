@@ -1,0 +1,19 @@
+{
+  "questLineIDLow:4": 3,
+  "questLineIDHigh:4": 0,
+  "properties:10": {
+    "betterquesting:10": {
+      "visibility:8": "NORMAL",
+      "name:8": "[B] Stainless Steel \u0026 Acids",
+      "icon:10": {
+        "id:8": "gregtech:gt.meta.ingot",
+        "Count:3": 1,
+        "Damage:2": 8636,
+        "OreDict:8": ""
+      },
+      "bg_image:8": "",
+      "bg_size:3": 256,
+      "desc:8": "Stainless steel in needed to set up baths, electrylizers, distaltion towers and may other useful machines.  It also allows for you to get rubber.  So lets take a looks at what you can do with stainless steel.  Once you have stainless Steel, you can start to work with acids which will allow ore processing for higher tier metals."
+    }
+  }
+}

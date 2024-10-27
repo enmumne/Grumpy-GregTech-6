@@ -11,7 +11,7 @@
     "betterquesting:10": {
       "snd_complete:8": "minecraft:entity.player.levelup",
       "taskLogic:8": "OR",
-      "visibility:8": "NORMAL",
+      "visibility:8": "ALWAYS",
       "isMain:1": 0,
       "simultaneous:1": 0,
       "icon:10": {
@@ -29,7 +29,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Lets make a Buzzsaw that can be used to make planks from logs, make sticks from samplings, or make plates from some gems and blocks.\n§b\nNote:  You will need a steel version for the gem and metal plates but a steel buzzsaw requires aluminum.  So for now we will make a bronze buzzsaw.  You will see the machine type as \"Cutter\" in NEI.\n§a\nTo complete the quest:\nCraft 1 Bronze Buzzsaw"
+      "desc:8": "Lets make a Buzzsaw that can be used to make planks from logs, make sticks from samplings, or make plates from some gems and blocks.\n§b\nNote:  You will need a steel version for the gem and metal plates but a steel buzzsaw requires aluminum for the cobalt brass.  So for now you can make a bronze buzzsaw.  You will see the machine type as \"Cutter\" in NEI.  This quest gives the option to do the Steel version for people who do not want to craft a bronze one,\n§a\nTo complete the quest:\nCraft 1 Bronze or Steel Buzzsaw"
     }
   },
   "tasks:9": {
@@ -45,6 +45,23 @@
           "id:8": "gregtech:gt.multitileentity",
           "Count:3": 1,
           "Damage:2": 20061,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.multitileentity",
+          "Count:3": 1,
+          "Damage:2": 20062,
           "OreDict:8": ""
         }
       },

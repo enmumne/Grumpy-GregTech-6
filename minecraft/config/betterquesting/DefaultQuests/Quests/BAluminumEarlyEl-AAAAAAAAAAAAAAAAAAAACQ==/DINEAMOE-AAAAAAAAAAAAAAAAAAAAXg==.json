@@ -12,7 +12,7 @@
       "snd_complete:8": "minecraft:entity.player.levelup",
       "taskLogic:8": "AND",
       "visibility:8": "ALWAYS",
-      "isMain:1": 0,
+      "isMain:1": 1,
       "simultaneous:1": 0,
       "icon:10": {
         "id:8": "gregtech:gt.multitileentity",
@@ -29,7 +29,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Now it is time to build something that will acttually generate some electricity.  You will need to make some galvanized steel screws, galvanized steel gear, and a robust galvanized steel hull.  Make your galvanized steel double plates, then put them in the bath to galvanize them to save you a little bit of zinc.\n\nThe dynamo will convert the rotational energy (RU) that you get from your turbine into electrical energy (EU).  Yjr LV Dynamo will convert 32 RU/t (Ranges from 16 to 64) into 22 EU/t (Ranges from 11 to 44).  The rotational energy needs to be on the back and the electrical energy will be on the front.  Don\u0027t forget you can use your wrench to rotates machines to they match up correctly.  You are responsible to determine how many and what kind of boiler setup you need to generate the correct amount of electrical energy you will need for your machines.  So yes you will need to do some math.\n§e\nNote:  You will need to make a LV Dynamo.  To make the LV Dynamo you will need to make a magnetic iron long rod.  There is a manual way to make magnetic iron long rod without needing an electromagnet.  You cart it by using an iron long rod and some redstone dust/gems in a crafting grid.\n§b\nPro Tip:  You might cvonsider making a wiremill to be more effecient on your copper as we will be needing a significant number of copper wires.\n§f§a\nTo complete this quest you need to make:\n1 Magnetic Iron Long Rod\n1 LV Dynamo"
+      "desc:8": "Now it is time to build something that will actually generate some electricity.  You will need to make some galvanized steel screws, galvanized steel gear, and a robust galvanized steel hull.  Make your galvanized steel double plates, then put them in the bath to galvanize them to save you a little bit of zinc.\n\nThe dynamo will convert the rotational energy (RU) that you get from your turbine into electrical energy (EU).  Yjr LV Dynamo will convert 32 RU/t (Ranges from 16 to 64) into 22 EU/t (Ranges from 11 to 44).  The rotational energy needs to be on the back and the electrical energy will be on the front.  Don\u0027t forget you can use your wrench to rotates machines to they match up correctly.  You are responsible to determine how many and what kind of boiler setup you need to generate the correct amount of electrical energy you will need for your machines.  So yes you will need to do some math.\n§e\nNote:  You will need to make a LV Dynamo.  To make the LV Dynamo you will need to make a magnetic iron long rod.  There is a manual way to make magnetic iron long rod without needing an electromagnet.  You cart it by using an iron long rod and some redstone dust/gems in a crafting grid.\n§b\nPro Tip:  You might consider making a wiremill to be more efficient on your copper as we will be needing a significant number of copper wires.\n§f§a\nTo complete this quest you need to make:\n1 Magnetic Iron Long Rod\n1 LV Dynamo"
     }
   },
   "tasks:9": {

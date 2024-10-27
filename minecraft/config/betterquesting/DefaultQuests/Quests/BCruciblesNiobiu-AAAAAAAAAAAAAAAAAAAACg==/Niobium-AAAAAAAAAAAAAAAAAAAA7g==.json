@@ -29,7 +29,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Now we need to break down the Niobium Pentoxide into Niobium and for that we need to bath the Niobium Pentoxide into Molten Aluminium.  \n\nSo how do we get Molten Aluminium without a Smelter?  You can use you crucible and then use a ceramic measuring pot (See Quest under Utility Tab for details}\n\nMachines needed for this quest:\n1 Bath\n§a§6\nBath Recipe:\n7 Niobium Pentoxide Dusts + 480L Molten Aluminium \u003d\u003e [Bath] \u003d\u003e 2 Niobium Dusts + 4200L Molten Alumina\n§6§a\nTo complete this quest gather:\n2 Niobium Dusts\n§b\nTip:\nYou can pour your Molten Alumina into ingots and send it back through your Aluminium processing to get Aluminium back."
+      "desc:8": "Now we need to break down the Niobium Pentoxide into Niobium and for that we need to bath the Niobium Pentoxide into Molten Aluminum.  \n\nSo how do we get Molten Aluminum without a Smelter?  You can use you crucible and then use a ceramic measuring pot (See Quest under Utility Tab for details}.\n\nMachines needed for this quest:\n1 Bath\n§a§6\nBath Recipe:\n7 Niobium Pentoxide Dusts + 480L Molten Aluminum \u003d\u003e [Bath] \u003d\u003e 2 Niobium Dusts + 4200L Molten Alumina\n§6§a\nTo complete this quest gather:\n2 Niobium Dusts\n§b\nTip:\nYou can pour your Molten Alumina into ingots and send it back through your Aluminum processing to get Aluminum back.  You can do this by putting an ingot mold below the Bath and either use pinchers or a hopper and chest to collect the alumina ingots."
     }
   },
   "tasks:9": {

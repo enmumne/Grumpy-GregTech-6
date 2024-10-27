@@ -33,7 +33,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "We need to collect water and doing that by hand isn\u0027t enough anymore.\n\nA drain will collect water from a water source and fill a pipe.  The drain is made from iron.\n\nCraft a drain, put it on one of your huge wooden pipes that is submerged in water and it will start collecting it.\n§d§b\nPro Tip: Make sure the drain is placed in water that is in the river biome otherwise the water source might go dry.  You can collect sea water from the ocean,\n§f§a\nTo complete this quest craft:\n1 Drain"
+      "desc:8": "We need to collect water and doing that by hand isn\u0027t enough anymore.\n\nA drain will collect water from a water source and fill a pipe.  The drain is made from iron.\n\nCraft a drain, put it on one of your huge wooden pipes that is submerged in water in a river and it will start collecting water.\n§d§b\nPro Tip: Make sure the drain is placed in water that is in the river biome otherwise the water source might go dry.  You can collect sea water from the ocean once you have the machines to pull out the salt out of the sea water.\n\nNote:  You can collect water from rain if you have drains on land pointed to the sky.  This works in biomes that has rain (Not deserts).  You will need multipe drains and a tank to store the water.\n§f§a\nTo complete this quest craft:\n1 Drain"
     }
   },
   "tasks:9": {

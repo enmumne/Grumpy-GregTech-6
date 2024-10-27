@@ -33,7 +33,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Regardless which route you choose, now you can make the iridium crucible. If you choose the Chrome path, make sure that your shutoff is precise!\n§a\nTo complete the quest craft:\n1 Iridium crucible\n1 Iridium mold"
+      "desc:8": "Regardless which route you choose, now you can make the iridium crucible. If you choose the Chrome path, make sure that your shutoff is precise!\n§e\nWarning:  It takes a tier 4 pickaxe in order to pick this crucible.  You can use Iridium, or Netherite to make a tier 4 pickaxe since Tungsten is not yet availalbe.\n§a\nTo complete the quest craft:\n1 Iridium crucible\n1 Iridium mold"
     }
   },
   "tasks:9": {

@@ -29,7 +29,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "We will need some Sodium Hydroxide.  The best way to get it is to electrolyze some salt.\n§a§6\nThe Recipe:\n1 salt dust + 3000L water \u003d\u003e [Electrolyzer 16EU/t] \u003d\u003e 6 Small Sodium Hydroxide Dusts + 500L Clorine Gas + 1500L Hydrogen Gas + 500L Oxygen Dust\n§f§6§a\nTo complete the quest craft and get:\n1 LV Electrolyzer\n1 Sodium Hydroxide Dust"
+      "desc:8": "We will need some Sodium Hydroxide.  The best way to get it is to electrolize some salt.\n§a§6\nThe Recipe:\n1 salt dust + 3000L water \u003d\u003e [Electrolyzer 16EU/t] \u003d\u003e 6 Small Sodium Hydroxide Dusts + 500L Chlorine Gas + 1500L Hydrogen Gas + 500L Oxygen Dust\n§f§6§a\nTo complete the quest craft and get:\n1 LV Electrolyzer\n1 Sodium Hydroxide Dust"
     }
   },
   "tasks:9": {

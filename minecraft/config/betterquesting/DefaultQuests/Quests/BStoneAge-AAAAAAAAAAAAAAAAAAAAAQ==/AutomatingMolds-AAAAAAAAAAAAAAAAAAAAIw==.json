@@ -29,7 +29,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Who wants to wait all the time until the metal in the mold cooled down long enough to be safely removed. Also doing it all by hand is annoying.\nIf you make a monkey wrench and use it on the sides of a mold it enables/disables the auto input of that side. If you use it on the center of the mold it toggles it\u0027s redstone behaviour of all sides.\nCombine that with a hopper below the mold and you can automatically (or on a lever flip) do your metal casting. (it gets even better when you have a thermonometer)\n§a\nCraft the following item:\n1 Monkey Wrench"
+      "desc:8": "Who wants to wait all the time until the metal in the mold cooled down long enough to be safely removed. Also doing it all by hand is annoying.\nIf you make a monkey wrench and use it on the sides of a mold it enables/disables the auto input of that side. If you use it on the center of the mold it toggles it\u0027s redstone behavior of all sides.\nCombine that with a hopper below the mold and you can automatically (or on a lever flip) do your metal casting. (it gets even better when you have a thermometer)\n§a\nCraft the following item:\n1 Monkey Wrench"
     }
   },
   "tasks:9": {

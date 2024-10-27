@@ -7,10 +7,10 @@ What it is:
 + performance mods: Angelica (early experiment) + Archaicfix + CoreTweaks
 + HBM, Electrical Age, IHL and more cursed stuff
  
-This is a straight copy of my test instance, it should import and run with PolyMC/Prism, doesn't work on MultiMC because it needs to load patches to run on Java 22.
+This is a straight copy of my test instance, it should import and run with PolyMC/Prism, doesn't work on MultiMC because it needs to load patches to run on Java 23.
 
-Since it's a copy of my own instance, you should redirect it to your local Java 22 copy. My Java flags (included in instance.cfg) work with GraalVM.
-I'm using Oracle official release (select "GraalVM for JDK 22" > "Windows"):  
+Since it's a copy of my own instance, you should redirect it to your local Java 23 copy. My Java flags (included in instance.cfg) work with GraalVM.
+I'm using Oracle official release (select "GraalVM for JDK 23" > "Windows"):  
 https://www.oracle.com/java/technologies/downloads/#graalvmjava23-windows 
 (direct link for windows) https://download.oracle.com/graalvm/23/latest/graalvm-jdk-23_windows-x64_bin.zip   
 Even if the link stays the same, the Java version gets updated every few months. Currently it's 23+37.1  

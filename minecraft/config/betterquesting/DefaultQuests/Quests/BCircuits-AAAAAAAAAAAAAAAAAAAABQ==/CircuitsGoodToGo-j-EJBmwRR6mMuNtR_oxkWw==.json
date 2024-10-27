@@ -1,0 +1,74 @@
+{
+  "questIDHigh:4": -8079166333338433623,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 538324983738289295,
+      "questIDLow:4": -6451576719944808829
+    }
+  },
+  "questIDLow:4": -8306648367475432357,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "ALWAYS",
+      "isMain:1": 1,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.multiitem.technological",
+        "Count:3": 1,
+        "Damage:2": 30302,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Circuits Good To Go",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Now all you need to do is solder the parts to the circuit board.  For a Tier 2 circuit you can use either Molten Soldering Alloy or Molten Tin.  If you use Molten Lead, then the resulting circuit will be Tier 1.  So be careful on the solder that you use.\n§a\nTo complete the quest craft:\n1 Tier 2 Circuit (Good)"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.multiitem.technological",
+          "Count:3": 1,
+          "Damage:2": 30302,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:choice",
+      "index:3": 0,
+      "choices:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.multiitem.food",
+          "Count:3": 1,
+          "Damage:2": 2005,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.multiitem.food",
+          "Count:3": 1,
+          "Damage:2": 2003,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

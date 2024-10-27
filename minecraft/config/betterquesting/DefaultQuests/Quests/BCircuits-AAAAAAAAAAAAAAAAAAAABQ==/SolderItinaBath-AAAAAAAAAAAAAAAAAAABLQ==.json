@@ -2,6 +2,10 @@
   "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
+      "questIDHigh:4": -2557817283306962700,
+      "questIDLow:4": -7847690255936098107
+    },
+    "1:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 300
     }
@@ -10,9 +14,9 @@
   "properties:10": {
     "betterquesting:10": {
       "snd_complete:8": "minecraft:entity.player.levelup",
-      "taskLogic:8": "AND",
+      "taskLogic:8": "OR",
       "visibility:8": "ALWAYS",
-      "isMain:1": 0,
+      "isMain:1": 1,
       "simultaneous:1": 0,
       "icon:10": {
         "id:8": "gregtech:gt.multiitem.technological",
@@ -29,7 +33,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Now you need to solder your circuit parts to the circuit plate.  You will be using a bath to do the soldering.  NEI will show that you can use either molten tin, molten lead, or molten soldering alloy.  You will want to use the molten ally.  If you use tin or lead with higher level circuits will result in a lower tier ccircuit being made.  Solder is made by combining 9 tin to 1 Antimony.  You can do this in a crucible and then use a measuring pot to transport to your bath.\n§a\nTo complete the quest get:\n1000mb Molten Soldering Alloy\n1 Bath\n1 Circuit T1 (Basic)"
+      "desc:8": "Now you need to solder your circuit parts to the circuit plate.  You will be using a bath to do the soldering.  NEI will show that you can use either molten tin, molten lead, or molten soldering alloy.  You can do this in a crucible and then use a measuring pot to transport to your bath. \n§b\nTip:  Once you have Tungsten processing, you can make a smelter and hook the smelter directly to the bath using a couple of pipes.\n§\n§a\nTo complete the quest get:\n1 Bath\n1 Circuit T1 (Basic)"
     }
   },
   "tasks:9": {
@@ -42,22 +46,12 @@
       "consume:1": 0,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregapi:gt.display.fluid",
-          "Count:3": 1,
-          "tag:10": {
-            "f:8": "molten.solderingalloy",
-            "h:2": 544
-          },
-          "Damage:2": 663,
-          "OreDict:8": ""
-        },
-        "1:10": {
           "id:8": "gregtech:gt.multitileentity",
           "Count:3": 1,
           "Damage:2": 22002,
           "OreDict:8": ""
         },
-        "2:10": {
+        "1:10": {
           "id:8": "gregtech:gt.multiitem.technological",
           "Count:3": 1,
           "Damage:2": 30301,

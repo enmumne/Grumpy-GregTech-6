@@ -41,7 +41,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Let\u0027s make a temperature sensor which will give us a creadout of the temperature that way we don\u0027t have to right click wiith a thermometer and read chat to know how hot our crucible is.  The sensor can also be put into other modes to trigger redstone signal when certain criteria is reached.  You will see more in the Early Automation Quest.\n\nYou will need to make some red alloy plates and use your anvil and hammer to make red alloy foil.  Next you can use your wire cutters to make red alloy fine wires needed for the temperature sensor.  You will also need some redstone.  Use can use the regular redstone gems or the redstone dust.\n\nJust make a double tin alloy plate and include your thermometer and you can craft a temperature sensor.\n\nTo use your sensor, just place on the side of the crucible and there you go.  You can now see the temperature of your crucible.\n§f§a\nTo complete this quest you need to craft:\n1 Double Tin Alloy Plate\n1 Thermometer Sensor\n"
+      "desc:8": "Let\u0027s make a thermometer sensor which will give us a readout of the temperature that way we don\u0027t have to right click with a thermometer and read chat to know how hot our crucible is.  The sensor can also be put into other modes to trigger redstone signal when certain criteria is reached.  You will see more in the Early Automation Quest.\n\nYou will need to make some red alloy plates and use your anvil and hammer to make red alloy foil.  Next you can use your wire cutters to make red alloy fine wires needed for the temperature sensor.  You will also need some redstone.  Use can use the regular redstone gems or the redstone dust.\n\nJust make a double tin alloy plate and include your hand held thermometer and you can craft a thermometer sensor.\n\nTo use your sensor, just place on the side of the crucible and there you go.  You can now see the temperature of your crucible.\n§f§a\nTo complete this quest you need to craft:\n1 Double Tin Alloy Plate\n1 Thermometer Sensor\n"
     }
   },
   "tasks:9": {
@@ -49,7 +49,7 @@
       "partialMatch:1": 1,
       "autoConsume:1": 0,
       "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
+      "ignoreNBT:1": 1,
       "index:3": 0,
       "consume:1": 0,
       "requiredItems:9": {

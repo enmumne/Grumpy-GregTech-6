@@ -29,7 +29,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Some crused or purified gem dusts will need to be sifted to get gems or actual gem dusts.  One example that needs this process is diamonds.  You will need a diamond gem for some of the ore processing machines.  If you are not luck enough to get one from a small diamond ore block, you will need to do manual sifting.\n§d§b\nTip:  It is not always beneficial to sift all gem ores.  It depends of the ore and what gems or dusts you need.\n§f§a\nTo complete this quest you need to craft:\n1 Sifting Table"
+      "desc:8": "Some crushed or purified gem dusts will need to be sifted to get gems or actual gem dusts.  One example that needs this process is diamonds.  You will need a diamond gem for some of the ore processing machines.  If you are not lucky enough to get one from a small diamond ore block, you will need to do manual sifting.\n§d§b\nTip:  It is not always beneficial to sift all gem ores.  It depends on the ore and what gems or dusts you need.\n\nNote:  Greg built an auto-clicker into the sifter so as long as you stand there it will right click for you.  Just keep a stack of the items you want to shift in your hand.  Also have a hopper under the shifter and connected to a chest so the results of the sifter have a place to go.\n§f§a\nTo complete this quest you need to craft:\n1 Sifting Table"
     }
   },
   "tasks:9": {

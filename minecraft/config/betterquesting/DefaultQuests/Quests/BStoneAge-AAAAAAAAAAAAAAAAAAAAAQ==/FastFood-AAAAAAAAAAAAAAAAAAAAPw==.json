@@ -33,26 +33,13 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "You will need some food while you are out looking for resources.  While you are out you will see Gregtech berry bushes.  Although the berries can be eaten by themselves, you don\u0027t get much nutriton from them.  If you use your 2x2 self crafting grid and put the berries equally split between 2 of the squares and put your trusty knife in one of the other squares, you will be able to make a fruit salad.  Not only is the fruit salad fill you up and add to you saturation, you will receive a speed and jump bonus.  These fruit salads will do for now until you can make better food.\n\n§cWarning:  Eating too many fruit salads will lead to a premature death from diabetes.  Eat your fruit salads in moderation to reduce you chances of dying.\n§a§f\n§aTo complete the quest:\nMake 4 fruit salads\n§b\nNote:  You will need to find 8 berries.  They can be the same or different"
+      "desc:8": "You will need some food while you are out looking for resources.  While you are out you will see Gregtech berry bushes.  If you have Pam\u0027s Harvestcraft installed (default Bears Den Pack) you can make additional food items.  Fox example the berries can be eaten by themselves, you don\u0027t get much nutrition from them.  With the Pam\u0027s recipe, you use your 2x2 self crafting grid and put the berries equally split between 2 of the squares and put your trusty knife in one of the other squares, you will be able to make a fruit salad.  Not only is the fruit salad fill you up and add to you saturation, you will receive a speed and jump bonus.  These fruit salads will do for now until you can make better food.\n\n§cWarning:  Eating too many fruit salads will lead to a premature death from diabetes.  Eat your fruit salads in moderation to reduce you chances of dying.\n§a§f\n§aTo complete the quest:\nClick the check box\n§b\nNote:  You can use any mix of Greg\u0027s berries.  They can be the same or different for the fruit salad recipe."
     }
   },
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
-      "autoConsume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
-      "index:3": 0,
-      "consume:1": 0,
-      "requiredItems:9": {
-        "0:10": {
-          "id:8": "harvestcraft:fruitsaladItem",
-          "Count:3": 4,
-          "Damage:2": 0,
-          "OreDict:8": "foodFruitsalad"
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
+      "index:3": 1,
+      "taskID:8": "bq_standard:checkbox"
     }
   },
   "rewards:9": {

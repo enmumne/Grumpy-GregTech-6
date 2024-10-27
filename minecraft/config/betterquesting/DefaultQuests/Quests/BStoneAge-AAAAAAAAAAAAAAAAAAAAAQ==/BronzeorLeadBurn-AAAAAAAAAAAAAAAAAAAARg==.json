@@ -29,7 +29,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "§eWarning:  This quest is for the old method to get to a crucible.  There is now a brick burning box that can get you to a crucible much quicker without wasting any of you metals.\n§f\nYou need a good burning box.  In earlier GT6 versions you would need to make a lead burning box but not any longer.  Even if you created a Brick Burning Box, you will need a better burning box.  Bronze is the best as it provides more heat units and 75% effeciency or the brick or lead burning boxes.  At this point the lead is not really worth it any longer.  So your task is to make a Bronze Burning Box.\n§a\nYou will need:\n12 Bricks\n1 Double copper plate\n4 Bronze plates.\n§b\nNote:  You will also need a wrench to make the burning box."
+      "desc:8": "§eWarning:  This quest is for the old method to get to a crucible.  There is now a brick burning box that can get you to a crucible much quicker without wasting any of you metals.\n§f\nYou need a good burning box.  In earlier GT6 versions you would need to make a lead burning box but not any longer.  Even if you created a Brick Burning Box, you will need a better burning box.  Bronze is the best as it provides more heat units (24HU/t) at 75% efficiency than the brick burning box (16HU/t) at 25% efficiency or the lead burning box (16HU/t)  at 50% efficiency.  At this point the lead is not really worth it any longer.  So your task is to make a Bronze Burning Box.\n§a\nYou will need:\n12 Bricks\n1 Double copper plate\n4 Bronze plates.\n§b\nNote:  You will also need a wrench to make the burning box."
     }
   },
   "tasks:9": {
