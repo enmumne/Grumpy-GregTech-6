@@ -1,0 +1,61 @@
+{
+  "General": {
+    "enableAutoRefill": true,
+    "refillDmgThreshold": 1,
+    "enableDropoff": true,
+    "dropoffRender": true,
+    "dropoffChatMessage": true,
+    "dropoffQuotaInMS": 1,
+    "dropoffPacketThrottleInMS": 500,
+    "dropoffButtonShow": true,
+    "dropoffButtonX": 159,
+    "dropoffButtonY": 7,
+    "enableHotbarSwap": true,
+    "sortSound": "minecraft:gui.button.press",
+    "buttonColor": "#ffffffff"
+  },
+  "ItemSortRules": [
+    {
+      "name": "mod",
+      "inverted": false
+    },
+    {
+      "name": "material",
+      "inverted": false
+    },
+    {
+      "name": "ore_prefix",
+      "inverted": false
+    },
+    {
+      "name": "id",
+      "inverted": false
+    },
+    {
+      "name": "meta",
+      "inverted": false
+    },
+    {
+      "name": "nbt_has",
+      "inverted": false
+    },
+    {
+      "name": "nbt_rules",
+      "inverted": false
+    }
+  ],
+  "NbtSortRules": [
+    {
+      "name": "potion",
+      "inverted": false
+    },
+    {
+      "name": "gt_circ_config",
+      "inverted": false
+    },
+    {
+      "name": "gt_item_damage",
+      "inverted": false
+    }
+  ]
+}
