@@ -4,8 +4,8 @@ Grumpy and experimental
 What it is: 
 + GregTech 6 on Java 23, based on Bear's default testing pack
 + all Thaumcraft and most of everything from GTNH
-+ performance mods: Angelica (early experiment) + Archaicfix + CoreTweaks
-+ HBM, Electrical Age, IHL and more cursed stuff
++ latest performance mods: Angelica + Archaicfix + CoreTweaks
++ unmodified HBM-Space, Electrical Age, IHL and more cursed stuff
  
 This is a straight copy of my test instance, it should import and run with PolyMC/Prism, doesn't work on MultiMC because it needs to load patches to run on Java 23.
 
