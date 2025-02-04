@@ -13,7 +13,7 @@ Since it's a copy of my own instance, you should redirect it to your local Java 
 I'm using Oracle official release (select "GraalVM for JDK 23" > "Windows"):  
 https://www.oracle.com/java/technologies/downloads/#graalvmjava23-windows 
 (direct link for windows) https://download.oracle.com/graalvm/23/latest/graalvm-jdk-23_windows-x64_bin.zip   
-Even if the link stays the same, the Java version gets updated every few months. Currently it's 23+37.1  
+Even if the link stays the same, the Java version gets updated every few months. Currently it's 23.0.2+7.1  
  
 I use the following custom flags, ZGC seems to only work better on newer Minecraft when using higher amounts of memory, for 1.7.10 I stick to these: 
  
