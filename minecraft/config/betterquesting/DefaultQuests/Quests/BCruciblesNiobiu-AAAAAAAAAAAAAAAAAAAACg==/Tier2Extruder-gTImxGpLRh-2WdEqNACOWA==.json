@@ -1,74 +1,75 @@
 {
-  "questIDHigh:4": -9137198068942551521,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": -8775160928383777357,
       "questIDLow:4": -6912373330315511906
     }
   },
-  "questIDLow:4": -5306980706688135592,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "visibility:8": "ALWAYS",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "If you are looking for an Extruder that can do all metals and alloys and not just the low heat ones, Greg has you covered.  Now that you have Tungsten Carbide, you can make a Tier 2 Extruder (Invar) that can shape higher temperature metals.  Make some Tungsten Carbide plates, add some invar parts (plates, gears, and long rods) and 1 diamond dust and then you can craft an Invar Extruder.\n§b\nNote: The Invar Extruder requires 64 HU/t to  HU/t.  The higher metals requires at least 96 HU/t.  Matching with a 128 HU/t burning box makes sense.  There are still some items you will need an Extruder above Tier 2 (i.e. Graphite Rods) but those are only a few of them.\n§a\nTo complete this quest craft:\n1 Extruder (Invar)",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "gregtech:gt.multitileentity",
         "Count:3": 1,
         "Damage:2": 20202,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.multitileentity"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Tier 2 Extruder",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "If you are looking for an Extruder that can do all metals and alloys and not just the low heat ones, Greg has you covered.  Now that you have Tungsten Carbide, you can make a Tier 2 Extruder (Invar) that can shape higher temperature metals.  Make some Tungsten Carbide plates, add some invar parts (plates, gears, and long rods) and 1 diamond dust and then you can craft an Invar Extruder.\n§b\nNote: The Invar Extruder requires 64 HU/t to  HU/t.  The higher metals requires at least 96 HU/t.  Matching with a 128 HU/t burning box makes sense.  There are still some items you will need an Extruder above Tier 2 (i.e. Graphite Rods) but those are only a few of them.\n§a\nTo complete this quest craft:\n1 Extruder (Invar)"
+      "lockedProgress:1": 0,
+      "name:8": "Tier 2 Extruder",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questIDHigh:4": -9137198068942551521,
+  "questIDLow:4": -5306980706688135592,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2005,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.food"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 2003,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.food"
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
     }
   },
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.multitileentity",
           "Count:3": 1,
           "Damage:2": 20202,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multitileentity"
         }
       },
       "taskID:8": "bq_standard:retrieval"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:choice",
-      "index:3": 0,
-      "choices:9": {
-        "0:10": {
-          "id:8": "gregtech:gt.multiitem.food",
-          "Count:3": 1,
-          "Damage:2": 2005,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "gregtech:gt.multiitem.food",
-          "Count:3": 1,
-          "Damage:2": 2003,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }

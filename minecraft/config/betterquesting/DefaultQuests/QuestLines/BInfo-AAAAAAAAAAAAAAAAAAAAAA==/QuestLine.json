@@ -1,24 +1,24 @@
 {
-  "questLineIDLow:4": 0,
-  "questLineIDHigh:4": 0,
   "properties:10": {
     "betterquesting:10": {
-      "visibility:8": "NORMAL",
-      "name:8": "[B] Info",
+      "bg_image:8": "",
+      "bg_size:3": 256,
+      "desc:8": "This quest book is to assist users in discovering Gregtech 6 by giving quests that help with prgression through Gregtech machines, tools and processing.  This book is not fully inclusive and some parts will need to be discovered by the user.",
       "icon:10": {
-        "id:8": "gregtech:gt.multiitem.books",
         "Count:3": 1,
+        "Damage:2": 32001,
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.multiitem.books",
         "tag:10": {
           "author:8": "GCC (Gregorius Chemical Consortium)",
           "book:8": "Manual_Elements",
           "title:8": "Book of Periods (97)"
-        },
-        "Damage:2": 32001,
-        "OreDict:8": ""
+        }
       },
-      "bg_image:8": "",
-      "bg_size:3": 256,
-      "desc:8": "This quest book is to assist users in discovering Gregtech 6 by giving quests that help with prgression through Gregtech machines, tools and processing.  This book is not fully inclusive and some parts will need to be discovered by the user."
+      "name:8": "[B] Info",
+      "visibility:8": "NORMAL"
     }
-  }
+  },
+  "questLineIDHigh:4": 0,
+  "questLineIDLow:4": 0
 }

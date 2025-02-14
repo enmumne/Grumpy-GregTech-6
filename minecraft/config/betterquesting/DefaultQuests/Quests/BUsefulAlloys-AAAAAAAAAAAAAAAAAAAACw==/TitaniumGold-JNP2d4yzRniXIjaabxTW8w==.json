@@ -1,74 +1,75 @@
 {
-  "questIDHigh:4": 2653735598773454456,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 2
     }
   },
-  "questIDLow:4": -7556417187857770765,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "visibility:8": "ALWAYS",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "Titanium Gold is a very useful alloy for making tools like wrenches and pick axes.  A Titanium-Gold wrench has 512,000 durability which is more than Ultamet.\n§6\nRecipe\n3 Titanium ingots/dusts + 1 Gold ingot/dust \u003d\u003e [Crucible 1790°K] \u003d\u003e 4 Titanium-Gold ingots/plates\n§a\nTo complete the quest make:\n4 Titanium-Gold Plates",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "gregtech:gt.meta.plate",
         "Count:3": 1,
         "Damage:2": 8654,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.meta.plate"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Titanium-Gold",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Titanium Gold is a very useful alloy for making tools like wrenches and pick axes.  A Titanium-Gold wrench has 512,000 durability which is more than Ultamet.\n§6\nRecipe\n3 Titanium ingots/dusts + 1 Gold ingot/dust \u003d\u003e [Crucible 1790°K] \u003d\u003e 4 Titanium-Gold ingots/plates\n§a\nTo complete the quest make:\n4 Titanium-Gold Plates"
+      "lockedProgress:1": 0,
+      "name:8": "Titanium-Gold",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questIDHigh:4": 2653735598773454456,
+  "questIDLow:4": -7556417187857770765,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2005,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.food"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 2003,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.food"
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
     }
   },
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.meta.plate",
           "Count:3": 1,
           "Damage:2": 8654,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.meta.plate"
         }
       },
       "taskID:8": "bq_standard:retrieval"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:choice",
-      "index:3": 0,
-      "choices:9": {
-        "0:10": {
-          "id:8": "gregtech:gt.multiitem.food",
-          "Count:3": 1,
-          "Damage:2": 2005,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "gregtech:gt.multiitem.food",
-          "Count:3": 1,
-          "Damage:2": 2003,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }

@@ -1,86 +1,87 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {},
-  "questIDLow:4": 131,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "minecraft:entity.player.levelup",
-      "taskLogic:8": "OR",
-      "visibility:8": "ALWAYS",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "Sulfur is really easy to get as it found in many sulfide ores.  Sulfur is the main componet in Sulfuric acid which is used in the processing of different ores and to make other acids.  Pure sulfur can be used to make torches or used a solid fuel.\n\nYou can complete the quest by either getting 1 dust, or 1 Gem of Sulfur in your inventory.",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "gregtech:gt.meta.dust",
         "Count:3": 1,
         "Damage:2": 160,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.meta.dust"
       },
-      "snd_update:8": "minecraft:entity.player.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "16 Sulfur [S]",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Sulfur is really easy to get as it found in many sulfide ores.  Sulfur is the main componet in Sulfuric acid which is used in the processing of different ores and to make other acids.  Pure sulfur can be used to make torches or used a solid fuel.\n\nYou can complete the quest by either getting 1 dust, or 1 Gem of Sulfur in your inventory."
+      "lockedProgress:1": 0,
+      "name:8": "16 Sulfur [S]",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "OR",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 131,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2005,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.food"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 2003,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.food"
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
     }
   },
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.meta.dust",
           "Count:3": 1,
           "Damage:2": 160,
-          "OreDict:8": "dustSulphur"
+          "OreDict:8": "dustSulphur",
+          "id:8": "gregtech:gt.meta.dust"
         }
       },
       "taskID:8": "bq_standard:retrieval"
     },
     "1:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 1,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.meta.gem",
           "Count:3": 1,
           "Damage:2": 160,
-          "OreDict:8": "gemSulfur"
+          "OreDict:8": "gemSulfur",
+          "id:8": "gregtech:gt.meta.gem"
         }
       },
       "taskID:8": "bq_standard:retrieval"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:choice",
-      "index:3": 0,
-      "choices:9": {
-        "0:10": {
-          "id:8": "gregtech:gt.multiitem.food",
-          "Count:3": 1,
-          "Damage:2": 2005,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "gregtech:gt.multiitem.food",
-          "Count:3": 1,
-          "Damage:2": 2003,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }

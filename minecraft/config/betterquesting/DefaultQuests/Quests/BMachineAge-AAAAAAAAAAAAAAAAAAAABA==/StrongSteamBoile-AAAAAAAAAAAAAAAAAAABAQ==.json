@@ -1,5 +1,4 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
@@ -10,190 +9,192 @@
       "questIDLow:4": 78
     }
   },
-  "questIDLow:4": 257,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "minecraft:entity.player.levelup",
-      "taskLogic:8": "OR",
-      "visibility:8": "ALWAYS",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "A Strong Boiler can put out significant more heat than a regular boiler.  It will also use more water and require more heat to do so.  The  main item you need is 5 Dense Bronze Plates.  The Bronze Strong Boiler is unique in early game as you can craft the Bronze Dense Plates two ways.  You can put 9 plates in a Compressor or you can Use an Extruder to make a Block of Bronze then use a Rolling Mill to make the Bronze Dense Plate.  For Steel Dense Boiler, you can only use the Compressor as you cannot make a Block of Steel in a Low Heat Extruder.  The matching Burning Box is not quite as hard to make as it only needs Quintuple (5x) plates.\n§b\nInformation:\nBronze Boiler takes 24 HU/t in and produces 48 Steam/t out\nStrong Bronze Boiler takes 96 HU/t in and produces 192 Steam/t out\nOne Dense boiler is the same as 4 regular boilers.\n§a\nTo complete this quest craft:\n1 Strong Boiler Bronze or Steel\n1 Dense Boiler Bronze or Steel (Solid, Liquid, or Gas)",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "gregtech:gt.multitileentity",
         "Count:3": 1,
         "Damage:2": 1252,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.multitileentity"
       },
-      "snd_update:8": "minecraft:entity.player.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "OR",
-      "repeat_relative:1": 1,
-      "name:8": "Strong Steam Boiler",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "A Strong Boiler can put out significant more heat than a regular boiler.  It will also use more water and require more heat to do so.  The  main item you need is 5 Dense Bronze Plates.  The Bronze Strong Boiler is unique in early game as you can craft the Bronze Dense Plates two ways.  You can put 9 plates in a Compressor or you can Use an Extruder to make a Block of Bronze then use a Rolling Mill to make the Bronze Dense Plate.  For Steel Dense Boiler, you can only use the Compressor as you cannot make a Block of Steel in a Low Heat Extruder.  The matching Burning Box is not quite as hard to make as it only needs Quintuple (5x) plates.\n§b\nInformation:\nBronze Boiler takes 24 HU/t in and produces 48 Steam/t out\nStrong Bronze Boiler takes 96 HU/t in and produces 192 Steam/t out\nOne Dense boiler is the same as 4 regular boilers.\n§a\nTo complete this quest craft:\n1 Strong Boiler Bronze or Steel\n1 Dense Boiler Bronze or Steel (Solid, Liquid, or Gas)"
+      "lockedProgress:1": 0,
+      "name:8": "Strong Steam Boiler",
+      "questLogic:8": "OR",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "OR",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 257,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2005,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.food"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 2003,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.food"
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
     }
   },
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.multitileentity",
           "Count:3": 1,
           "Damage:2": 1252,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multitileentity"
         },
         "1:10": {
-          "id:8": "gregtech:gt.multitileentity",
           "Count:3": 1,
           "Damage:2": 1152,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multitileentity"
         }
       },
       "taskID:8": "bq_standard:retrieval"
     },
     "1:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 1,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.multitileentity",
           "Count:3": 1,
           "Damage:2": 1252,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multitileentity"
         },
         "1:10": {
-          "id:8": "gregtech:gt.multitileentity",
           "Count:3": 1,
           "Damage:2": 1452,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multitileentity"
         }
       },
       "taskID:8": "bq_standard:retrieval"
     },
     "2:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 2,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.multitileentity",
           "Count:3": 1,
           "Damage:2": 1252,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multitileentity"
         },
         "1:10": {
-          "id:8": "gregtech:gt.multitileentity",
           "Count:3": 1,
           "Damage:2": 1652,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multitileentity"
         }
       },
       "taskID:8": "bq_standard:retrieval"
     },
     "3:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 3,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.multitileentity",
           "Count:3": 1,
           "Damage:2": 1254,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multitileentity"
         },
         "1:10": {
-          "id:8": "gregtech:gt.multitileentity",
           "Count:3": 1,
           "Damage:2": 1154,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multitileentity"
         }
       },
       "taskID:8": "bq_standard:retrieval"
     },
     "4:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 4,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.multitileentity",
           "Count:3": 1,
           "Damage:2": 1254,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multitileentity"
         },
         "1:10": {
-          "id:8": "gregtech:gt.multitileentity",
           "Count:3": 1,
           "Damage:2": 1454,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multitileentity"
         }
       },
       "taskID:8": "bq_standard:retrieval"
     },
     "5:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 5,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.multitileentity",
           "Count:3": 1,
           "Damage:2": 1254,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multitileentity"
         },
         "1:10": {
-          "id:8": "gregtech:gt.multitileentity",
           "Count:3": 1,
           "Damage:2": 1654,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multitileentity"
         }
       },
       "taskID:8": "bq_standard:retrieval"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:choice",
-      "index:3": 0,
-      "choices:9": {
-        "0:10": {
-          "id:8": "gregtech:gt.multiitem.food",
-          "Count:3": 1,
-          "Damage:2": 2005,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "gregtech:gt.multiitem.food",
-          "Count:3": 1,
-          "Damage:2": 2003,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }

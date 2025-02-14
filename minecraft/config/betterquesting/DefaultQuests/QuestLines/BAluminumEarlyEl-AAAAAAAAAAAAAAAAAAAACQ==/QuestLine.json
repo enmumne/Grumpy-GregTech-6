@@ -1,19 +1,19 @@
 {
-  "questLineIDLow:4": 9,
-  "questLineIDHigh:4": 0,
   "properties:10": {
     "betterquesting:10": {
-      "visibility:8": "NORMAL",
-      "name:8": "[B] Aluminum \u0026 Early Electric Age",
-      "icon:10": {
-        "id:8": "gregtech:gt.meta.ingot",
-        "Count:3": 1,
-        "Damage:2": 130,
-        "OreDict:8": ""
-      },
       "bg_image:8": "",
       "bg_size:3": 256,
-      "desc:8": "Now it time to get electrical.  We will start out with getting you to the point where you can add a LV magnetic separator and a LV electrolyzer. Once you get the electrolyzer you can start the process to get your first aluminium.\n\nAs of GT6 version 6.14.24, Aluminum processing no longer requires a smelter.  In addition aluminum is a requirement in the processing of Niobium and aluminum is required to get a MV Electrolyzer to process Tantalite.  So aluminum is now a requirement before tungsten.  Aluminum is also needed to make useful itemes including filters and Aluminum is also required to progress further into the electrical age."
+      "desc:8": "Now it time to get electrical.  We will start out with getting you to the point where you can add a LV magnetic separator and a LV electrolyzer. Once you get the electrolyzer you can start the process to get your first aluminium.\n\nAs of GT6 version 6.14.24, Aluminum processing no longer requires a smelter.  In addition aluminum is a requirement in the processing of Niobium and aluminum is required to get a MV Electrolyzer to process Tantalite.  So aluminum is now a requirement before tungsten.  Aluminum is also needed to make useful itemes including filters and Aluminum is also required to progress further into the electrical age.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 130,
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.meta.ingot"
+      },
+      "name:8": "[B] Aluminum and Early Electric Age",
+      "visibility:8": "NORMAL"
     }
-  }
+  },
+  "questLineIDHigh:4": 0,
+  "questLineIDLow:4": 9
 }

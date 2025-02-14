@@ -1,74 +1,75 @@
 {
-  "questIDHigh:4": 3236583536287828844,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 56
     }
   },
-  "questIDLow:4": -9111310951438987080,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "visibility:8": "ALWAYS",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "To get the titanium from the Titanium Tetrachloride tou only need a bath.  Just place 3 Magnesium dusts or 4 Sodium Dusts and you will get your Titanium and either Magnesium Chloride or Salt (Sodium Chloride).\n§6\nRecipe\n2 Magnesium Dusts + 5,000 L Titanium Tetrachloride \u003d\u003e [Bath 512 Ticks] \u003d\u003e 1 Titanium + 4 Magnesium Chloride Dusts\n4 Sodium Dusts + 5,000 L Titanium Tetrachloride \u003d\u003e [Bath 512 Ticks] \u003d\u003e 1 Titanium + 4 Salt Dusts\n§a\nTo complete the quest get:\n1 Titanium Dust",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "gregtech:gt.meta.dust",
         "Count:3": 1,
         "Damage:2": 220,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.meta.dust"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Titanium",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "To get the titanium from the Titanium Tetrachloride tou only need a bath.  Just place 3 Magnesium dusts or 4 Sodium Dusts and you will get your Titanium and either Magnesium Chloride or Salt (Sodium Chloride).\n§6\nRecipe\n2 Magnesium Dusts + 5,000 L Titanium Tetrachloride \u003d\u003e [Bath 512 Ticks] \u003d\u003e 1 Titanium + 4 Magnesium Chloride Dusts\n4 Sodium Dusts + 5,000 L Titanium Tetrachloride \u003d\u003e [Bath 512 Ticks] \u003d\u003e 1 Titanium + 4 Salt Dusts\n§a\nTo complete the quest get:\n1 Titanium Dust"
+      "lockedProgress:1": 0,
+      "name:8": "Titanium",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questIDHigh:4": 3236583536287828844,
+  "questIDLow:4": -9111310951438987080,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2005,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.food"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 2003,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.food"
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
     }
   },
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.meta.dust",
           "Count:3": 1,
           "Damage:2": 220,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.meta.dust"
         }
       },
       "taskID:8": "bq_standard:retrieval"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:choice",
-      "index:3": 0,
-      "choices:9": {
-        "0:10": {
-          "id:8": "gregtech:gt.multiitem.food",
-          "Count:3": 1,
-          "Damage:2": 2005,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "gregtech:gt.multiitem.food",
-          "Count:3": 1,
-          "Damage:2": 2003,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }

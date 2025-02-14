@@ -1,126 +1,127 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 298
     }
   },
-  "questIDLow:4": 296,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "minecraft:entity.player.levelup",
-      "taskLogic:8": "OR",
-      "visibility:8": "ALWAYS",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "You will need a Crystallisation Crucible with a noble gas and molten metal to make a boule.  You can use Redstone Alloy, Silicon, or Germanium.  You will need a tiny pile of dust as a seed and some molten version of the same material as the seed in order to make your Boule.\n§b\nTip:  You can make your molten metal in the crucible and transport it to the Crystallization Crucible using a measuring pot.  Just use a ceramic funnel on top to pour in the molten metal.  The easiest way is to use a smelter so hopefully you have upgraded your crucible to tungsten already.\n§a\nTo complete the quest craft:\n1 Crystallization Crucible\n1 Redstone Alloy or Germanium or Silicon Boule",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "gregtech:gt.multitileentity",
         "Count:3": 1,
         "Damage:2": 20251,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.multitileentity"
       },
-      "snd_update:8": "minecraft:entity.player.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Crystallisation Crucible",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "You will need a Crystallisation Crucible with a noble gas and molten metal to make a boule.  You can use Redstone Alloy, Silicon, or Germanium.  You will need a tiny pile of dust as a seed and some molten version of the same material as the seed in order to make your Boule.\n§b\nTip:  You can make your molten metal in the crucible and transport it to the Crystallization Crucible using a measuring pot.  Just use a ceramic funnel on top to pour in the molten metal.  The easiest way is to use a smelter so hopefully you have upgraded your crucible to tungsten already.\n§a\nTo complete the quest craft:\n1 Crystallization Crucible\n1 Redstone Alloy or Germanium or Silicon Boule"
+      "lockedProgress:1": 0,
+      "name:8": "Crystallisation Crucible",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "OR",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 296,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2005,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.food"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 2003,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.food"
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
     }
   },
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.multitileentity",
           "Count:3": 1,
           "Damage:2": 20251,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multitileentity"
         },
         "1:10": {
-          "id:8": "gregtech:gt.meta.boule",
           "Count:3": 1,
           "Damage:2": 8733,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.meta.boule"
         }
       },
       "taskID:8": "bq_standard:retrieval"
     },
     "1:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 1,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.multitileentity",
           "Count:3": 1,
           "Damage:2": 20251,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multitileentity"
         },
         "1:10": {
-          "id:8": "gregtech:gt.meta.boule",
           "Count:3": 1,
           "Damage:2": 320,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.meta.boule"
         }
       },
       "taskID:8": "bq_standard:retrieval"
     },
     "2:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 2,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.multitileentity",
           "Count:3": 1,
           "Damage:2": 20251,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multitileentity"
         },
         "1:10": {
-          "id:8": "gregtech:gt.meta.boule",
           "Count:3": 1,
           "Damage:2": 140,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.meta.boule"
         }
       },
       "taskID:8": "bq_standard:retrieval"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:choice",
-      "index:3": 0,
-      "choices:9": {
-        "0:10": {
-          "id:8": "gregtech:gt.multiitem.food",
-          "Count:3": 1,
-          "Damage:2": 2005,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "gregtech:gt.multiitem.food",
-          "Count:3": 1,
-          "Damage:2": 2003,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }

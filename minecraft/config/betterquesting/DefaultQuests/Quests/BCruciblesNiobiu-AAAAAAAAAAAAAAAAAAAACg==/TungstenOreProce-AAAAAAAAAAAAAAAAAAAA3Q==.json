@@ -1,5 +1,4 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
@@ -10,87 +9,89 @@
       "questIDLow:4": 219
     }
   },
-  "questIDLow:4": 221,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "minecraft:entity.player.levelup",
-      "taskLogic:8": "AND",
-      "visibility:8": "ALWAYS",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "Now it is time to set up the machines that you need to process your Tungsten bearing ores like Scheelite and wolfranite.\n\nFirst you need to set up a bath that will use your Hydrochloric Acid.  This will give you the much need Tungstic Acid Dusts that you need for further processing.  You will also get Magnesium Chloride or Calcium Cloride depending on the ore you choose to process.  We will deal with these at a later time.  Just stick them in a item barrel for now. \n§6\nBath Recipe:\n6 Tungsten Bearing Dust + 4000L Hydrochloric Acid \u003d\u003e [Bath] \u003d\u003e 3 [Mg/Li/Ca/Fe/Mn]Chloride Dust + 7 Tungstic Acid Dust\nNote:  Tungsten Bearing Dusts are:  Ferberite/Huebnerite/Scheelite/Wolframite\n§f\nNext you will need to set up a steel dryer to dry the Tungstic Acid Dusts.  You will get Tungsten Trioxide which you will send to the mixer for further processing and distilled water that you can recycle for your boilers.  You can choose the type of steel burning box depending on what fuels you ahve available.\n\nThe final step is to set up a mixer to mix Tungsten Trioxide with Hydrogen to give you your tungsten dusts and water.  You can recycle the water or send it to an Ender Garbage Bin.  The mixer only needs a single bronze burning box, bronze boiler and bronze turbine.\n§6\nMixer Recipe:\n4 Tungsten Trioxide + 6000L Hydrogen Gas \u003d\u003e Mixer 16RU/t] \u003d\u003e 1 Tungsten Dust + 9000L Water\n\n§a\nTo complete this quest assemble a processimg line for tungsten with:\n1 Bath\n1 Dryer\n1 Bronze Mixer\n7 Tungsten Dusts",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "gregtech:gt.meta.dust",
         "Count:3": 1,
         "Damage:2": 740,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.meta.dust"
       },
-      "snd_update:8": "minecraft:entity.player.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Tungsten Ore Processsing",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Now it is time to set up the machines that you need to process your Tungsten bearing ores like Scheelite and wolfranite.\n\nFirst you need to set up a bath that will use your Hydrochloric Acid.  This will give you the much need Tungstic Acid Dusts that you need for further processing.  You will also get Magnesium Chloride or Calcium Cloride depending on the ore you choose to process.  We will deal with these at a later time.  Just stick them in a item barrel for now. \n§6\nBath Recipe:\n6 Tungsten Bearing Dust + 4000L Hydrochloric Acid \u003d\u003e [Bath] \u003d\u003e 3 [Mg/Li/Ca/Fe/Mn]Chloride Dust + 7 Tungstic Acid Dust\nNote:  Tungsten Bearing Dusts are:  Ferberite/Huebnerite/Scheelite/Wolframite\n§f\nNext you will need to set up a steel dryer to dry the Tungstic Acid Dusts.  You will get Tungsten Trioxide which you will send to the mixer for further processing and distilled water that you can recycle for your boilers.  You can choose the type of steel burning box depending on what fuels you ahve available.\n\nThe final step is to set up a mixer to mix Tungsten Trioxide with Hydrogen to give you your tungsten dusts and water.  You can recycle the water or send it to an Ender Garbage Bin.  The mixer only needs a single bronze burning box, bronze boiler and bronze turbine.\n§6\nMixer Recipe:\n4 Tungsten Trioxide + 6000L Hydrogen Gas \u003d\u003e Mixer 16RU/t] \u003d\u003e 1 Tungsten Dust + 9000L Water\n\n§a\nTo complete this quest assemble a processimg line for tungsten with:\n1 Bath\n1 Dryer\n1 Bronze Mixer\n7 Tungsten Dusts"
+      "lockedProgress:1": 0,
+      "name:8": "Tungsten Ore Processsing",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 221,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2005,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.food"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 2003,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.food"
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
     }
   },
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.multitileentity",
           "Count:3": 1,
           "Damage:2": 22002,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multitileentity"
         },
         "1:10": {
-          "id:8": "gregtech:gt.multitileentity",
           "Count:3": 1,
           "Damage:2": 20311,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multitileentity"
         },
         "2:10": {
-          "id:8": "gregtech:gt.multitileentity",
           "Count:3": 1,
           "Damage:2": 20181,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multitileentity"
         },
         "3:10": {
-          "id:8": "gregtech:gt.meta.dust",
           "Count:3": 7,
           "Damage:2": 740,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.meta.dust"
         }
       },
       "taskID:8": "bq_standard:retrieval"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:choice",
-      "index:3": 0,
-      "choices:9": {
-        "0:10": {
-          "id:8": "gregtech:gt.multiitem.food",
-          "Count:3": 1,
-          "Damage:2": 2005,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "gregtech:gt.multiitem.food",
-          "Count:3": 1,
-          "Damage:2": 2003,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }

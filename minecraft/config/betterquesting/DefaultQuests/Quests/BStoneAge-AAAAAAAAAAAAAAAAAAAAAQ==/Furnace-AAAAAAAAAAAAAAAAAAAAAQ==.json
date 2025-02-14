@@ -1,165 +1,166 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 9
     }
   },
-  "questIDLow:4": 1,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "minecraft:entity.player.levelup",
-      "taskLogic:8": "OR",
-      "visibility:8": "ALWAYS",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "Let\u0027s get a furnace.\n§4§rTo make one you need a fire starter.\n§e\n§c§eCareful: If you have found a lighter or similar in a dungeon, that also works, but will use up the whole item, so that might be a waste!.\n\n§k§rFor the fire starter we need some dry grass, so make a knife and right click grass to collect some fresh grass.  Craft the grass into a 3x3 to make grass bales and place them in the sun to let them dry (be sure they are somewhere dry and not right next to a lake or out in the rain, otherwise they will get moldy)\nWhen the bales are dry you can collect them and then craft them back into 9 dry grass and make your fire starter.  You use 2 sticks and 1 dry grass to make a fire starter.  You might want to make multiple since we need more later anyway.\n§b\nNote: You may have noticed dead logs either laying on the ground or still standing around the landscape.  If you right click these with an axe, you will receive dry bark.  You can combine 2 sticks and the dried bark to create a fire starter.  Be aware that fire starters do not stack so be careful filling your inventory with these. \n§f§b\nNote 2: Your furnace can only melt a few ores like copper, tin/cassiterite, lead and bronze. For higher tier metals you need a crucible.  The furnace can still make glass from sand.\n§a\nMake the following:\n1 Flint Knife\n1 Bale of Grass\n1 Bale of Dried Grass\n1 Fire Starter made from dry grass or dry bark\n1 Furnace\n§e\nRemember you can see the other options to complete the quest by clicking the right arrow in the lower right of the pane to the right,",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "minecraft:furnace",
         "Count:3": 1,
         "Damage:2": 0,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "minecraft:furnace"
       },
-      "snd_update:8": "minecraft:entity.player.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Furnace",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Let\u0027s get a furnace.\n§4§rTo make one you need a fire starter.\n§e\n§c§eCareful: If you have found a lighter or similar in a dungeon, that also works, but will use up the whole item, so that might be a waste!.\n\n§k§rFor the fire starter we need some dry grass, so make a knife and right click grass to collect some fresh grass.  Craft the grass into a 3x3 to make grass bales and place them in the sun to let them dry (be sure they are somewhere dry and not right next to a lake or out in the rain, otherwise they will get moldy)\nWhen the bales are dry you can collect them and then craft them back into 9 dry grass and make your fire starter.  You use 2 sticks and 1 dry grass to make a fire starter.  You might want to make multiple since we need more later anyway.\n§b\nNote: You may have noticed dead logs either laying on the ground or still standing around the landscape.  If you right click these with an axe, you will receive dry bark.  You can combine 2 sticks and the dried bark to create a fire starter.  Be aware that fire starters do not stack so be careful filling your inventory with these. \n§f§b\nNote 2: Your furnace can only melt a few ores like copper, tin/cassiterite, lead and bronze. For higher tier metals you need a crucible.  The furnace can still make glass from sand.\n§a\nMake the following:\n1 Flint Knife\n1 Bale of Grass\n1 Bale of Dried Grass\n1 Fire Starter made from dry grass or dry bark\n1 Furnace\n§e\nRemember you can see the other options to complete the quest by clicking the right arrow in the lower right of the pane to the right,"
+      "lockedProgress:1": 0,
+      "name:8": "Furnace",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "OR",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 1,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2005,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.food"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 2003,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.food"
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
     }
   },
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 0,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.metatool.01",
           "Count:3": 1,
+          "Damage:2": 34,
+          "OreDict:8": "craftingToolKnife",
+          "id:8": "gregtech:gt.metatool.01",
           "tag:10": {
-            "ench:9": {
-              "0:10": {
-                "lvl:2": 1,
-                "id:2": 20
-              }
-            },
             "GT.ToolStats:10": {
               "a:2": 8002,
               "d:8": "AnyWood",
               "j:2": 4800
+            },
+            "ench:9": {
+              "0:10": {
+                "id:2": 20,
+                "lvl:2": 1
+              }
             }
-          },
-          "Damage:2": 34,
-          "OreDict:8": "craftingToolKnife"
+          }
         },
         "1:10": {
-          "id:8": "gregtech:gt.block.bale.grass",
           "Count:3": 1,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.block.bale.grass"
         },
         "2:10": {
-          "id:8": "gregtech:gt.block.bale.grass",
           "Count:3": 1,
           "Damage:2": 1,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.block.bale.grass"
         },
         "3:10": {
-          "id:8": "gregtech:gt.multiitem.randomtools",
           "Count:3": 1,
           "Damage:2": 5014,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.randomtools"
         },
         "4:10": {
-          "id:8": "minecraft:furnace",
           "Count:3": 1,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "minecraft:furnace"
         }
       },
       "taskID:8": "bq_standard:retrieval"
     },
     "1:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 1,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.metatool.01",
           "Count:3": 1,
+          "Damage:2": 34,
+          "OreDict:8": "craftingToolKnife",
+          "id:8": "gregtech:gt.metatool.01",
           "tag:10": {
-            "ench:9": {
-              "0:10": {
-                "lvl:2": 1,
-                "id:2": 20
-              }
-            },
             "GT.ToolStats:10": {
               "a:2": 8002,
               "d:8": "AnyWood",
               "j:2": 4800
+            },
+            "ench:9": {
+              "0:10": {
+                "id:2": 20,
+                "lvl:2": 1
+              }
             }
-          },
-          "Damage:2": 34,
-          "OreDict:8": "craftingToolKnife"
+          }
         },
         "1:10": {
-          "id:8": "gregtech:gt.block.bale.grass",
           "Count:3": 1,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.block.bale.grass"
         },
         "2:10": {
-          "id:8": "gregtech:gt.block.bale.grass",
           "Count:3": 1,
           "Damage:2": 1,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.block.bale.grass"
         },
         "3:10": {
-          "id:8": "gregtech:gt.multiitem.randomtools",
           "Count:3": 1,
           "Damage:2": 5015,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.randomtools"
         },
         "4:10": {
-          "id:8": "minecraft:furnace",
           "Count:3": 1,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "minecraft:furnace"
         }
       },
       "taskID:8": "bq_standard:retrieval"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:choice",
-      "index:3": 0,
-      "choices:9": {
-        "0:10": {
-          "id:8": "gregtech:gt.multiitem.food",
-          "Count:3": 1,
-          "Damage:2": 2005,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "gregtech:gt.multiitem.food",
-          "Count:3": 1,
-          "Damage:2": 2003,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }

@@ -1,5 +1,4 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
@@ -10,334 +9,336 @@
       "questIDLow:4": 2
     }
   },
-  "questIDLow:4": 38,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "minecraft:entity.player.levelup",
-      "taskLogic:8": "OR",
-      "visibility:8": "ALWAYS",
-      "isMain:1": 1,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "We are starting to work with acids, so we need some material that is acid proof.\nLets make stainless steel.\nI recommend you make an automated system from some hoppers, a bit of redstone and a dedicated crucible. It will be worth it, because we will need A LOT OF IT.\n\n\nStainless steel is an alloy of 6 iron, 1 nickel, 1 chromium and 1 manganese.  Current versions of GT6 no longer need invar so you can use the iron and nickel directly.  For now lets make our first stainless steel in our crucible.  You should have get your chromium and manganese from byproducts of your ore processing.  By now you should have plenty of iron.  The nickel you can get from Garnierite or pendlandite.  You can centrifuge sluice juice for nickel and chromium.  Finally you will need some pyrolusite to get the manganese.\n§a\nTo complete the Quest Gather:\n6 Iron or Wrought Iron Ingots, or plates\n1 Nickel dust, ingot, or plate\n1 Chromium dust, ingot or plate\n1 Manganese ingot, or plate\n\nAnd Pour:\n6 stainless steel plates\n2 stainless steel long rods.\n§b\nNote: You can pour the rest as what every you want but I would suggest some bolts.\n",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "gregtech:gt.meta.ingot",
         "Count:3": 1,
         "Damage:2": 8636,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.meta.ingot"
       },
-      "snd_update:8": "minecraft:entity.player.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Stainless Steel",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 1,
       "isSilent:1": 0,
-      "desc:8": "We are starting to work with acids, so we need some material that is acid proof.\nLets make stainless steel.\nI recommend you make an automated system from some hoppers, a bit of redstone and a dedicated crucible. It will be worth it, because we will need A LOT OF IT.\n\n\nStainless steel is an alloy of 6 iron, 1 nickel, 1 chromium and 1 manganese.  Current versions of GT6 no longer need invar so you can use the iron and nickel directly.  For now lets make our first stainless steel in our crucible.  You should have get your chromium and manganese from byproducts of your ore processing.  By now you should have plenty of iron.  The nickel you can get from Garnierite or pendlandite.  You can centrifuge sluice juice for nickel and chromium.  Finally you will need some pyrolusite to get the manganese.\n§a\nTo complete the Quest Gather:\n6 Iron or Wrought Iron Ingots, or plates\n1 Nickel dust, ingot, or plate\n1 Chromium dust, ingot or plate\n1 Manganese ingot, or plate\n\nAnd Pour:\n6 stainless steel plates\n2 stainless steel long rods.\n§b\nNote: You can pour the rest as what every you want but I would suggest some bolts.\n"
+      "lockedProgress:1": 0,
+      "name:8": "Stainless Steel",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "OR",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 38,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2005,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.food"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 2003,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.food"
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
     }
   },
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "minecraft:iron_ingot",
           "Count:3": 6,
           "Damage:2": 0,
-          "OreDict:8": "ingotAnyIron"
+          "OreDict:8": "ingotAnyIron",
+          "id:8": "minecraft:iron_ingot"
         },
         "1:10": {
-          "id:8": "gregtech:gt.meta.ingot",
           "Count:3": 1,
           "Damage:2": 280,
-          "OreDict:8": "ingotNickel"
+          "OreDict:8": "ingotNickel",
+          "id:8": "gregtech:gt.meta.ingot"
         },
         "2:10": {
-          "id:8": "gregtech:gt.meta.ingot",
           "Count:3": 1,
           "Damage:2": 240,
-          "OreDict:8": "ingotChromium"
+          "OreDict:8": "ingotChromium",
+          "id:8": "gregtech:gt.meta.ingot"
         },
         "3:10": {
-          "id:8": "gregtech:gt.meta.ingot",
           "Count:3": 1,
           "Damage:2": 250,
-          "OreDict:8": "ingotManganese"
+          "OreDict:8": "ingotManganese",
+          "id:8": "gregtech:gt.meta.ingot"
         },
         "4:10": {
-          "id:8": "gregtech:gt.meta.plate",
           "Count:3": 6,
           "Damage:2": 8636,
-          "OreDict:8": "plateStainlessSteel"
+          "OreDict:8": "plateStainlessSteel",
+          "id:8": "gregtech:gt.meta.plate"
         },
         "5:10": {
-          "id:8": "gregtech:gt.meta.stickLong",
           "Count:3": 2,
           "Damage:2": 8636,
-          "OreDict:8": "stickLongStainlessSteel"
+          "OreDict:8": "stickLongStainlessSteel",
+          "id:8": "gregtech:gt.meta.stickLong"
         }
       },
       "taskID:8": "bq_standard:retrieval"
     },
     "1:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 1,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "minecraft:iron_ingot",
           "Count:3": 6,
           "Damage:2": 0,
-          "OreDict:8": "ingotAnyIron"
+          "OreDict:8": "ingotAnyIron",
+          "id:8": "minecraft:iron_ingot"
         },
         "1:10": {
-          "id:8": "gregtech:gt.meta.ingot",
           "Count:3": 1,
           "Damage:2": 280,
-          "OreDict:8": "ingotNickel"
+          "OreDict:8": "ingotNickel",
+          "id:8": "gregtech:gt.meta.ingot"
         },
         "2:10": {
-          "id:8": "gregtech:gt.meta.dust",
           "Count:3": 1,
           "Damage:2": 240,
-          "OreDict:8": "dustChromium"
+          "OreDict:8": "dustChromium",
+          "id:8": "gregtech:gt.meta.dust"
         },
         "3:10": {
-          "id:8": "gregtech:gt.meta.ingot",
           "Count:3": 1,
           "Damage:2": 250,
-          "OreDict:8": "ingotManganese"
+          "OreDict:8": "ingotManganese",
+          "id:8": "gregtech:gt.meta.ingot"
         },
         "4:10": {
-          "id:8": "gregtech:gt.meta.plate",
           "Count:3": 6,
           "Damage:2": 8636,
-          "OreDict:8": "plateStainlessSteel"
+          "OreDict:8": "plateStainlessSteel",
+          "id:8": "gregtech:gt.meta.plate"
         },
         "5:10": {
-          "id:8": "gregtech:gt.meta.stickLong",
           "Count:3": 2,
           "Damage:2": 8636,
-          "OreDict:8": "stickLongStainlessSteel"
+          "OreDict:8": "stickLongStainlessSteel",
+          "id:8": "gregtech:gt.meta.stickLong"
         }
       },
       "taskID:8": "bq_standard:retrieval"
     },
     "2:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 2,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "minecraft:iron_ingot",
           "Count:3": 6,
           "Damage:2": 0,
-          "OreDict:8": "ingotAnyIron"
+          "OreDict:8": "ingotAnyIron",
+          "id:8": "minecraft:iron_ingot"
         },
         "1:10": {
-          "id:8": "gregtech:gt.meta.dust",
           "Count:3": 1,
           "Damage:2": 280,
-          "OreDict:8": "dustNickel"
+          "OreDict:8": "dustNickel",
+          "id:8": "gregtech:gt.meta.dust"
         },
         "2:10": {
-          "id:8": "gregtech:gt.meta.dust",
           "Count:3": 1,
           "Damage:2": 240,
-          "OreDict:8": "dustChrome"
+          "OreDict:8": "dustChrome",
+          "id:8": "gregtech:gt.meta.dust"
         },
         "3:10": {
-          "id:8": "gregtech:gt.meta.ingot",
           "Count:3": 1,
           "Damage:2": 250,
-          "OreDict:8": "ingotManganese"
+          "OreDict:8": "ingotManganese",
+          "id:8": "gregtech:gt.meta.ingot"
         },
         "4:10": {
-          "id:8": "gregtech:gt.meta.plate",
           "Count:3": 6,
           "Damage:2": 8636,
-          "OreDict:8": "plateStainlessSteel"
+          "OreDict:8": "plateStainlessSteel",
+          "id:8": "gregtech:gt.meta.plate"
         },
         "5:10": {
-          "id:8": "gregtech:gt.meta.stickLong",
           "Count:3": 2,
           "Damage:2": 8636,
-          "OreDict:8": "stickLongStainlessSteel"
+          "OreDict:8": "stickLongStainlessSteel",
+          "id:8": "gregtech:gt.meta.stickLong"
         }
       },
       "taskID:8": "bq_standard:retrieval"
     },
     "3:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 3,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "Railcraft:part.plate",
           "Count:3": 6,
           "Damage:2": 0,
-          "OreDict:8": "plateAnyIron"
+          "OreDict:8": "plateAnyIron",
+          "id:8": "Railcraft:part.plate"
         },
         "1:10": {
-          "id:8": "gregtech:gt.meta.plate",
           "Count:3": 1,
           "Damage:2": 280,
-          "OreDict:8": "plateNickel"
+          "OreDict:8": "plateNickel",
+          "id:8": "gregtech:gt.meta.plate"
         },
         "2:10": {
-          "id:8": "gregtech:gt.meta.plate",
           "Count:3": 1,
           "Damage:2": 240,
-          "OreDict:8": "plateChromium"
+          "OreDict:8": "plateChromium",
+          "id:8": "gregtech:gt.meta.plate"
         },
         "3:10": {
-          "id:8": "gregtech:gt.meta.plate",
           "Count:3": 1,
           "Damage:2": 250,
-          "OreDict:8": "plateManganese"
+          "OreDict:8": "plateManganese",
+          "id:8": "gregtech:gt.meta.plate"
         },
         "4:10": {
-          "id:8": "gregtech:gt.meta.plate",
           "Count:3": 6,
           "Damage:2": 8636,
-          "OreDict:8": "plateStainlessSteel"
+          "OreDict:8": "plateStainlessSteel",
+          "id:8": "gregtech:gt.meta.plate"
         },
         "5:10": {
-          "id:8": "gregtech:gt.meta.stickLong",
           "Count:3": 2,
           "Damage:2": 8636,
-          "OreDict:8": "stickLongStainlessSteel"
+          "OreDict:8": "stickLongStainlessSteel",
+          "id:8": "gregtech:gt.meta.stickLong"
         }
       },
       "taskID:8": "bq_standard:retrieval"
     },
     "4:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 4,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "Railcraft:part.plate",
           "Count:3": 6,
           "Damage:2": 0,
-          "OreDict:8": "plateAnyIron"
+          "OreDict:8": "plateAnyIron",
+          "id:8": "Railcraft:part.plate"
         },
         "1:10": {
-          "id:8": "gregtech:gt.meta.plate",
           "Count:3": 1,
           "Damage:2": 280,
-          "OreDict:8": "plateNickel"
+          "OreDict:8": "plateNickel",
+          "id:8": "gregtech:gt.meta.plate"
         },
         "2:10": {
-          "id:8": "gregtech:gt.meta.dust",
           "Count:3": 1,
           "Damage:2": 240,
-          "OreDict:8": "dustChrome"
+          "OreDict:8": "dustChrome",
+          "id:8": "gregtech:gt.meta.dust"
         },
         "3:10": {
-          "id:8": "gregtech:gt.meta.plate",
           "Count:3": 1,
           "Damage:2": 250,
-          "OreDict:8": "plateManganese"
+          "OreDict:8": "plateManganese",
+          "id:8": "gregtech:gt.meta.plate"
         },
         "4:10": {
-          "id:8": "gregtech:gt.meta.plate",
           "Count:3": 6,
           "Damage:2": 8636,
-          "OreDict:8": "plateStainlessSteel"
+          "OreDict:8": "plateStainlessSteel",
+          "id:8": "gregtech:gt.meta.plate"
         },
         "5:10": {
-          "id:8": "gregtech:gt.meta.stickLong",
           "Count:3": 2,
           "Damage:2": 8636,
-          "OreDict:8": "stickLongStainlessSteel"
+          "OreDict:8": "stickLongStainlessSteel",
+          "id:8": "gregtech:gt.meta.stickLong"
         }
       },
       "taskID:8": "bq_standard:retrieval"
     },
     "5:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 5,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "Railcraft:part.plate",
           "Count:3": 6,
           "Damage:2": 0,
-          "OreDict:8": "plateAnyIron"
+          "OreDict:8": "plateAnyIron",
+          "id:8": "Railcraft:part.plate"
         },
         "1:10": {
-          "id:8": "gregtech:gt.meta.dust",
           "Count:3": 1,
           "Damage:2": 280,
-          "OreDict:8": "dustNickel"
+          "OreDict:8": "dustNickel",
+          "id:8": "gregtech:gt.meta.dust"
         },
         "2:10": {
-          "id:8": "gregtech:gt.meta.dust",
           "Count:3": 1,
           "Damage:2": 240,
-          "OreDict:8": "dustChrome"
+          "OreDict:8": "dustChrome",
+          "id:8": "gregtech:gt.meta.dust"
         },
         "3:10": {
-          "id:8": "gregtech:gt.meta.plate",
           "Count:3": 1,
           "Damage:2": 250,
-          "OreDict:8": "plateManganese"
+          "OreDict:8": "plateManganese",
+          "id:8": "gregtech:gt.meta.plate"
         },
         "4:10": {
-          "id:8": "gregtech:gt.meta.plate",
           "Count:3": 6,
           "Damage:2": 8636,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.meta.plate"
         },
         "5:10": {
-          "id:8": "gregtech:gt.meta.stickLong",
           "Count:3": 2,
           "Damage:2": 8636,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.meta.stickLong"
         }
       },
       "taskID:8": "bq_standard:retrieval"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:choice",
-      "index:3": 0,
-      "choices:9": {
-        "0:10": {
-          "id:8": "gregtech:gt.multiitem.food",
-          "Count:3": 1,
-          "Damage:2": 2005,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "gregtech:gt.multiitem.food",
-          "Count:3": 1,
-          "Damage:2": 2003,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }

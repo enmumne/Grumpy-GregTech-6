@@ -1,0 +1,75 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 301
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "Greg has a cover that automatically starts and stops a machine.  You can right-click the front of the machine to put this cover on.  This cover is good for your machines that are connected directly to an adjacent generator such as the part making machines like the wiremill, roll bender, buzz saw, and for mixers and other such machines.\n\nTo craft one you need a Blank Cover, a Tier 1 Circuit a Tin Cable and a Lever\n§a\nTo ocmplete this quest craft:\n1 Automatic Machine Switch",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1003,
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.multiitem.technological"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Automatic Machine Switch",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questIDHigh:4": 6947288761095179424,
+  "questIDLow:4": -6061336677900519507,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2005,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.food"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 2003,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.food"
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1003,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.technological"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

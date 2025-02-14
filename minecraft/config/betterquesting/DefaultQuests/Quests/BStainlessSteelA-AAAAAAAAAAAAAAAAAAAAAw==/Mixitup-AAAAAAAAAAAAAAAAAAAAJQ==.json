@@ -1,109 +1,110 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 38
     }
   },
-  "questIDLow:4": 37,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "minecraft:entity.player.levelup",
-      "taskLogic:8": "OR",
-      "visibility:8": "ALWAYS",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "We have to start mixing acids and not only fluid acids but also gaseous acids, which means our old stone age hand mixing bowl isn\u0027t doing us any good.  We will need some mixers to make our acids so for now lets make 3 of them.\n\nTo get everything to work you will also need 3 Bronze Turbines. 3 Bronze Boilers, and 3 Bronze Burning Boxes.  The bronze burning boxes will be up to you if you want solid, liquid, or gas burning boxes.  The nice thing is you will only need 1 burning box, boiler, and turbine for each mixer so you can make some compact builds.  You will be using the items built here in the next couple of quests.\n\nAlternately you can use a Diesel Engines in place for a burning box, boiler, and turbine.  The only issue is you will need to make some ethanol and manually shut off the Diesel Engine by disconnecting pipes until you get Aluminum to make machine controllers.\n§a\nTo complete this quest craft:\n3 Bronze Boilers\n3 Bronze Turbines\n3 Bronze Mixers\n\n-OR -\n3 Bronze Mixers\n3 Bronze Diesel Engines",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "gregtech:gt.multitileentity",
         "Count:3": 1,
         "Damage:2": 20181,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.multitileentity"
       },
-      "snd_update:8": "minecraft:entity.player.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Mix it up!",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "We have to start mixing acids and not only fluid acids but also gaseous acids, which means our old stone age hand mixing bowl isn\u0027t doing us any good.  We will need some mixers to make our acids so for now lets make 3 of them.\n\nTo get everything to work you will also need 3 Bronze Turbines. 3 Bronze Boilers, and 3 Bronze Burning Boxes.  The bronze burning boxes will be up to you if you want solid, liquid, or gas burning boxes.  The nice thing is you will only need 1 burning box, boiler, and turbine for each mixer so you can make some compact builds.  You will be using the items built here in the next couple of quests.\n\nAlternately you can use a Diesel Engines in place for a burning box, boiler, and turbine.  The only issue is you will need to make some ethanol and manually shut off the Diesel Engine by disconnecting pipes until you get Aluminum to make machine controllers.\n§a\nTo complete this quest craft:\n3 Bronze Boilers\n3 Bronze Turbines\n3 Bronze Mixers\n\n-OR -\n3 Bronze Mixers\n3 Bronze Diesel Engines"
+      "lockedProgress:1": 0,
+      "name:8": "Mix it up!",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "OR",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 37,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2005,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.food"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 2003,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.food"
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
     }
   },
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.multitileentity",
           "Count:3": 3,
           "Damage:2": 20181,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multitileentity"
         },
         "1:10": {
-          "id:8": "gregtech:gt.multitileentity",
           "Count:3": 3,
           "Damage:2": 1512,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multitileentity"
         },
         "2:10": {
-          "id:8": "gregtech:gt.multitileentity",
           "Count:3": 3,
           "Damage:2": 1202,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multitileentity"
         }
       },
       "taskID:8": "bq_standard:retrieval"
     },
     "1:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 1,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.multitileentity",
           "Count:3": 3,
           "Damage:2": 20181,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multitileentity"
         },
         "1:10": {
-          "id:8": "gregtech:gt.multitileentity",
           "Count:3": 3,
           "Damage:2": 9147,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multitileentity"
         }
       },
       "taskID:8": "bq_standard:retrieval"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:choice",
-      "index:3": 0,
-      "choices:9": {
-        "0:10": {
-          "id:8": "gregtech:gt.multiitem.food",
-          "Count:3": 1,
-          "Damage:2": 2005,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "gregtech:gt.multiitem.food",
-          "Count:3": 1,
-          "Damage:2": 2003,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }

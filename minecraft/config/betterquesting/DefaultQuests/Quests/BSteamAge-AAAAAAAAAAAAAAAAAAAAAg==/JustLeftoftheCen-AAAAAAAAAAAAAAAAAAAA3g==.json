@@ -1,91 +1,92 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 22
     }
   },
-  "questIDLow:4": 222,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "minecraft:entity.player.levelup",
-      "taskLogic:8": "OR",
-      "visibility:8": "ALWAYS",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "The centrifuge is a very useful machine.  It can be used to separate some complex dusts into individual element dusts.  It can also centrifuge all of that sluice juice that the sluice has been making washing your ores.  The centrifuge will give you a chance of a tiny copper, chrome, antimony, zinc, and tin for a small amount of sluice juice.  You will end up with quite a bit of tiny stone dust.  In the newer versions of GT6 9 stone dusts actually creates gravel in stead of stone dust blocks.  The gravel can be sifted to get some useful items like flint, clay, sand, and milky quartz.\n\nSome early game centrifuge recipes only need 1 bronze boiler and turbine as they only require 16RU/t.  For sluice juice though, you will need 64 RU/t.  64RU/t will require 192 steam/t which means you will need a steel or invar turbine.  64RU/t is at the very top of the invar turbine so if you want to get a little more speed out of it, you will need a steel turbine and then you can provide some additional steam.  So the minimum of 192 steam/t you will need either 4 bronze boilers, 3 steel boilers, or 1 dense bronze boiler.  For the early game, your choices are either the 4 bronze or 3 steel boilers until you make a compressor to make dense boilers.  All of this information are in the NEI tool tips.  You just need to do the math.\n§e\nWarning: Also make sure you have a large enough pipe bandwidth to carry the steam since the small copper and small bronze pipes are insufficient for this amount of steam.  If you can\u0027t pass the stream, you run a chance of over pressurizing the boilers to the point that they can explode and take your machines and part of you factory with it.\n§b\nNote:  You can use a bronze centrifuge to process the sluice juice but you will need an invar turbine and 3 steel burning boxes and boilers to do so.  Since the recipe to process sluice juice is on the edge of both the bronze and steel centrifuges, you can use a steel centrifuge and increase the speed of the steel turbine without an energy penalty.\n§f§a\nTo complete this quest craft:\n1 Bronze or Steel Centrifuge",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "gregtech:gt.multitileentity",
         "Count:3": 1,
         "Damage:2": 20081,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.multitileentity"
       },
-      "snd_update:8": "minecraft:entity.player.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Just Left of the Centrifuge",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "The centrifuge is a very useful machine.  It can be used to separate some complex dusts into individual element dusts.  It can also centrifuge all of that sluice juice that the sluice has been making washing your ores.  The centrifuge will give you a chance of a tiny copper, chrome, antimony, zinc, and tin for a small amount of sluice juice.  You will end up with quite a bit of tiny stone dust.  In the newer versions of GT6 9 stone dusts actually creates gravel in stead of stone dust blocks.  The gravel can be sifted to get some useful items like flint, clay, sand, and milky quartz.\n\nSome early game centrifuge recipes only need 1 bronze boiler and turbine as they only require 16RU/t.  For sluice juice though, you will need 64 RU/t.  64RU/t will require 192 steam/t which means you will need a steel or invar turbine.  64RU/t is at the very top of the invar turbine so if you want to get a little more speed out of it, you will need a steel turbine and then you can provide some additional steam.  So the minimum of 192 steam/t you will need either 4 bronze boilers, 3 steel boilers, or 1 dense bronze boiler.  For the early game, your choices are either the 4 bronze or 3 steel boilers until you make a compressor to make dense boilers.  All of this information are in the NEI tool tips.  You just need to do the math.\n§e\nWarning: Also make sure you have a large enough pipe bandwidth to carry the steam since the small copper and small bronze pipes are insufficient for this amount of steam.  If you can\u0027t pass the stream, you run a chance of over pressurizing the boilers to the point that they can explode and take your machines and part of you factory with it.\n§b\nNote:  You can use a bronze centrifuge to process the sluice juice but you will need an invar turbine and 3 steel burning boxes and boilers to do so.  Since the recipe to process sluice juice is on the edge of both the bronze and steel centrifuges, you can use a steel centrifuge and increase the speed of the steel turbine without an energy penalty.\n§f§a\nTo complete this quest craft:\n1 Bronze or Steel Centrifuge"
+      "lockedProgress:1": 0,
+      "name:8": "Just Left of the Centrifuge",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "OR",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 222,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2005,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.food"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 2003,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.food"
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
     }
   },
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.multitileentity",
           "Count:3": 1,
           "Damage:2": 20081,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multitileentity"
         }
       },
       "taskID:8": "bq_standard:retrieval"
     },
     "1:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 1,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.multitileentity",
           "Count:3": 1,
           "Damage:2": 20082,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multitileentity"
         }
       },
       "taskID:8": "bq_standard:retrieval"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:choice",
-      "index:3": 0,
-      "choices:9": {
-        "0:10": {
-          "id:8": "gregtech:gt.multiitem.food",
-          "Count:3": 1,
-          "Damage:2": 2005,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "gregtech:gt.multiitem.food",
-          "Count:3": 1,
-          "Damage:2": 2003,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }

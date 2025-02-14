@@ -1,37 +1,37 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {},
-  "questIDLow:4": 60,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "minecraft:entity.player.levelup",
-      "taskLogic:8": "AND",
-      "visibility:8": "ALWAYS",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "Gregtech has many items and many of them you need again and again. To make it easier to find the recipes here are some tips on NEI usage in Gregtech:\n\n- You can press \u0027R\u0027 to see the recipes for how you get that item or \u0027U\u0027 to find an usage for that item.  Just make sure you don\u0027t have the active cursor active in the search bar or else those letters will appear as you searching for something.\n\n- Greg has many machines that possibly can use a specific item so check to tee if there may be additional pages of more machines that can use that item.\n\n- You can press \u0027a\u0027 while hovering over an item in NEI to add it to your favorite list on the left side, press it again while hovering on the same item, to remove it again.\n\n- A nice way to not loose track of what you are currently progression towards is to favorite the items you work on.\n\n- Pressing F3 + H keys will give additional information in the tool tip.  This extra information includes melting temperatures, and materials contained in the item.\n\n- Greg also has a \"Did You Know\" tab within NEI that gives interesting usage for specific items.  For example look for \"Hand Drill\" or \"Cinnabar\" for information on using these items that you may not have known. You will need to turn on the F3 + H to get the most out of this feature.\n\nClick the box to the right to continue.",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "gregtech:gt.metatool.01",
         "Count:3": 1,
         "Damage:2": 62,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.metatool.01"
       },
-      "snd_update:8": "minecraft:entity.player.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "NEI - Tips",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Gregtech has many items and many of them you need again and again. To make it easier to find the recipes here are some tips on NEI usage in Gregtech:\n\n- You can press \u0027R\u0027 to see the recipes for how you get that item or \u0027U\u0027 to find an usage for that item.  Just make sure you don\u0027t have the active cursor active in the search bar or else those letters will appear as you searching for something.\n\n- Greg has many machines that possibly can use a specific item so check to tee if there may be additional pages of more machines that can use that item.\n\n- You can press \u0027a\u0027 while hovering over an item in NEI to add it to your favorite list on the left side, press it again while hovering on the same item, to remove it again.\n\n- A nice way to not loose track of what you are currently progression towards is to favorite the items you work on.\n\n- Pressing F3 + H keys will give additional information in the tool tip.  This extra information includes melting temperatures, and materials contained in the item.\n\n- Greg also has a \"Did You Know\" tab within NEI that gives interesting usage for specific items.  For example look for \"Hand Drill\" or \"Cinnabar\" for information on using these items that you may not have known. You will need to turn on the F3 + H to get the most out of this feature.\n\nClick the box to the right to continue."
+      "lockedProgress:1": 0,
+      "name:8": "NEI - Tips",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "ALWAYS"
     }
   },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 60,
+  "rewards:9": {},
   "tasks:9": {
     "0:10": {
       "index:3": 0,
       "taskID:8": "bq_standard:checkbox"
     }
-  },
-  "rewards:9": {}
+  }
 }

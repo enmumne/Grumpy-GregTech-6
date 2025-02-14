@@ -1,144 +1,145 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 2
     }
   },
-  "questIDLow:4": 91,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "minecraft:entity.player.levelup",
-      "taskLogic:8": "OR",
-      "visibility:8": "ALWAYS",
-      "isMain:1": 1,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "If you used the newer method to get to a crucible by building a brick burning box, you will need to make your first bronze.  If you used the old way by making bronze in the ceramic mixing bowl, then you can just pick up the bronze that you have already made to get an extra cookie for doing it the hard way.\n\nTo make bronze you need to put 1 ingot (can be plate or any 1 ingot equivalent) of tin to 3 ingots of cooper.  That is a ratio of 3 Copper to 1 Tin.  The best way is to make a bunch of ingots of copper from your crushed cooper or tetrahedrite and make some tin ingots from your crushed tin or Cassiterite first.  Once you have good clean ingots of copper and tin, then make some bronze after cleaning out any leftover scrap from your crucible.  \n§b\nPro Tip 1:  When using crushed ores in a crucible, you will have stone scrap that you will need to remove.  If you use a shovel, you can remove all the stone scrap in one click.  Just make sure that you do it before you light the burning box and the ore starts to melt.\n\nPro Tip 2:  You are pulling out the ingots/plates for the copper and tin so you get exact amounts,  If you look up crushed or purified copper or tin, you will notice that you get more than 1.00 copper or tin.  That way when you make bronze, you will need a 3 to 1 ratio of copper to tin.\n\n§eNote:  You can clean out you crucible by right clicking the crucible with your hand (if crucible is cold) or a shovel. \n\n§cWarning:  Only use your hand if the crucible is cold otherwise you may get injured or find an untimely death.\n\n§fYou will see the tin melt first then once the copper melts, then it will mix to form bronze\n§f§a§6\nReecipe:\n3 Copper ingot/dust + 1 Tin ingot/dust \u003d\u003e [Crucible 1357°K] \u003d\u003e 4 Bronze ingots/plates\n§\n§a\nTo complete this quest Get the following items:\n3 Copper Ingots or plates\n1 Tin Ingot or plate\nMake 4 Bronze ingots or 4 Bronze plates",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "gregtech:gt.meta.ingot",
         "Count:3": 4,
         "Damage:2": 8610,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.meta.ingot"
       },
-      "snd_update:8": "minecraft:entity.player.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Bronze or Bust",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 1,
       "isSilent:1": 0,
-      "desc:8": "If you used the newer method to get to a crucible by building a brick burning box, you will need to make your first bronze.  If you used the old way by making bronze in the ceramic mixing bowl, then you can just pick up the bronze that you have already made to get an extra cookie for doing it the hard way.\n\nTo make bronze you need to put 1 ingot (can be plate or any 1 ingot equivalent) of tin to 3 ingots of cooper.  That is a ratio of 3 Copper to 1 Tin.  The best way is to make a bunch of ingots of copper from your crushed cooper or tetrahedrite and make some tin ingots from your crushed tin or Cassiterite first.  Once you have good clean ingots of copper and tin, then make some bronze after cleaning out any leftover scrap from your crucible.  \n§b\nPro Tip 1:  When using crushed ores in a crucible, you will have stone scrap that you will need to remove.  If you use a shovel, you can remove all the stone scrap in one click.  Just make sure that you do it before you light the burning box and the ore starts to melt.\n\nPro Tip 2:  You are pulling out the ingots/plates for the copper and tin so you get exact amounts,  If you look up crushed or purified copper or tin, you will notice that you get more than 1.00 copper or tin.  That way when you make bronze, you will need a 3 to 1 ratio of copper to tin.\n\n§eNote:  You can clean out you crucible by right clicking the crucible with your hand (if crucible is cold) or a shovel. \n\n§cWarning:  Only use your hand if the crucible is cold otherwise you may get injured or find an untimely death.\n\n§fYou will see the tin melt first then once the copper melts, then it will mix to form bronze\n§f§a§6\nReecipe:\n3 Copper ingot/dust + 1 Tin ingot/dust \u003d\u003e [Crucible 1357°K] \u003d\u003e 4 Bronze ingots/plates\n§\n§a\nTo complete this quest Get the following items:\n3 Copper Ingots or plates\n1 Tin Ingot or plate\nMake 4 Bronze ingots or 4 Bronze plates"
+      "lockedProgress:1": 0,
+      "name:8": "Bronze or Bust",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "OR",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 91,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2005,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.food"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 2003,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.food"
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
     }
   },
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.meta.ingot",
           "Count:3": 3,
           "Damage:2": 290,
-          "OreDict:8": "ingotCopper"
+          "OreDict:8": "ingotCopper",
+          "id:8": "gregtech:gt.meta.ingot"
         },
         "1:10": {
-          "id:8": "gregtech:gt.meta.ingot",
           "Count:3": 1,
           "Damage:2": 500,
-          "OreDict:8": "ingotTin"
+          "OreDict:8": "ingotTin",
+          "id:8": "gregtech:gt.meta.ingot"
         },
         "2:10": {
-          "id:8": "gregtech:gt.meta.ingot",
           "Count:3": 4,
           "Damage:2": 8610,
-          "OreDict:8": "ingotBronze"
+          "OreDict:8": "ingotBronze",
+          "id:8": "gregtech:gt.meta.ingot"
         }
       },
       "taskID:8": "bq_standard:retrieval"
     },
     "1:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 1,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.meta.ingot",
           "Count:3": 3,
           "Damage:2": 290,
-          "OreDict:8": "ingotCopper"
+          "OreDict:8": "ingotCopper",
+          "id:8": "gregtech:gt.meta.ingot"
         },
         "1:10": {
-          "id:8": "gregtech:gt.meta.ingot",
           "Count:3": 1,
           "Damage:2": 500,
-          "OreDict:8": "ingotTin"
+          "OreDict:8": "ingotTin",
+          "id:8": "gregtech:gt.meta.ingot"
         },
         "2:10": {
-          "id:8": "gregtech:gt.meta.plate",
           "Count:3": 4,
           "Damage:2": 8610,
-          "OreDict:8": "plateBronze"
+          "OreDict:8": "plateBronze",
+          "id:8": "gregtech:gt.meta.plate"
         }
       },
       "taskID:8": "bq_standard:retrieval"
     },
     "2:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 2,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "IC2:itemPlates",
           "Count:3": 1,
           "Damage:2": 0,
-          "OreDict:8": "plateCopper"
+          "OreDict:8": "plateCopper",
+          "id:8": "IC2:itemPlates"
         },
         "1:10": {
-          "id:8": "IC2:itemPlates",
           "Count:3": 1,
           "Damage:2": 1,
-          "OreDict:8": "plateTin"
+          "OreDict:8": "plateTin",
+          "id:8": "IC2:itemPlates"
         },
         "2:10": {
-          "id:8": "gregtech:gt.meta.plate",
           "Count:3": 4,
           "Damage:2": 8610,
-          "OreDict:8": "plateBronze"
+          "OreDict:8": "plateBronze",
+          "id:8": "gregtech:gt.meta.plate"
         }
       },
       "taskID:8": "bq_standard:retrieval"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:choice",
-      "index:3": 0,
-      "choices:9": {
-        "0:10": {
-          "id:8": "gregtech:gt.multiitem.food",
-          "Count:3": 1,
-          "Damage:2": 2005,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "gregtech:gt.multiitem.food",
-          "Count:3": 1,
-          "Damage:2": 2003,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }

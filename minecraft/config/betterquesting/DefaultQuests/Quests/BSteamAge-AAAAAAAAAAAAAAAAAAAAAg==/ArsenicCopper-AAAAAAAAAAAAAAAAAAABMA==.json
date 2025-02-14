@@ -1,74 +1,75 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 2
     }
   },
-  "questIDLow:4": 304,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "minecraft:entity.player.levelup",
-      "taskLogic:8": "AND",
-      "visibility:8": "ALWAYS",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "As of GregTech 6.16.02 Greg added a new alloy arsenic copper.  This alloy is made similar to bronze or brass with using 1 arsenic with 3 copper.  This alloy is good for make weapons with additional damage to slimes.  Another advantage is the alloy can make item pipes.  Another use is burning boxes that have slightly better efficiency than the bronze burning boxes.  You can make other items like chests, advanced crafting tables, lockers, and more.\n§b\nNote:  You can get early arsenic from washing native copper and tetrahedrite in a sluice or by hand.\n§6\nReecipe:\n3 Copper ingot/dust + 1 Arsenic ingot/dust \u003d\u003e [Crucible 1070°K] \u003d\u003e 4 Arsenic Copper ingots/plates\n§\n§\n\n§a\n§\nTo complete the quest make:\n4 Arsenic Copper Plates\n",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "gregtech:gt.meta.plate",
         "Count:3": 1,
         "Damage:2": 8614,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.meta.plate"
       },
-      "snd_update:8": "minecraft:entity.player.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Arsenic Copper",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "As of GregTech 6.16.02 Greg added a new alloy arsenic copper.  This alloy is made similar to bronze or brass with using 1 arsenic with 3 copper.  This alloy is good for make weapons with additional damage to slimes.  Another advantage is the alloy can make item pipes.  Another use is burning boxes that have slightly better efficiency than the bronze burning boxes.  You can make other items like chests, advanced crafting tables, lockers, and more.\n§b\nNote:  You can get early arsenic from washing native copper and tetrahedrite in a sluice or by hand.\n§6\nReecipe:\n3 Copper ingot/dust + 1 Arsenic ingot/dust \u003d\u003e [Crucible 1070°K] \u003d\u003e 4 Arsenic Copper ingots/plates\n§\n§\n\n§a\n§\nTo complete the quest make:\n4 Arsenic Copper Plates\n"
+      "lockedProgress:1": 0,
+      "name:8": "Arsenic Copper",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 304,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2005,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.food"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 2003,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.food"
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
     }
   },
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.meta.plate",
           "Count:3": 4,
           "Damage:2": 8614,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.meta.plate"
         }
       },
       "taskID:8": "bq_standard:retrieval"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:choice",
-      "index:3": 0,
-      "choices:9": {
-        "0:10": {
-          "id:8": "gregtech:gt.multiitem.food",
-          "Count:3": 1,
-          "Damage:2": 2005,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "gregtech:gt.multiitem.food",
-          "Count:3": 1,
-          "Damage:2": 2003,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }

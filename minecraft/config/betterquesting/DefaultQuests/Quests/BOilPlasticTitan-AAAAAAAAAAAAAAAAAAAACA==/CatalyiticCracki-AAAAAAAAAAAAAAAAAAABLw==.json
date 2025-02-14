@@ -1,74 +1,75 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 297
     }
   },
-  "questIDLow:4": 303,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "minecraft:entity.player.levelup",
-      "taskLogic:8": "AND",
-      "visibility:8": "ALWAYS",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "An alternative way to get to plastic if you do not have oil or if you want to go the organic way is to use a Catalytic Cracker.  The Catalytic Cracker will use Ethanol and Hydrogen to make Ethylene and Propylene.\n\nYou will need some Platinum dusts as a catalyst.  The Platinum will not be used in the recipe as it is needed to get the reaction going.  The Catalytic Cracker will also need a burning box and an Invar one will work perfectly.\n§b\nNote:  You can also use the Catalytic Cracker with Fuel or Petrol but the amount of Propylene and Ethylene you get is less with these fuels.  You would get more by using these fluids for the Diesel Engines.\n§a\nTo complete this quest craft:\n1 Steel Catalytic Cracker\nInvar Burning Box of your choice",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "gregtech:gt.multitileentity",
         "Count:3": 1,
         "Damage:2": 20481,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.multitileentity"
       },
-      "snd_update:8": "minecraft:entity.player.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Catalyitic Cracking",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "An alternative way to get to plastic if you do not have oil or if you want to go the organic way is to use a Catalytic Cracker.  The Catalytic Cracker will use Ethanol and Hydrogen to make Ethylene and Propylene.\n\nYou will need some Platinum dusts as a catalyst.  The Platinum will not be used in the recipe as it is needed to get the reaction going.  The Catalytic Cracker will also need a burning box and an Invar one will work perfectly.\n§b\nNote:  You can also use the Catalytic Cracker with Fuel or Petrol but the amount of Propylene and Ethylene you get is less with these fuels.  You would get more by using these fluids for the Diesel Engines.\n§a\nTo complete this quest craft:\n1 Steel Catalytic Cracker\nInvar Burning Box of your choice"
+      "lockedProgress:1": 0,
+      "name:8": "Catalyitic Cracking",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 303,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2005,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.food"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 2003,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.food"
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
     }
   },
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.multitileentity",
           "Count:3": 1,
           "Damage:2": 20481,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multitileentity"
         }
       },
       "taskID:8": "bq_standard:retrieval"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:choice",
-      "index:3": 0,
-      "choices:9": {
-        "0:10": {
-          "id:8": "gregtech:gt.multiitem.food",
-          "Count:3": 1,
-          "Damage:2": 2005,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "gregtech:gt.multiitem.food",
-          "Count:3": 1,
-          "Damage:2": 2003,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }

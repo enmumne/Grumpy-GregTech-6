@@ -1,24 +1,24 @@
 {
-  "questLineIDLow:4": 6,
-  "questLineIDHigh:4": 0,
   "properties:10": {
     "betterquesting:10": {
-      "visibility:8": "NORMAL",
-      "name:8": "[B] Periodic Table \u0026 Isotopes",
+      "bg_image:8": "",
+      "bg_size:3": 256,
+      "desc:8": "This is the Periodic Table of Elements.  You can gather all of these elements.  For gasses and liq uids you will need to put some in a bottle.  Solids are available in ingots, plates, or dusts.  Just gather the element and get a cookie.  Collect them all.",
       "icon:10": {
-        "id:8": "gregtech:gt.multiitem.books",
         "Count:3": 1,
+        "Damage:2": 32000,
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.multiitem.books",
         "tag:10": {
           "author:8": "GITF (Gregorius Industrial Tool Factory)",
           "book:8": "Manual_Tools",
           "title:8": "Tool Index"
-        },
-        "Damage:2": 32000,
-        "OreDict:8": ""
+        }
       },
-      "bg_image:8": "",
-      "bg_size:3": 256,
-      "desc:8": "This is the Periodic Table of Elements.  You can gather all of these elements.  For gasses and liquids you will need to put some in a bottle.  Solids are available in ingots, plates, or dusts.  Just gather the element and get a cookie.  Collect them all."
+      "name:8": "[B] Periodic Table and Isotopes",
+      "visibility:8": "NORMAL"
     }
-  }
+  },
+  "questLineIDHigh:4": 0,
+  "questLineIDLow:4": 6
 }

@@ -1,69 +1,70 @@
 {
-  "questIDHigh:4": 399178835076005947,
   "preRequisites:9": {},
-  "questIDLow:4": -7295029779225773442,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "visibility:8": "ALWAYS",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "Diamonds are rare ore desposits.  The best way to get diamonds early is by finding smalls near bedrock.\n\nChemical: C\n\nRock Type:  Kimberlite\nY Level: 0 to 12\nCan be found with: none\n\nRock Type:  Basalt on top of Black Granite\nY Level: 0 to 32\nFound with:  Graphite\nBiomes:  all\nNote:  Jungle biome can have Pink Diamond\n§b\n§a\nTo complete the quest mine:\n1 Raw Diamond Ore",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "gregtech:gt.meta.oreRaw",
         "Count:3": 1,
         "Damage:2": 8300,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.meta.oreRaw"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Diamonds",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Diamonds are rare ore desposits.  The best way to get diamonds early is by finding smalls near bedrock.\n\nChemical: C\n\nRock Type:  Kimberlite\nY Level: 0 to 12\nCan be found with: none\n\nRock Type:  Basalt on top of Black Granite\nY Level: 0 to 32\nFound with:  Graphite\nBiomes:  all\nNote:  Jungle biome can have Pink Diamond\n§b\n§a\nTo complete the quest mine:\n1 Raw Diamond Ore"
+      "lockedProgress:1": 0,
+      "name:8": "Diamonds",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questIDHigh:4": 399178835076005947,
+  "questIDLow:4": -7295029779225773442,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2005,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.food"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 2003,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.food"
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
     }
   },
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.meta.oreRaw",
           "Count:3": 1,
           "Damage:2": 8300,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.meta.oreRaw"
         }
       },
       "taskID:8": "bq_standard:retrieval"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:choice",
-      "index:3": 0,
-      "choices:9": {
-        "0:10": {
-          "id:8": "gregtech:gt.multiitem.food",
-          "Count:3": 1,
-          "Damage:2": 2005,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "gregtech:gt.multiitem.food",
-          "Count:3": 1,
-          "Damage:2": 2003,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }

@@ -1,80 +1,81 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 93
     }
   },
-  "questIDLow:4": 94,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "minecraft:entity.player.levelup",
-      "taskLogic:8": "AND",
-      "visibility:8": "ALWAYS",
-      "isMain:1": 1,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "Now it is time to build something that will actually generate some electricity.  You will need to make some galvanized steel screws, galvanized steel gear, and a robust galvanized steel hull.  Make your galvanized steel double plates, then put them in the bath to galvanize them to save you a little bit of zinc.\n\nThe dynamo will convert the rotational energy (RU) that you get from your turbine into electrical energy (EU).  Yjr LV Dynamo will convert 32 RU/t (Ranges from 16 to 64) into 22 EU/t (Ranges from 11 to 44).  The rotational energy needs to be on the back and the electrical energy will be on the front.  Don\u0027t forget you can use your wrench to rotates machines to they match up correctly.  You are responsible to determine how many and what kind of boiler setup you need to generate the correct amount of electrical energy you will need for your machines.  So yes you will need to do some math.\n§e\nNote:  You will need to make a LV Dynamo.  To make the LV Dynamo you will need to make a magnetic iron long rod.  There is a manual way to make magnetic iron long rod without needing an electromagnet.  You cart it by using an iron long rod and some redstone dust/gems in a crafting grid.\n§b\nPro Tip:  You might consider making a wiremill to be more efficient on your copper as we will be needing a significant number of copper wires.\n§f§a\nTo complete this quest you need to make:\n1 Magnetic Iron Long Rod\n1 LV Dynamo",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "gregtech:gt.multitileentity",
         "Count:3": 1,
         "Damage:2": 10111,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.multitileentity"
       },
-      "snd_update:8": "minecraft:entity.player.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "DINE - A - MOE?",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 1,
       "isSilent:1": 0,
-      "desc:8": "Now it is time to build something that will actually generate some electricity.  You will need to make some galvanized steel screws, galvanized steel gear, and a robust galvanized steel hull.  Make your galvanized steel double plates, then put them in the bath to galvanize them to save you a little bit of zinc.\n\nThe dynamo will convert the rotational energy (RU) that you get from your turbine into electrical energy (EU).  Yjr LV Dynamo will convert 32 RU/t (Ranges from 16 to 64) into 22 EU/t (Ranges from 11 to 44).  The rotational energy needs to be on the back and the electrical energy will be on the front.  Don\u0027t forget you can use your wrench to rotates machines to they match up correctly.  You are responsible to determine how many and what kind of boiler setup you need to generate the correct amount of electrical energy you will need for your machines.  So yes you will need to do some math.\n§e\nNote:  You will need to make a LV Dynamo.  To make the LV Dynamo you will need to make a magnetic iron long rod.  There is a manual way to make magnetic iron long rod without needing an electromagnet.  You cart it by using an iron long rod and some redstone dust/gems in a crafting grid.\n§b\nPro Tip:  You might consider making a wiremill to be more efficient on your copper as we will be needing a significant number of copper wires.\n§f§a\nTo complete this quest you need to make:\n1 Magnetic Iron Long Rod\n1 LV Dynamo"
+      "lockedProgress:1": 0,
+      "name:8": "DINE - A - MOE?",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 94,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2005,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.food"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 2003,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.food"
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
     }
   },
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.meta.stickLong",
           "Count:3": 1,
           "Damage:2": 8645,
-          "OreDict:8": "stickLongIronMagnetic"
+          "OreDict:8": "stickLongIronMagnetic",
+          "id:8": "gregtech:gt.meta.stickLong"
         },
         "1:10": {
-          "id:8": "gregtech:gt.multitileentity",
           "Count:3": 1,
           "Damage:2": 10111,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multitileentity"
         }
       },
       "taskID:8": "bq_standard:retrieval"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:choice",
-      "index:3": 0,
-      "choices:9": {
-        "0:10": {
-          "id:8": "gregtech:gt.multiitem.food",
-          "Count:3": 1,
-          "Damage:2": 2005,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "gregtech:gt.multiitem.food",
-          "Count:3": 1,
-          "Damage:2": 2003,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }

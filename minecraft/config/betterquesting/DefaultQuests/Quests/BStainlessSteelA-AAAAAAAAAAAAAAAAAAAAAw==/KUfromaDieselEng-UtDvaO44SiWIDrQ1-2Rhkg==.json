@@ -1,0 +1,126 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 277
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "So you need a way to run an engine to generate KU from a Diesel Engine which only puts out RU.  Well Greg has an offer for you.  He added Roatational Engines.  These Engines convert RU into KU.  Like most of Greg\u0027s machines, they can be made from different metals.  Juse hook your Diesel engine on aly side but Front or Back and then you can put your KU machine on either front or back.\n§9§3§b\nNote:\nBronze, Arsenic Copper, and ARsenic Bronze converts 32 RU (Ranges from 16 to 64) into 16 KU (Ranges 8 to 32)\nSteel can convert 128 RU (Ranges from 64 to 256) into 64 KU (Ranges from 32 to 128)\n§a\nTo complete this quest craft:\n1 Bronze, Arsenic Copper, Arsenic Bronze, or Steel Rotational Engine\n",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 24827,
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.multitileentity"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "KU from a Diesel Engine?",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "OR",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questIDHigh:4": 5967532740218210853,
+  "questIDLow:4": -8642772490933476974,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2005,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.food"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 2003,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.food"
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 24817,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multitileentity"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 24787,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multitileentity"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "2:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 2,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 24797,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multitileentity"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "3:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 3,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 24827,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multitileentity"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

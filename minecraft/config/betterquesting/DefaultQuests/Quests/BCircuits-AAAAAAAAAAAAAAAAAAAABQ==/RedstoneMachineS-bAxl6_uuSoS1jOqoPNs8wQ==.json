@@ -1,0 +1,75 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 301
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "So you want to control more complex machine setus where the Diesel Genrator is not next to the machine such with electrolyzers which have a dynamo betwen the generator and the electrolyzer.  You can use a Restone Machine Switch to start and stop the generator with a redstone signal. This cover will at least cover the generator.\n§b\nTip:  You can start out using a switch to start and stop the Diesel Generator but once you get Tier 2 Circuits, you can fully automate the start and stop of the Diesel Generator when the machine has enough to run by adding a Activity Sensor (Possible).  You will also need a set of restone receive/transmit covers also to transmit the redstoen signal through the dynamo or other intmediate machines.\n§b§a\nTo ocmplete this quest craft:\n1 Redstone Machine Switch",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1005,
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.multiitem.technological"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Redstone Machine Switch",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questIDHigh:4": 7785709920030968452,
+  "questIDLow:4": -5364655047808697151,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2005,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.food"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 2003,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.food"
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1005,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.technological"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

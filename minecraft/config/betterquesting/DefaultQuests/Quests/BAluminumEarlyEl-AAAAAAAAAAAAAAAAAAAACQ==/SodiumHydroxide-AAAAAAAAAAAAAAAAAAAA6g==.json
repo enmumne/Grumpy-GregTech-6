@@ -1,80 +1,81 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 95
     }
   },
-  "questIDLow:4": 234,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "minecraft:entity.player.levelup",
-      "taskLogic:8": "AND",
-      "visibility:8": "ALWAYS",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "We will need some Sodium Hydroxide.  The best way to get it is to electrolize some salt.\n§a§6\nThe Recipe:\n1 salt dust + 3000L water \u003d\u003e [Electrolyzer 16EU/t] \u003d\u003e 6 Small Sodium Hydroxide Dusts + 500L Chlorine Gas + 1500L Hydrogen Gas + 500L Oxygen Dust\n§f§6§a\nTo complete the quest craft and get:\n1 LV Electrolyzer\n1 Sodium Hydroxide Dust",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "gregtech:gt.meta.dust",
         "Count:3": 1,
         "Damage:2": 8268,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.meta.dust"
       },
-      "snd_update:8": "minecraft:entity.player.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Sodium Hydroxide",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "We will need some Sodium Hydroxide.  The best way to get it is to electrolize some salt.\n§a§6\nThe Recipe:\n1 salt dust + 3000L water \u003d\u003e [Electrolyzer 16EU/t] \u003d\u003e 6 Small Sodium Hydroxide Dusts + 500L Chlorine Gas + 1500L Hydrogen Gas + 500L Oxygen Dust\n§f§6§a\nTo complete the quest craft and get:\n1 LV Electrolyzer\n1 Sodium Hydroxide Dust"
+      "lockedProgress:1": 0,
+      "name:8": "Sodium Hydroxide",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 234,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2005,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.food"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 2003,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.food"
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
     }
   },
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.multitileentity",
           "Count:3": 1,
           "Damage:2": 20091,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multitileentity"
         },
         "1:10": {
-          "id:8": "gregtech:gt.meta.dust",
           "Count:3": 1,
           "Damage:2": 8268,
-          "OreDict:8": "dustSodiumHydroxide"
+          "OreDict:8": "dustSodiumHydroxide",
+          "id:8": "gregtech:gt.meta.dust"
         }
       },
       "taskID:8": "bq_standard:retrieval"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:choice",
-      "index:3": 0,
-      "choices:9": {
-        "0:10": {
-          "id:8": "gregtech:gt.multiitem.food",
-          "Count:3": 1,
-          "Damage:2": 2005,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "gregtech:gt.multiitem.food",
-          "Count:3": 1,
-          "Damage:2": 2003,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }

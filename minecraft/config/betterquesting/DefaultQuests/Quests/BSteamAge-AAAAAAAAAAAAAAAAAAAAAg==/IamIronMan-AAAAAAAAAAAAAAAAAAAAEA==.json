@@ -1,126 +1,127 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 14
     }
   },
-  "questIDLow:4": 16,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "minecraft:entity.player.levelup",
-      "taskLogic:8": "OR",
-      "visibility:8": "ALWAYS",
-      "isMain:1": 1,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "We need some iron to start making some steam age machines.  Greg has changed how black sand works from earlier versions of GT6.  Greg added Basaltic, and Granitic Black Sand in addition to the original Black Sand.  First you will need to convert the sand blocks into the resulting dusts which are labeled as Mineral Sand or Magnetite.  This is very easy.  Just put your black sand blocks into your crafting grid and pull out the 9 mineral sand dusts.  Mix some basaltic/granitic mineral sand or magnetite with a carbon source such as coal or coal coke.  You can use other ores for iron but in the case of limonite or hematite you need to add some calcite (limestone works good for that).\n§b\nPro Tip:  You can use a GT barrel and put in 1 mineral sand dust.  Now when you put in additional blocks, they will be converted to the dusts automatically.\n§6\nRecipe:\n14 Granitic/Basaltic Mineral Sand or 14 Magnetite Dust + 3 Carbon (6 Coal Dusts or 3 Coal Coke Ingots) \u003d\u003e [Crucible 1811°K] \u003d\u003e 6 Iron Ingots\n-- or --\n7 Granitic/Basaltic Mineral Sand or 7 Magnetite Dusts + 1.5 Carbon  (3 Coal Dusts or 6 Small Chunks Coal Coke) \u003d\u003e [Crucible 1811°K] \u003d\u003e 3 Iron Ingots\n§b\nNote:  14 Sand dusts plus 3 carbon is more than 16 items so if you use the full recipe, the crucible will heat up to 1811°K and create iron.  This will drop the mass of items in the crucible and then the finally allow for the remaining items to drop into the crucible.  This will also drop the temperature.  You can do a half recipe even though it is not listed in NEI.  If the crucible goes over 2011°K then you will get wrought iron.  In most cases, you can use iron or wrought iron interchangably in GT6 recipes.  Other mod recipes may or may not depending on compatibility.\n§c\nCareful: Don\u0027t use lignite coal as the carbon in the crucible, it will ignite and blow up. Use normal coal or coal coke for your carbon.  You can use Lignite coal as fuel for the burning box to keep the crucible from overheating.  Hint: 1 Coal Coke Bar (ingot) is the same as 1 carbon dust.\n§e\nWarning:  Sifting Basaltic or Granitic Mineral Sand Blocks no longer give the resulting dusts.  Sifting will give you some nuggets though.\n§f§a\nTo complete this quest you will need:\n7 Granitic/Basaltic Sand Dusts or 3 Magnetite Dusts §b(You will need to add 3 Coal Dusts or 6 Small Coal Coke Chunks)\n§amake 3 iron/wrought iron plates using the crucible.\n§b",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "minecraft:iron_ingot",
         "Count:3": 1,
         "Damage:2": 0,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "minecraft:iron_ingot"
       },
-      "snd_update:8": "minecraft:entity.player.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "I am Iron Man",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 1,
       "isSilent:1": 0,
-      "desc:8": "We need some iron to start making some steam age machines.  Greg has changed how black sand works from earlier versions of GT6.  Greg added Basaltic, and Granitic Black Sand in addition to the original Black Sand.  First you will need to convert the sand blocks into the resulting dusts which are labeled as Mineral Sand or Magnetite.  This is very easy.  Just put your black sand blocks into your crafting grid and pull out the 9 mineral sand dusts.  Mix some basaltic/granitic mineral sand or magnetite with a carbon source such as coal or coal coke.  You can use other ores for iron but in the case of limonite or hematite you need to add some calcite (limestone works good for that).\n§b\nPro Tip:  You can use a GT barrel and put in 1 mineral sand dust.  Now when you put in additional blocks, they will be converted to the dusts automatically.\n§6\nRecipe:\n14 Granitic/Basaltic Mineral Sand or 14 Magnetite Dust + 3 Carbon (6 Coal Dusts or 3 Coal Coke Ingots) \u003d\u003e [Crucible 1811°K] \u003d\u003e 6 Iron Ingots\n-- or --\n7 Granitic/Basaltic Mineral Sand or 7 Magnetite Dusts + 1.5 Carbon  (3 Coal Dusts or 6 Small Chunks Coal Coke) \u003d\u003e [Crucible 1811°K] \u003d\u003e 3 Iron Ingots\n§b\nNote:  14 Sand dusts plus 3 carbon is more than 16 items so if you use the full recipe, the crucible will heat up to 1811°K and create iron.  This will drop the mass of items in the crucible and then the finally allow for the remaining items to drop into the crucible.  This will also drop the temperature.  You can do a half recipe even though it is not listed in NEI.  If the crucible goes over 2011°K then you will get wrought iron.  In most cases, you can use iron or wrought iron interchangably in GT6 recipes.  Other mod recipes may or may not depending on compatibility.\n§c\nCareful: Don\u0027t use lignite coal as the carbon in the crucible, it will ignite and blow up. Use normal coal or coal coke for your carbon.  You can use Lignite coal as fuel for the burning box to keep the crucible from overheating.  Hint: 1 Coal Coke Bar (ingot) is the same as 1 carbon dust.\n§e\nWarning:  Sifting Basaltic or Granitic Mineral Sand Blocks no longer give the resulting dusts.  Sifting will give you some nuggets though.\n§f§a\nTo complete this quest you will need:\n7 Granitic/Basaltic Sand Dusts or 3 Magnetite Dusts §b(You will need to add 3 Coal Dusts or 6 Small Coal Coke Chunks)\n§amake 3 iron/wrought iron plates using the crucible.\n§b"
+      "lockedProgress:1": 0,
+      "name:8": "I am Iron Man",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "OR",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 16,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2005,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.food"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 2003,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.food"
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
     }
   },
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.meta.dust",
           "Count:3": 7,
           "Damage:2": 9003,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.meta.dust"
         },
         "1:10": {
-          "id:8": "IC2:itemPlates",
           "Count:3": 3,
           "Damage:2": 4,
-          "OreDict:8": "gt:complateIron"
+          "OreDict:8": "gt:complateIron",
+          "id:8": "IC2:itemPlates"
         }
       },
       "taskID:8": "bq_standard:retrieval"
     },
     "1:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 1,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.meta.dust",
           "Count:3": 7,
           "Damage:2": 9004,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.meta.dust"
         },
         "1:10": {
-          "id:8": "IC2:itemPlates",
           "Count:3": 3,
           "Damage:2": 4,
-          "OreDict:8": "gt:complateIron"
+          "OreDict:8": "gt:complateIron",
+          "id:8": "IC2:itemPlates"
         }
       },
       "taskID:8": "bq_standard:retrieval"
     },
     "2:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 2,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.meta.dust",
           "Count:3": 7,
           "Damage:2": 9122,
-          "OreDict:8": "dustMagnetite"
+          "OreDict:8": "dustMagnetite",
+          "id:8": "gregtech:gt.meta.dust"
         },
         "1:10": {
-          "id:8": "IC2:itemPlates",
           "Count:3": 3,
           "Damage:2": 4,
-          "OreDict:8": "gt:complateIron"
+          "OreDict:8": "gt:complateIron",
+          "id:8": "IC2:itemPlates"
         }
       },
       "taskID:8": "bq_standard:retrieval"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:choice",
-      "index:3": 0,
-      "choices:9": {
-        "0:10": {
-          "id:8": "gregtech:gt.multiitem.food",
-          "Count:3": 1,
-          "Damage:2": 2005,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "gregtech:gt.multiitem.food",
-          "Count:3": 1,
-          "Damage:2": 2003,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }

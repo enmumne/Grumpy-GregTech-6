@@ -1,144 +1,145 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 2
     }
   },
-  "questIDLow:4": 66,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "minecraft:entity.player.levelup",
-      "taskLogic:8": "OR",
-      "visibility:8": "ALWAYS",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "We need a thermometer in order to know exactly the temperature of the crucible.  In order to make a thermometer, you will need Mercury.  So how do we get mercury?\n\nWe get mercury from Cinnabar ore.  Cinnabar can be found in a redstone vein but there are more redstone veins that do not have any cinnabar than the ones with cinnabar.  You will need a level 2 pick to mine the actual cinnabar ore that spawn in komatite rocks.  Near the top of the vein there should be small cinnabar ores.  These are the ones that you want.  If you do not have any luck locating a cinnabar ore vein in the overworld, you can find small cinnabar ores in the nether near the top of the world.  Another option is washing redstone crushed ores, but may require more than a stack of crushed redstone as you only get a chance of a small purified cinnabar ore.  You will also need a cauldron to wash ores.  You can find a cauldron in the world or craft one with iron plates.  You can also wash crushed stibnite ore for a chance of a small purified cinnabar ore.  \n\nIf you find a vanilla vein that has redstone, gold, and/or diamonds, you can use a club, to get a cinnabar dust from the redstone ore blocks.  This actually may be the best way to get enough cinnabar early for a thermometer. \n\nYou need to gather enough for 3 crushed/purified cinnabar ores or 3 cinnabar dusts.  You might want to gather a little bit more just in case something goes wrong.  Each Cinnabar makes 3 nuggets of mercury and you will need 9 nuggets worth to fill a glass bottle.  While you are there gathering the cinnabar, you should gather some small redstone ores as they will be needed soon.\n§\n§f\nOnce you have gathered the 3 cinnabar ores/dusts, you will need to get the mercury out of the cinnabar.  Mercury is an interesting metal.  It is liquid at room temperature.  So Gregtech 6 gives you the option using the handy crucible.  Throw the 3 cinnabar crushed/purified ores or 3 dusts in a crucible.  Warning:  If you are using crushed cinnabar, use a shovel to remove the scrap stone before proceeding.  Next use 1 to 2 sticks and light the burning box.  This should give you the mercury.  \n\n\nThe final step is to use a glass bottle and right-click the top edge of one of the crucible sides to capture the mercury into the glass bottle.  Be careful to not continue to right-click because you could drink the mercury (As Greg himself found out one day).  If you drink the mercury, you are likely to die from mercury poisoning.\n§b\nNote:  If you happen to get cinnabar gems, you can put the gems on the anvil and use a hammer to break them into chipped gems.  Finally hit the chipped cinnabar gems with a hammer to get small pile of cinnabar dusts.  You can also do the same with the crushed cinnabar to get 3 cinnabar dusts.  That way you can complete the quest.\n§a\nTo complete the quest gather the following items:\n1 Glass Bottle\n3 Crushed/Purified Cinnabar Ores or 3 Cinnabar Dusts\n1 Mercury Bottle",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "gregtech:gt.multiitem.bottles",
         "Count:3": 1,
         "Damage:2": 32765,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.multiitem.bottles"
       },
-      "snd_update:8": "minecraft:entity.player.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "O Mercury Where Are Thou?",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "We need a thermometer in order to know exactly the temperature of the crucible.  In order to make a thermometer, you will need Mercury.  So how do we get mercury?\n\nWe get mercury from Cinnabar ore.  Cinnabar can be found in a redstone vein but there are more redstone veins that do not have any cinnabar than the ones with cinnabar.  You will need a level 2 pick to mine the actual cinnabar ore that spawn in komatite rocks.  Near the top of the vein there should be small cinnabar ores.  These are the ones that you want.  If you do not have any luck locating a cinnabar ore vein in the overworld, you can find small cinnabar ores in the nether near the top of the world.  Another option is washing redstone crushed ores, but may require more than a stack of crushed redstone as you only get a chance of a small purified cinnabar ore.  You will also need a cauldron to wash ores.  You can find a cauldron in the world or craft one with iron plates.  You can also wash crushed stibnite ore for a chance of a small purified cinnabar ore.  \n\nIf you find a vanilla vein that has redstone, gold, and/or diamonds, you can use a club, to get a cinnabar dust from the redstone ore blocks.  This actually may be the best way to get enough cinnabar early for a thermometer. \n\nYou need to gather enough for 3 crushed/purified cinnabar ores or 3 cinnabar dusts.  You might want to gather a little bit more just in case something goes wrong.  Each Cinnabar makes 3 nuggets of mercury and you will need 9 nuggets worth to fill a glass bottle.  While you are there gathering the cinnabar, you should gather some small redstone ores as they will be needed soon.\n§\n§f\nOnce you have gathered the 3 cinnabar ores/dusts, you will need to get the mercury out of the cinnabar.  Mercury is an interesting metal.  It is liquid at room temperature.  So Gregtech 6 gives you the option using the handy crucible.  Throw the 3 cinnabar crushed/purified ores or 3 dusts in a crucible.  Warning:  If you are using crushed cinnabar, use a shovel to remove the scrap stone before proceeding.  Next use 1 to 2 sticks and light the burning box.  This should give you the mercury.  \n\n\nThe final step is to use a glass bottle and right-click the top edge of one of the crucible sides to capture the mercury into the glass bottle.  Be careful to not continue to right-click because you could drink the mercury (As Greg himself found out one day).  If you drink the mercury, you are likely to die from mercury poisoning.\n§b\nNote:  If you happen to get cinnabar gems, you can put the gems on the anvil and use a hammer to break them into chipped gems.  Finally hit the chipped cinnabar gems with a hammer to get small pile of cinnabar dusts.  You can also do the same with the crushed cinnabar to get 3 cinnabar dusts.  That way you can complete the quest.\n§a\nTo complete the quest gather the following items:\n1 Glass Bottle\n3 Crushed/Purified Cinnabar Ores or 3 Cinnabar Dusts\n1 Mercury Bottle"
+      "lockedProgress:1": 0,
+      "name:8": "O Mercury Where Are Thou?",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "OR",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 66,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2005,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.food"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 2003,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.food"
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
     }
   },
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "minecraft:glass_bottle",
           "Count:3": 1,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "minecraft:glass_bottle"
         },
         "1:10": {
-          "id:8": "gregtech:gt.meta.crushed",
           "Count:3": 3,
           "Damage:2": 9114,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.meta.crushed"
         },
         "2:10": {
-          "id:8": "gregtech:gt.multiitem.bottles",
           "Count:3": 1,
           "Damage:2": 32765,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.bottles"
         }
       },
       "taskID:8": "bq_standard:retrieval"
     },
     "1:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 1,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "minecraft:glass_bottle",
           "Count:3": 1,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "minecraft:glass_bottle"
         },
         "1:10": {
-          "id:8": "gregtech:gt.meta.crushedPurified",
           "Count:3": 3,
           "Damage:2": 9114,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.meta.crushedPurified"
         },
         "2:10": {
-          "id:8": "gregtech:gt.multiitem.bottles",
           "Count:3": 1,
           "Damage:2": 32765,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.bottles"
         }
       },
       "taskID:8": "bq_standard:retrieval"
     },
     "2:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 2,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "minecraft:glass_bottle",
           "Count:3": 1,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "minecraft:glass_bottle"
         },
         "1:10": {
-          "id:8": "gregtech:gt.meta.dust",
           "Count:3": 3,
           "Damage:2": 9114,
-          "OreDict:8": "dustCinnabar"
+          "OreDict:8": "dustCinnabar",
+          "id:8": "gregtech:gt.meta.dust"
         },
         "2:10": {
-          "id:8": "gregtech:gt.multiitem.bottles",
           "Count:3": 1,
           "Damage:2": 32765,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.bottles"
         }
       },
       "taskID:8": "bq_standard:retrieval"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:choice",
-      "index:3": 0,
-      "choices:9": {
-        "0:10": {
-          "id:8": "gregtech:gt.multiitem.food",
-          "Count:3": 1,
-          "Damage:2": 2005,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "gregtech:gt.multiitem.food",
-          "Count:3": 1,
-          "Damage:2": 2003,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }

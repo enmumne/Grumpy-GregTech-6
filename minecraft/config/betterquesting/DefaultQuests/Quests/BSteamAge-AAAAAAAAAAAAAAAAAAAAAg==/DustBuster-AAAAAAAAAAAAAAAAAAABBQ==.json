@@ -1,74 +1,75 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 24
     }
   },
-  "questIDLow:4": 261,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "minecraft:entity.player.levelup",
-      "taskLogic:8": "AND",
-      "visibility:8": "ALWAYS",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "Now that you have a crusher up and running, you will get some different outputs depending on if you use raw ores or ore blocks. You will get just crushed ore if use use a fortune pick.  If you get ore blocks, you will get crushed ore and stone dust.  If you were thinking of automating sending the output of the crusher to the sluice, you will need to filter out the stone dusts.  You could put barrels along the item pipes but you would have to set it up where the item barrels were nowhere near your burning boxes or else they would burn up.  Filters will become available once you have aluminum processing but that will be a while before you have the tech to deal with that.  In the early game Greg gives you a Dust Funnel.  You place the Dust Funnel below your item pipes running between the Crusher and the Sluice with additional pipes below the Dust Funel and you can now direct the dusts away from your sluice.\n\nThe Dust Funnel is made from iron plates, iron rods, and a Vanilla Hopper.  The Vanilla Hopper is made from 5 iron plates.\n§b\nNote:  Greg added fortune to all of his ores to drop raw ores depending on the fortune of the pickaxe.  Rock layer (coal, lignite, salt, etc) will drop raw ores without fortune.  If you are not careful while mining and use a non-fortune pickaxe on a regular ore, you will get a ore block.  Once the ore block is picked up, putting it down and using fortune will do nothing.  Using ore blocks in a crusher will result in a stone dust of the rock type that the ore is found in.  You will end up with limestone dusts for copper and tetrahedrite ore blocks for example.  You can advoid the stone dusts by always making sure you fortune your ores.\n§a\nTo complete this quest craft:\n1 Dust Funnel",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "gregtech:gt.multitileentity",
         "Count:3": 1,
         "Damage:2": 32704,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.multitileentity"
       },
-      "snd_update:8": "minecraft:entity.player.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Dust Buster",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Now that you have a crusher up and running, you will get some different outputs depending on if you use raw ores or ore blocks. You will get just crushed ore if use use a fortune pick.  If you get ore blocks, you will get crushed ore and stone dust.  If you were thinking of automating sending the output of the crusher to the sluice, you will need to filter out the stone dusts.  You could put barrels along the item pipes but you would have to set it up where the item barrels were nowhere near your burning boxes or else they would burn up.  Filters will become available once you have aluminum processing but that will be a while before you have the tech to deal with that.  In the early game Greg gives you a Dust Funnel.  You place the Dust Funnel below your item pipes running between the Crusher and the Sluice with additional pipes below the Dust Funel and you can now direct the dusts away from your sluice.\n\nThe Dust Funnel is made from iron plates, iron rods, and a Vanilla Hopper.  The Vanilla Hopper is made from 5 iron plates.\n§b\nNote:  Greg added fortune to all of his ores to drop raw ores depending on the fortune of the pickaxe.  Rock layer (coal, lignite, salt, etc) will drop raw ores without fortune.  If you are not careful while mining and use a non-fortune pickaxe on a regular ore, you will get a ore block.  Once the ore block is picked up, putting it down and using fortune will do nothing.  Using ore blocks in a crusher will result in a stone dust of the rock type that the ore is found in.  You will end up with limestone dusts for copper and tetrahedrite ore blocks for example.  You can advoid the stone dusts by always making sure you fortune your ores.\n§a\nTo complete this quest craft:\n1 Dust Funnel"
+      "lockedProgress:1": 0,
+      "name:8": "Dust Buster",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 261,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2005,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.food"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 2003,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.food"
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
     }
   },
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.multitileentity",
           "Count:3": 1,
           "Damage:2": 32704,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multitileentity"
         }
       },
       "taskID:8": "bq_standard:retrieval"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:choice",
-      "index:3": 0,
-      "choices:9": {
-        "0:10": {
-          "id:8": "gregtech:gt.multiitem.food",
-          "Count:3": 1,
-          "Damage:2": 2005,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "gregtech:gt.multiitem.food",
-          "Count:3": 1,
-          "Damage:2": 2003,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }

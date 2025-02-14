@@ -1,42 +1,42 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {},
-  "questIDLow:4": 4,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "minecraft:entity.player.levelup",
-      "taskLogic:8": "AND",
-      "visibility:8": "ALWAYS",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "§eNote:  This version of the Bears\u0027 Den Gregtech 6 Questing Book is compatible with version 6.17.01.  The quests in this book are still a work in progress.  The Circuits tab is currently under development and no quests are available for that tab at this time.  Feedback regarding this Quest Book can be given on the Bear\u0027s Den Discord in the #gt6-questbook-stuff channel.\n§f\nThe quests have color text indicating different things.\nMost Quest text will be white\n§bNotes and tips will be in aqua/cyan\n§eWarnings will be in yellow\n§cExtreme Danger will be in red\n§aQuest objectives will be in green\n§6Complex machine recipes for ore processing will be in orange/gold\n§f\nHere are some general tips:\n\n\n- Grab (right click) those small rocks on the ground, not only can you make early game tools out of them but they also sometimes contain traces of ore. If you found such a rock, make sure to mark that position, it means there is a large vein of that type of ore below\n\n- Dungeon Loot and Villages can give you a nice early game boost and even can contain some valuable metals for later.  There are also Gregtech Forts which contain some incredible loot including bookcases, drums, crates of metal plates (Bronze, Steel, Stainless Steel, and more) to Nether and End Portals.  Never pass up a fort if you find one.  You will be making multiple trips to bring back all that loot to your base.\n\n- Make sure that your base will be close to the ocean or a river or at least a large lake. You will need tons of water and only in those places water is infinite.\n\n- Read the tool tips, they contain valuable information, if you want even more info press F3+H to enable/disable advanced tool tips (it\u0027s really worth it)\n\n- Be careful with your food, if you eat too much of the same type (e.g. sugar, protein etc) in too short of a time, you get some effects. E.g. sugar makes you faster but if you eat too much you might get diabetes.\n\n- Gregtech has a similar system to Inventory Tweaks where if you place similar blocks or tools above your active tools in your inventory, those items will drop down when they are depleted/break.\n\n- The area around spawn is mob spawn proof up to 128 blocks from spawn.  If you are looking for a safe place to start, start at spawn.  You can also make Greg\u0027s cosmetic blocks from his stone or his dirt and these blocks are also prevent mods from spawning.\n\nClick the button to the right to continue.",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "gregtech:gt.multiitem.books",
         "Count:3": 1,
+        "Damage:2": 3,
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.multiitem.books",
         "tag:10": {
           "author:8": "Alex Grylls, Survival Specialist",
           "book:8": "Manual_Hunting_Creeper",
           "title:8": "Hunting Guide for Creepers"
-        },
-        "Damage:2": 3,
-        "OreDict:8": ""
+        }
       },
-      "snd_update:8": "minecraft:entity.player.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Tips",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "§eNote:  This version of the Bears\u0027 Den Gregtech 6 Questing Book is compatible with version 6.17.01.  The quests in this book are still a work in progress.  The Circuits tab is currently under development and no quests are available for that tab at this time.  Feedback regarding this Quest Book can be given on the Bear\u0027s Den Discord in the #gt6-questbook-stuff channel.\n§f\nThe quests have color text indicating different things.\nMost Quest text will be white\n§bNotes and tips will be in aqua/cyan\n§eWarnings will be in yellow\n§cExtreme Danger will be in red\n§aQuest objectives will be in green\n§6Complex machine recipes for ore processing will be in orange/gold\n§f\nHere are some general tips:\n\n\n- Grab (right click) those small rocks on the ground, not only can you make early game tools out of them but they also sometimes contain traces of ore. If you found such a rock, make sure to mark that position, it means there is a large vein of that type of ore below\n\n- Dungeon Loot and Villages can give you a nice early game boost and even can contain some valuable metals for later.  There are also Gregtech Forts which contain some incredible loot including bookcases, drums, crates of metal plates (Bronze, Steel, Stainless Steel, and more) to Nether and End Portals.  Never pass up a fort if you find one.  You will be making multiple trips to bring back all that loot to your base.\n\n- Make sure that your base will be close to the ocean or a river or at least a large lake. You will need tons of water and only in those places water is infinite.\n\n- Read the tool tips, they contain valuable information, if you want even more info press F3+H to enable/disable advanced tool tips (it\u0027s really worth it)\n\n- Be careful with your food, if you eat too much of the same type (e.g. sugar, protein etc) in too short of a time, you get some effects. E.g. sugar makes you faster but if you eat too much you might get diabetes.\n\n- Gregtech has a similar system to Inventory Tweaks where if you place similar blocks or tools above your active tools in your inventory, those items will drop down when they are depleted/break.\n\n- The area around spawn is mob spawn proof up to 128 blocks from spawn.  If you are looking for a safe place to start, start at spawn.  You can also make Greg\u0027s cosmetic blocks from his stone or his dirt and these blocks are also prevent mods from spawning.\n\nClick the button to the right to continue."
+      "lockedProgress:1": 0,
+      "name:8": "Tips",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "ALWAYS"
     }
   },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 4,
+  "rewards:9": {},
   "tasks:9": {
     "0:10": {
       "index:3": 0,
       "taskID:8": "bq_standard:checkbox"
     }
-  },
-  "rewards:9": {}
+  }
 }

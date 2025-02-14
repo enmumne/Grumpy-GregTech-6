@@ -1,5 +1,4 @@
 {
-  "questIDHigh:4": -1928308198024459340,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
@@ -10,69 +9,71 @@
       "questIDLow:4": 296
     }
   },
-  "questIDLow:4": -7997691016632791931,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "visibility:8": "ALWAYS",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "To make a Tier 2 Circuit (Good), you only need Tier 2 (Good) Parts.  These are made from Fine Red Alloy Wire, Fine Copper Wire and a Small Crystalline Plate.  You will need 4 of them to make a circuit.\n§a\nTo complete this quest craft:\n4 Tier 2 Circuit Parts (Good)",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "gregtech:gt.multiitem.technological",
         "Count:3": 1,
         "Damage:2": 30102,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.multiitem.technological"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Good Tier 2 Circuit Parts",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "To make a Tier 2 Circuit (Good), you only need Tier 2 (Good) Parts.  These are made from Fine Red Alloy Wire, Fine Copper Wire and a Small Crystalline Plate.  You will need 4 of them to make a circuit.\n§a\nTo complete this quest craft:\n4 Tier 2 Circuit Parts (Good)"
+      "lockedProgress:1": 0,
+      "name:8": "Good Tier 2 Circuit Parts",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questIDHigh:4": -1928308198024459340,
+  "questIDLow:4": -7997691016632791931,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2005,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.food"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 2003,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.food"
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
     }
   },
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.multiitem.technological",
           "Count:3": 4,
           "Damage:2": 30102,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.technological"
         }
       },
       "taskID:8": "bq_standard:retrieval"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:choice",
-      "index:3": 0,
-      "choices:9": {
-        "0:10": {
-          "id:8": "gregtech:gt.multiitem.food",
-          "Count:3": 1,
-          "Damage:2": 2005,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "gregtech:gt.multiitem.food",
-          "Count:3": 1,
-          "Damage:2": 2003,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }

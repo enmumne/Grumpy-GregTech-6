@@ -1,207 +1,208 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 2
     }
   },
-  "questIDLow:4": 274,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "minecraft:entity.player.levelup",
-      "taskLogic:8": "OR",
-      "visibility:8": "ALWAYS",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "If you wanted to quickly harvest crops in a 3x3 area, Greg has a deal for you.  Greg has a Scythe or does he call it a Sense?   A Sense is a tool to assist you in your farming.  Like Greg\u0027s other tools, you can make a Sense out of almost any metal or gem.  As with all of Greg\u0027s tools, the material determines the durability and thus the number of uses the Sense will have.\n§b\nTip:  You can make a Sense Mold by first making a wooden Sense and the using it with a clay mold.  This way you can just pour you a Sense head instead of crafting one.\n\nTip:  You can use magnetic material for the Sense to autocollect.\n§e\nWarning:  For version 6.15.03, The Sense does not work on all crops if Hunger Overhaul is installed.  It will only work with Pam\u0027s and IC2 Crops.  For version 6.15.04, The Sense now works with Hunger Overhaul if you modify the Hunger Overhaul config file \"enableRighClickHarvesting\u003dfalse\"  Also apparently Greg is making it into a weapon.  No idea what the rubber version would actually do?\n§a\nTo complete this quest craft:\n1 Sense (Lead, Iron, Germanium, Cobalt, Bronze, or Steel)",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "gregtech:gt.metatool.01",
         "Count:3": 1,
         "Damage:2": 40,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.metatool.01"
       },
-      "snd_update:8": "minecraft:entity.player.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Greg\u0027s No Non-Sense",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "If you wanted to quickly harvest crops in a 3x3 area, Greg has a deal for you.  Greg has a Scythe or does he call it a Sense?   A Sense is a tool to assist you in your farming.  Like Greg\u0027s other tools, you can make a Sense out of almost any metal or gem.  As with all of Greg\u0027s tools, the material determines the durability and thus the number of uses the Sense will have.\n§b\nTip:  You can make a Sense Mold by first making a wooden Sense and the using it with a clay mold.  This way you can just pour you a Sense head instead of crafting one.\n\nTip:  You can use magnetic material for the Sense to autocollect.\n§e\nWarning:  For version 6.15.03, The Sense does not work on all crops if Hunger Overhaul is installed.  It will only work with Pam\u0027s and IC2 Crops.  For version 6.15.04, The Sense now works with Hunger Overhaul if you modify the Hunger Overhaul config file \"enableRighClickHarvesting\u003dfalse\"  Also apparently Greg is making it into a weapon.  No idea what the rubber version would actually do?\n§a\nTo complete this quest craft:\n1 Sense (Lead, Iron, Germanium, Cobalt, Bronze, or Steel)"
+      "lockedProgress:1": 0,
+      "name:8": "Greg\u0027s No Non-Sense",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "OR",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 274,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2005,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.food"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 2003,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.food"
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
     }
   },
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.metatool.01",
           "Count:3": 1,
+          "Damage:2": 40,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metatool.01",
           "tag:10": {
-            "ench:9": {},
             "GT.ToolStats:10": {
               "a:2": 820,
               "c:2": 8221,
               "j:2": 25600
-            }
-          },
-          "Damage:2": 40,
-          "OreDict:8": ""
+            },
+            "ench:9": {}
+          }
         }
       },
       "taskID:8": "bq_standard:retrieval"
     },
     "1:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 1,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.metatool.01",
           "Count:3": 1,
+          "Damage:2": 40,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metatool.01",
           "tag:10": {
-            "ench:9": {},
             "GT.ToolStats:10": {
               "a:2": 8610,
               "c:2": 8221,
               "j:3": 179200
-            }
-          },
-          "Damage:2": 40,
-          "OreDict:8": ""
+            },
+            "ench:9": {}
+          }
         }
       },
       "taskID:8": "bq_standard:retrieval"
     },
     "2:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 2,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.metatool.01",
           "Count:3": 1,
+          "Damage:2": 40,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metatool.01",
           "tag:10": {
-            "ench:9": {},
             "GT.ToolStats:10": {
               "a:2": 320,
               "c:2": 8221,
               "j:3": 102400
-            }
-          },
-          "Damage:2": 40,
-          "OreDict:8": ""
+            },
+            "ench:9": {}
+          }
         }
       },
       "taskID:8": "bq_standard:retrieval"
     },
     "3:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 3,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.metatool.01",
           "Count:3": 1,
+          "Damage:2": 40,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metatool.01",
           "tag:10": {
-            "ench:9": {},
             "GT.ToolStats:10": {
               "a:2": 260,
               "c:2": 8221,
               "j:3": 102400
-            }
-          },
-          "Damage:2": 40,
-          "OreDict:8": ""
+            },
+            "ench:9": {}
+          }
         }
       },
       "taskID:8": "bq_standard:retrieval"
     },
     "4:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 4,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.metatool.01",
           "Count:3": 1,
+          "Damage:2": 40,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metatool.01",
           "tag:10": {
-            "ench:9": {},
             "GT.ToolStats:10": {
               "a:2": 270,
               "c:2": 8221,
               "j:3": 102400
-            }
-          },
-          "Damage:2": 40,
-          "OreDict:8": ""
+            },
+            "ench:9": {}
+          }
         }
       },
       "taskID:8": "bq_standard:retrieval"
     },
     "5:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 5,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.metatool.01",
           "Count:3": 1,
+          "Damage:2": 40,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metatool.01",
           "tag:10": {
-            "ench:9": {},
             "GT.ToolStats:10": {
               "a:2": 8630,
               "c:2": 8221,
               "j:3": 204800
-            }
-          },
-          "Damage:2": 40,
-          "OreDict:8": ""
+            },
+            "ench:9": {}
+          }
         }
       },
       "taskID:8": "bq_standard:retrieval"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:choice",
-      "index:3": 0,
-      "choices:9": {
-        "0:10": {
-          "id:8": "gregtech:gt.multiitem.food",
-          "Count:3": 1,
-          "Damage:2": 2005,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "gregtech:gt.multiitem.food",
-          "Count:3": 1,
-          "Damage:2": 2003,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }

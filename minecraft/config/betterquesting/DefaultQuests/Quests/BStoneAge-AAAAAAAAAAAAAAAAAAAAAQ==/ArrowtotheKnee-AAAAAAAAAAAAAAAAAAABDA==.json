@@ -1,83 +1,84 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 92
     }
   },
-  "questIDLow:4": 268,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "minecraft:entity.player.levelup",
-      "taskLogic:8": "AND",
-      "visibility:8": "ALWAYS",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "You will need a metal arrowhead very soon to make a specific tool.  The issue is you will need to make a mold to make a arrow head.  The quickest way is you can make flint arrowheads by using a rock and flint in a crafting grid (makes 4 flint arrowheads) or a file and flint (6 flint arrowheads).  You can then make a clay mold and combine one of the arrowheads with the mold to make a clay raw arrowhead and then cooking it in a furnace.\n\nSo what do you do with the flint arrowheads?  You can make arrows by combining a headless wood arrow with the flint arrowheads to make flint arrows.  You will get headless wood arrows as drops from skeletons or by putting sticks and feathers in a crafting grid.\n§c\nWarning:  Do not use flint arrows on Creepers.  As soon as a creeper ignites, the fuse also ignites and the creeper will explode.  This also occurs if you use a flint and tender on a creeper.  So unless you are planning to use explosive mining, I would not recommend using flint arrows on creepers.  \n§b\nNote:  Flint knife, pickaxe, and axe will not ignite the creeper fuse but it will just start the creeper on fire.\n§a\nTo complete this quest craft:\n1 Flint Arrowhead\n1 Ceramic Arrowhead Mold\n",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "gregtech:gt.meta.toolHeadArrow",
         "Count:3": 1,
         "Damage:2": 8002,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.meta.toolHeadArrow"
       },
-      "snd_update:8": "minecraft:entity.player.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Arrow to the Knee",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "You will need a metal arrowhead very soon to make a specific tool.  The issue is you will need to make a mold to make a arrow head.  The quickest way is you can make flint arrowheads by using a rock and flint in a crafting grid (makes 4 flint arrowheads) or a file and flint (6 flint arrowheads).  You can then make a clay mold and combine one of the arrowheads with the mold to make a clay raw arrowhead and then cooking it in a furnace.\n\nSo what do you do with the flint arrowheads?  You can make arrows by combining a headless wood arrow with the flint arrowheads to make flint arrows.  You will get headless wood arrows as drops from skeletons or by putting sticks and feathers in a crafting grid.\n§c\nWarning:  Do not use flint arrows on Creepers.  As soon as a creeper ignites, the fuse also ignites and the creeper will explode.  This also occurs if you use a flint and tender on a creeper.  So unless you are planning to use explosive mining, I would not recommend using flint arrows on creepers.  \n§b\nNote:  Flint knife, pickaxe, and axe will not ignite the creeper fuse but it will just start the creeper on fire.\n§a\nTo complete this quest craft:\n1 Flint Arrowhead\n1 Ceramic Arrowhead Mold\n"
+      "lockedProgress:1": 0,
+      "name:8": "Arrow to the Knee",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 268,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2005,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.food"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 2003,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.food"
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
     }
   },
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.meta.toolHeadArrow",
           "Count:3": 1,
           "Damage:2": 8002,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.meta.toolHeadArrow"
         },
         "1:10": {
-          "id:8": "gregtech:gt.multitileentity",
           "Count:3": 1,
+          "Damage:2": 1055,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multitileentity",
           "tag:10": {
             "gt.mold:3": 135616
-          },
-          "Damage:2": 1055,
-          "OreDict:8": ""
+          }
         }
       },
       "taskID:8": "bq_standard:retrieval"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:choice",
-      "index:3": 0,
-      "choices:9": {
-        "0:10": {
-          "id:8": "gregtech:gt.multiitem.food",
-          "Count:3": 1,
-          "Damage:2": 2005,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "gregtech:gt.multiitem.food",
-          "Count:3": 1,
-          "Damage:2": 2003,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }

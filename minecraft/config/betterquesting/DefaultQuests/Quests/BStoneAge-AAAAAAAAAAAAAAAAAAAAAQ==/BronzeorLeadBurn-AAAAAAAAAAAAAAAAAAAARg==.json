@@ -1,92 +1,93 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 0
     }
   },
-  "questIDLow:4": 70,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "minecraft:entity.player.levelup",
-      "taskLogic:8": "AND",
-      "visibility:8": "ALWAYS",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "§eWarning:  This quest is for the old method to get to a crucible.  There is now a brick burning box that can get you to a crucible much quicker without wasting any of you metals.\n§f\nYou need a good burning box.  In earlier GT6 versions you would need to make a lead burning box but not any longer.  Even if you created a Brick Burning Box, you will need a better burning box.  Bronze is the best as it provides more heat units (24HU/t) at 75% efficiency than the brick burning box (16HU/t) at 25% efficiency or the lead burning box (16HU/t)  at 50% efficiency.  At this point the lead is not really worth it any longer.  So your task is to make a Bronze Burning Box.\n§a\nYou will need:\n12 Bricks\n1 Double copper plate\n4 Bronze plates.\n§b\nNote:  You will also need a wrench to make the burning box.",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "gregtech:gt.multitileentity",
         "Count:3": 1,
         "Damage:2": 1102,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.multitileentity"
       },
-      "snd_update:8": "minecraft:entity.player.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Bronze or Lead Burning Box [Old Method]",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "§eWarning:  This quest is for the old method to get to a crucible.  There is now a brick burning box that can get you to a crucible much quicker without wasting any of you metals.\n§f\nYou need a good burning box.  In earlier GT6 versions you would need to make a lead burning box but not any longer.  Even if you created a Brick Burning Box, you will need a better burning box.  Bronze is the best as it provides more heat units (24HU/t) at 75% efficiency than the brick burning box (16HU/t) at 25% efficiency or the lead burning box (16HU/t)  at 50% efficiency.  At this point the lead is not really worth it any longer.  So your task is to make a Bronze Burning Box.\n§a\nYou will need:\n12 Bricks\n1 Double copper plate\n4 Bronze plates.\n§b\nNote:  You will also need a wrench to make the burning box."
+      "lockedProgress:1": 0,
+      "name:8": "Bronze or Lead Burning Box [Old Method]",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 70,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2005,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.food"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 2003,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.food"
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
     }
   },
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "minecraft:brick",
           "Count:3": 12,
           "Damage:2": 0,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "minecraft:brick"
         },
         "1:10": {
-          "id:8": "gregtech:gt.meta.plate",
           "Count:3": 4,
           "Damage:2": 8610,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.meta.plate"
         },
         "2:10": {
-          "id:8": "gregtech:gt.meta.plateDouble",
           "Count:3": 1,
           "Damage:2": 290,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.meta.plateDouble"
         },
         "3:10": {
-          "id:8": "gregtech:gt.multitileentity",
           "Count:3": 1,
           "Damage:2": 1102,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multitileentity"
         }
       },
       "taskID:8": "bq_standard:retrieval"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:choice",
-      "index:3": 0,
-      "choices:9": {
-        "0:10": {
-          "id:8": "gregtech:gt.multiitem.food",
-          "Count:3": 1,
-          "Damage:2": 2005,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "gregtech:gt.multiitem.food",
-          "Count:3": 1,
-          "Damage:2": 2003,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }

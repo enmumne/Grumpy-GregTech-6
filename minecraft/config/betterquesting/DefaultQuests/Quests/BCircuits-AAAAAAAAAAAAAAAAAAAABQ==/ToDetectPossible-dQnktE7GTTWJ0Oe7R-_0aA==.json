@@ -1,0 +1,75 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -8079166333338433623,
+      "questIDLow:4": -8306648367475432357
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "So you want your machines to turn on only if it has work to do.  Now that you have Tier 2 Circuits, Greg now has a cover for you, the Activity Detector (Possible).\n§b\nTip:  To use this cover you also need Redstone Machine switch.  For example you Diesel Generator with a mixer on top:  you can put the Activity Detector on the bototm of the mixer facing toward the Diesel Generator and then put the Redstone Machine Switch on the top of the Diesel Generator facing toward the Mixer.  Now when the Mixer get enough input items, it will send a restone signal to start the Diesel Generator and then when it completes, the mixer will turn off the redstone signal and thus stopping the Diesel Generator.\n§a\nTo ocmplete the quest craft:\n1 Activity Detector (Possible)",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1015,
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.multiitem.technological"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "To Detect Possible Machine Activity",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questIDHigh:4": 8433523240294829365,
+  "questIDLow:4": -8516052103805799320,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2005,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.food"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 2003,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.food"
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1015,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.technological"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

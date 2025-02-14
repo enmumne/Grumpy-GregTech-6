@@ -1,5 +1,4 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
@@ -10,124 +9,127 @@
       "questIDLow:4": 70
     }
   },
-  "questIDLow:4": 2,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "minecraft:entity.player.levelup",
-      "taskLogic:8": "OR",
-      "visibility:8": "ALWAYS",
-      "isMain:1": 1,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "You may have noticed that the furnace is not able to melt all the ores that you already have collected. To get access to those higher tier materials like iron and steel we need something to generate and handle more heat.\n\nIt\u0027s time to get a crucible to go with the burning box that you just made.\n\nThe crucible (if placed above a lit burning box) will heat up continuously and melt even the toughest of materials. But be careful, the material that is used to make the crucible determines the maximum temperature the crucible can handle.  If the temperature exceeds the limit, the crucible itself and all materials inside will melt down and start fires around it.\n\nFor now a ceramic crucible will be enough, it goes up to 2500 deg K, which is plenty for this technology age.\n\nAlso make some molds and a few crossings. You can place the molds directly next to the crucible without the crossings but the crossings allow you to use more molds at once. \n\n§cCareful: the molds themselves also have a max temperature they can take, since our molds are also ceramic, they can take the same 2500 deg K, so we are fine.  Stepping on them while metal is being poured will cause severe damage to you.\n\n§f§rFor now you can use the Brick or Bronze Burning Box.  You can upgrade the burning box to higher heat output and/or more efficient materials at any time.  There are also other fuel types for your burning boxes.  There are solid fuel burning boxes which use wood, charcoal and coal.  There are liquid ones which use liquid fuels such as creosote, diesel, and fuel.  Finally there are gas ones that use gas fuels such as natural gas, methane and hydrogen.  For now we will stick to solid fuel burning boxes.\n\nWhen using your solid burning box you will need to use a shovel to remove the ash waste.  If you try and use your hand to remove the ash while the burning box is running, you are very likely to get burned and you will take damage.  You can use the shovel to remove ash waste from the crucible if there are any leftovers.  Removing stuff from the crucible itself once the material is solid will result in you getting scrap.  1 scrap is 1 nugget of material.\n§c§e\nWarning:  When using the crucible, keep an eye on the temperature.  Right now make sure you use quick fuels such as wood or lignite coal.  As soon as the material in the crucible turns to liquid, put a block of sand, dirt or gravel in front of the burning box.  Wait to make sure that the burning box stops burning before your pour your molds.  With little to no material in the crucible, it will heat up very quickly and exceed the 2,500 deg K temperature.  If it does the crucible will melt and if you are nearby, it will boil you to death.\n§f§a\nFor this quest make the following:\n1 Bronze or Lead Solid Burning Box\n1 Ceramic Crucible\n2 Ceramic Crossings\n4 Clay molds\n§b\nThere are 2 rewards - Choose a cookie below.  You will also receive 2 very useful books free of charge.",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "gregtech:gt.multitileentity",
         "Count:3": 1,
         "Damage:2": 1005,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.multitileentity"
       },
-      "snd_update:8": "minecraft:entity.player.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "OR",
-      "repeat_relative:1": 1,
-      "name:8": "Crucible",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 1,
       "isSilent:1": 0,
-      "desc:8": "You may have noticed that the furnace is not able to melt all the ores that you already have collected. To get access to those higher tier materials like iron and steel we need something to generate and handle more heat.\n\nIt\u0027s time to get a crucible to go with the burning box that you just made.\n\nThe crucible (if placed above a lit burning box) will heat up continuously and melt even the toughest of materials. But be careful, the material that is used to make the crucible determines the maximum temperature the crucible can handle.  If the temperature exceeds the limit, the crucible itself and all materials inside will melt down and start fires around it.\n\nFor now a ceramic crucible will be enough, it goes up to 2500 deg K, which is plenty for this technology age.\n\nAlso make some molds and a few crossings. You can place the molds directly next to the crucible without the crossings but the crossings allow you to use more molds at once. \n\n§cCareful: the molds themselves also have a max temperature they can take, since our molds are also ceramic, they can take the same 2500 deg K, so we are fine.  Stepping on them while metal is being poured will cause severe damage to you.\n\n§f§rFor now you can use the Brick or Bronze Burning Box.  You can upgrade the burning box to higher heat output and/or more efficient materials at any time.  There are also other fuel types for your burning boxes.  There are solid fuel burning boxes which use wood, charcoal and coal.  There are liquid ones which use liquid fuels such as creosote, diesel, and fuel.  Finally there are gas ones that use gas fuels such as natural gas, methane and hydrogen.  For now we will stick to solid fuel burning boxes.\n\nWhen using your solid burning box you will need to use a shovel to remove the ash waste.  If you try and use your hand to remove the ash while the burning box is running, you are very likely to get burned and you will take damage.  You can use the shovel to remove ash waste from the crucible if there are any leftovers.  Removing stuff from the crucible itself once the material is solid will result in you getting scrap.  1 scrap is 1 nugget of material.\n§c§e\nWarning:  When using the crucible, keep an eye on the temperature.  Right now make sure you use quick fuels such as wood or lignite coal.  As soon as the material in the crucible turns to liquid, put a block of sand, dirt or gravel in front of the burning box.  Wait to make sure that the burning box stops burning before your pour your molds.  With little to no material in the crucible, it will heat up very quickly and exceed the 2,500 deg K temperature.  If it does the crucible will melt and if you are nearby, it will boil you to death.\n§f§a\nFor this quest make the following:\n1 Bronze or Lead Solid Burning Box\n1 Ceramic Crucible\n2 Ceramic Crossings\n4 Clay molds\n§b\nThere are 2 rewards - Choose a cookie below.  You will also receive 2 very useful books free of charge."
+      "lockedProgress:1": 0,
+      "name:8": "Crucible",
+      "questLogic:8": "OR",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "OR",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 2,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2005,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.food"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 2003,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.food"
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:choice"
+    },
+    "1:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 2,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 32001,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.books",
+          "tag:10": {
+            "author:8": "GMWI (Gregorius Metal Working Industries)",
+            "book:8": "Manual_Alloys",
+            "title:8": "Book of Alloys, Smeltery Edition (54)"
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 32000,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.books",
+          "tag:10": {
+            "author:8": "GMWI (Gregorius Metal Working Industries)",
+            "book:8": "Manual_Smeltery",
+            "title:8": "Smelting Crucible Manual"
+          }
+        }
+      }
     }
   },
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.multitileentity",
           "Count:3": 1,
           "Damage:2": 1005,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multitileentity"
         },
         "1:10": {
-          "id:8": "gregtech:gt.multitileentity",
           "Count:3": 2,
           "Damage:2": 1855,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multitileentity"
         },
         "2:10": {
-          "id:8": "gregtech:gt.multiitem.randomtools",
           "Count:3": 4,
           "Damage:2": 991,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.randomtools"
         },
         "3:10": {
-          "id:8": "gregtech:gt.metatool.01",
           "Count:3": 1,
+          "Damage:2": 46,
+          "OreDict:8": "craftingToolRollingPin",
+          "id:8": "gregtech:gt.metatool.01",
           "tag:10": {
-            "ench:9": {},
             "GT.ToolStats:10": {
               "a:2": 9300,
               "c:2": 8221,
               "j:2": 3200,
               "k:2": 2800
-            }
-          },
-          "Damage:2": 46,
-          "OreDict:8": "craftingToolRollingPin"
+            },
+            "ench:9": {}
+          }
         }
       },
       "taskID:8": "bq_standard:retrieval"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:choice",
-      "index:3": 1,
-      "choices:9": {
-        "0:10": {
-          "id:8": "gregtech:gt.multiitem.food",
-          "Count:3": 1,
-          "Damage:2": 2005,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "gregtech:gt.multiitem.food",
-          "Count:3": 1,
-          "Damage:2": 2003,
-          "OreDict:8": ""
-        }
-      }
-    },
-    "1:10": {
-      "rewardID:8": "bq_standard:item",
-      "index:3": 2,
-      "rewards:9": {
-        "0:10": {
-          "id:8": "gregtech:gt.multiitem.books",
-          "Count:3": 1,
-          "tag:10": {
-            "author:8": "GMWI (Gregorius Metal Working Industries)",
-            "book:8": "Manual_Alloys",
-            "title:8": "Book of Alloys, Smeltery Edition (54)"
-          },
-          "Damage:2": 32001,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "gregtech:gt.multiitem.books",
-          "Count:3": 1,
-          "tag:10": {
-            "author:8": "GMWI (Gregorius Metal Working Industries)",
-            "book:8": "Manual_Smeltery",
-            "title:8": "Smelting Crucible Manual"
-          },
-          "Damage:2": 32000,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }

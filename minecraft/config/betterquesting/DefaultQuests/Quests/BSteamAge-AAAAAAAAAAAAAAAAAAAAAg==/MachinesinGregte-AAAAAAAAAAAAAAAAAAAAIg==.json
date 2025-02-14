@@ -1,42 +1,42 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 2
     }
   },
-  "questIDLow:4": 34,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "minecraft:entity.player.levelup",
-      "taskLogic:8": "AND",
-      "visibility:8": "NORMAL",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "Let\u0027s talk about machines.\nMost machines in Gregtech cannot be powered directly with RF or Electricity. Instead depending on the machine you have to hook up other machines that output different power types to your factory, kind of like a semi multiblock.\n§7§9§e§k§l§l§k§m§m§r§1§2§3§4§5§6§7§9§7\nE.g:\nLets say you have an Oven, instead of hooking up a cable directly to it you power it with Heat (HU). So you place a burning box or electric heater below it. In case of the electric heater you power this one with EU.\n\nNow lets give a more complex example:\nSay you are in the steam age and want to power your crusher for ore doubling.\nThe Crusher needs KU, which you get from an engine, which itself needs to be supplied with steam to work, the steam comes from a boiler, which needs HU to convert water to steam, so you place a burning box below the boiler.\n§f\nAll machines have a range in which they can work. If you supply less, it wont do anything and if you supply more than the max it either stops working or melts down or even explodes. Make sure to supply your machines inside their working range!\n\n\nSome explanation about recipes:\n\nCosts - the total cost the recipe costs in GU (the actual type depends on the specific machine, it will convert all other types into GU 1:1 internally)\nUsage - the minimum GU/t you have to supply, if you supply less, the machine will not be able to process the recipe and get stuck (if that happens, either supply the right amount of energy/t or use a rubber-hammer/harvest-and-replace the machine to reset it, the items for the recipes are lost this way though)\nTier\u0026Power are interesting for overclocking recipes (more of that in later ages)\nTime - the time the recipe takes to finish, given you supply the exact amount needed (if you supply more, the machine will finish faster)\n",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "gregtech:gt.multitileentity",
         "Count:3": 1,
         "Damage:2": 20161,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.multitileentity"
       },
-      "snd_update:8": "minecraft:entity.player.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Machines in Gregtech",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Let\u0027s talk about machines.\nMost machines in Gregtech cannot be powered directly with RF or Electricity. Instead depending on the machine you have to hook up other machines that output different power types to your factory, kind of like a semi multiblock.\n§7§9§e§k§l§l§k§m§m§r§1§2§3§4§5§6§7§9§7\nE.g:\nLets say you have an Oven, instead of hooking up a cable directly to it you power it with Heat (HU). So you place a burning box or electric heater below it. In case of the electric heater you power this one with EU.\n\nNow lets give a more complex example:\nSay you are in the steam age and want to power your crusher for ore doubling.\nThe Crusher needs KU, which you get from an engine, which itself needs to be supplied with steam to work, the steam comes from a boiler, which needs HU to convert water to steam, so you place a burning box below the boiler.\n§f\nAll machines have a range in which they can work. If you supply less, it wont do anything and if you supply more than the max it either stops working or melts down or even explodes. Make sure to supply your machines inside their working range!\n\n\nSome explanation about recipes:\n\nCosts - the total cost the recipe costs in GU (the actual type depends on the specific machine, it will convert all other types into GU 1:1 internally)\nUsage - the minimum GU/t you have to supply, if you supply less, the machine will not be able to process the recipe and get stuck (if that happens, either supply the right amount of energy/t or use a rubber-hammer/harvest-and-replace the machine to reset it, the items for the recipes are lost this way though)\nTier\u0026Power are interesting for overclocking recipes (more of that in later ages)\nTime - the time the recipe takes to finish, given you supply the exact amount needed (if you supply more, the machine will finish faster)\n"
+      "lockedProgress:1": 0,
+      "name:8": "Machines in Gregtech",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
     }
   },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 34,
+  "rewards:9": {},
   "tasks:9": {
     "0:10": {
       "index:3": 0,
       "taskID:8": "bq_standard:checkbox"
     }
-  },
-  "rewards:9": {}
+  }
 }

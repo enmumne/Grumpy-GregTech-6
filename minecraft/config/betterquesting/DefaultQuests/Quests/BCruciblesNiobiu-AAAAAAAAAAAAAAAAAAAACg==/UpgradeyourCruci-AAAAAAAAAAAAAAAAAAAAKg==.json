@@ -1,80 +1,81 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 2
     }
   },
-  "questIDLow:4": 42,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "minecraft:entity.player.levelup",
-      "taskLogic:8": "AND",
-      "visibility:8": "ALWAYS",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "As we start working with ever higher melting point materials, we need a crucible that can handle higher temperatures than 2,500K, so it\u0027s time to upgrade our crucible.\n\nThis is the easiest route of upgrading your crucible, this route needs less precise shutoff mechanisms, but you need to use those meteors you found while picking up rocks from the ground.  A single meteorite smelts to 6 meteoric iron chunks (2.25 ingots).  There are Big meteorites in some of those rocks and those give significant random amount.\n\nUse your engine to supply air and you will have meteoric steel at 2246K.  You will need 12 Meteoric steel plates.  7 for the crucible and 5 for the mold.  You will need a plate mold to make the next level crucible.  You are welcome to make additional molds but we will not be staying with this crucible for very long.\n§b\nNote:  You can use your ceramic molds if you are the molten metal does not exceed the temperature of the molds.  So you can use this crucible temporary to make more iron, copper or other metal.  Just be aware it will take more energy to heat the crucible to the same temperature as it did for the ceramic crucible.\n§f§a\nTo complete this quest make:\n1 Meteoric Steel Crucible\n1 Meteoric Steel Mold",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "gregtech:gt.multitileentity",
         "Count:3": 1,
         "Damage:2": 1032,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.multitileentity"
       },
-      "snd_update:8": "minecraft:entity.player.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Upgrade your Crucible (Meteoric Steel)",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "As we start working with ever higher melting point materials, we need a crucible that can handle higher temperatures than 2,500K, so it\u0027s time to upgrade our crucible.\n\nThis is the easiest route of upgrading your crucible, this route needs less precise shutoff mechanisms, but you need to use those meteors you found while picking up rocks from the ground.  A single meteorite smelts to 6 meteoric iron chunks (2.25 ingots).  There are Big meteorites in some of those rocks and those give significant random amount.\n\nUse your engine to supply air and you will have meteoric steel at 2246K.  You will need 12 Meteoric steel plates.  7 for the crucible and 5 for the mold.  You will need a plate mold to make the next level crucible.  You are welcome to make additional molds but we will not be staying with this crucible for very long.\n§b\nNote:  You can use your ceramic molds if you are the molten metal does not exceed the temperature of the molds.  So you can use this crucible temporary to make more iron, copper or other metal.  Just be aware it will take more energy to heat the crucible to the same temperature as it did for the ceramic crucible.\n§f§a\nTo complete this quest make:\n1 Meteoric Steel Crucible\n1 Meteoric Steel Mold"
+      "lockedProgress:1": 0,
+      "name:8": "Upgrade your Crucible (Meteoric Steel)",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 42,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2005,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.food"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 2003,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.food"
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
     }
   },
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 0,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.multitileentity",
           "Count:3": 1,
           "Damage:2": 1032,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multitileentity"
         },
         "1:10": {
-          "id:8": "gregtech:gt.multitileentity",
           "Count:3": 1,
           "Damage:2": 1082,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multitileentity"
         }
       },
       "taskID:8": "bq_standard:retrieval"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:choice",
-      "index:3": 0,
-      "choices:9": {
-        "0:10": {
-          "id:8": "gregtech:gt.multiitem.food",
-          "Count:3": 1,
-          "Damage:2": 2005,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "gregtech:gt.multiitem.food",
-          "Count:3": 1,
-          "Damage:2": 2003,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }

@@ -1,130 +1,131 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 2
     }
   },
-  "questIDLow:4": 92,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "minecraft:entity.player.levelup",
-      "taskLogic:8": "AND",
-      "visibility:8": "ALWAYS",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "If you made the crucible using the newer method with the brick burning box, then you are going to need some tools so that you can make machines and to progress through GregTech 6.  If you used the old harder method and quest path to get to the crucible, then you can just use those tools that you already made and get another cookie for your hard work.\n\nSo what tools are you going to need?  Well you are going to need a hammer, a file, and a wrench.  You can make your tools out of almost any metal or alloy.  At this point in GT6, your best materials are lead and bronze.  You can use NEI to look at the durability of each metal and alloy.  There are better materials than others.  For example, copper is very poor material for tools since the tools won\u0027t last beyond a single use or two.\n\nTo make a metal hammer, you will need a stone hammer.  A stone hammer is just 6 rocks and a stick.  For the metal hammer, you take 6 ingots and your stone hammer to make a hammer head.  Combine the hammer head with a stick in a crafting grid to make the hammer.  It is similar with a file, combine a file head and a stick.  The wrench is 4 plates in a \u0027Y\u0027 pattern and a hammer.\n§b\nPro Tip:  You can make some tool molds for some of the tools like the hammer, file, pickaxe, axe, and others.  Unfortunately for the more complex tools like a wrench, monkey wrench, wire cutters, or pinchers, you cannot make these tools using a mold.  For the simple tools (hammer, file, etc) the key is to make a full tool with a stick before you combine the tool with the  raw mold in a crafting grid.  If you combine a mold and a tool head, you will lose the tool head but if you combine a full too, you will only use a little bit of the tool durability.  Having these tool molds allows you to pour your tool heads right from the crucible.  The tool molds will produce a raw tool head.  You will need to use a file to make a tool head from the raw tool heads or you can use a grindstone once you make some iron.\n§f§a\nTo complete this quest make the following tools:\n1 Hammer\n1 File\n1 Wrench",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "gregtech:gt.metatool.01",
         "Count:3": 1,
+        "Damage:2": 16,
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.metatool.01",
         "tag:10": {
-          "ench:9": {},
           "GT.ToolStats:10": {
             "a:2": 8610,
             "c:2": 8610,
             "j:3": 44800,
             "k:2": 5300
-          }
-        },
-        "Damage:2": 16,
-        "OreDict:8": ""
+          },
+          "ench:9": {}
+        }
       },
-      "snd_update:8": "minecraft:entity.player.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Tool Time for Metal Heads",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "If you made the crucible using the newer method with the brick burning box, then you are going to need some tools so that you can make machines and to progress through GregTech 6.  If you used the old harder method and quest path to get to the crucible, then you can just use those tools that you already made and get another cookie for your hard work.\n\nSo what tools are you going to need?  Well you are going to need a hammer, a file, and a wrench.  You can make your tools out of almost any metal or alloy.  At this point in GT6, your best materials are lead and bronze.  You can use NEI to look at the durability of each metal and alloy.  There are better materials than others.  For example, copper is very poor material for tools since the tools won\u0027t last beyond a single use or two.\n\nTo make a metal hammer, you will need a stone hammer.  A stone hammer is just 6 rocks and a stick.  For the metal hammer, you take 6 ingots and your stone hammer to make a hammer head.  Combine the hammer head with a stick in a crafting grid to make the hammer.  It is similar with a file, combine a file head and a stick.  The wrench is 4 plates in a \u0027Y\u0027 pattern and a hammer.\n§b\nPro Tip:  You can make some tool molds for some of the tools like the hammer, file, pickaxe, axe, and others.  Unfortunately for the more complex tools like a wrench, monkey wrench, wire cutters, or pinchers, you cannot make these tools using a mold.  For the simple tools (hammer, file, etc) the key is to make a full tool with a stick before you combine the tool with the  raw mold in a crafting grid.  If you combine a mold and a tool head, you will lose the tool head but if you combine a full too, you will only use a little bit of the tool durability.  Having these tool molds allows you to pour your tool heads right from the crucible.  The tool molds will produce a raw tool head.  You will need to use a file to make a tool head from the raw tool heads or you can use a grindstone once you make some iron.\n§f§a\nTo complete this quest make the following tools:\n1 Hammer\n1 File\n1 Wrench"
+      "lockedProgress:1": 0,
+      "name:8": "Tool Time for Metal Heads",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 92,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2005,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.food"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 2003,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.food"
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
     }
   },
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.metatool.01",
           "Count:3": 1,
+          "Damage:2": 12,
+          "OreDict:8": "craftingToolHardHammer",
+          "id:8": "gregtech:gt.metatool.01",
           "tag:10": {
-            "ench:9": {
-              "0:10": {
-                "lvl:2": 1,
-                "id:2": 16
-              },
-              "1:10": {
-                "lvl:2": 2,
-                "id:2": 13
-              }
-            },
             "GT.ToolStats:10": {
               "a:2": 8610,
               "c:2": 8221,
               "j:3": 44800
+            },
+            "ench:9": {
+              "0:10": {
+                "id:2": 16,
+                "lvl:2": 1
+              },
+              "1:10": {
+                "id:2": 13,
+                "lvl:2": 2
+              }
             }
-          },
-          "Damage:2": 12,
-          "OreDict:8": "craftingToolHardHammer"
+          }
         },
         "1:10": {
-          "id:8": "gregtech:gt.metatool.01",
           "Count:3": 1,
+          "Damage:2": 18,
+          "OreDict:8": "craftingToolFile",
+          "id:8": "gregtech:gt.metatool.01",
           "tag:10": {
-            "ench:9": {},
             "GT.ToolStats:10": {
               "a:2": 8610,
               "c:2": 9314,
               "j:3": 44800,
               "k:2": 8800
-            }
-          },
-          "Damage:2": 18,
-          "OreDict:8": "craftingToolFile"
+            },
+            "ench:9": {}
+          }
         },
         "2:10": {
-          "id:8": "gregtech:gt.metatool.01",
           "Count:3": 1,
+          "Damage:2": 16,
+          "OreDict:8": "craftingToolWrench",
+          "id:8": "gregtech:gt.metatool.01",
           "tag:10": {
-            "ench:9": {},
             "GT.ToolStats:10": {
               "a:2": 8610,
               "c:2": 8610,
               "j:3": 44800,
               "k:2": 5300
-            }
-          },
-          "Damage:2": 16,
-          "OreDict:8": "craftingToolWrench"
+            },
+            "ench:9": {}
+          }
         }
       },
       "taskID:8": "bq_standard:retrieval"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:choice",
-      "index:3": 0,
-      "choices:9": {
-        "0:10": {
-          "id:8": "gregtech:gt.multiitem.food",
-          "Count:3": 1,
-          "Damage:2": 2005,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "gregtech:gt.multiitem.food",
-          "Count:3": 1,
-          "Damage:2": 2003,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }

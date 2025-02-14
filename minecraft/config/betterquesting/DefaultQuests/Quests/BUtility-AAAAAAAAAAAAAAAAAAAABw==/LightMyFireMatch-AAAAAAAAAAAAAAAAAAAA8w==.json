@@ -1,115 +1,116 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 26
     }
   },
-  "questIDLow:4": 243,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "minecraft:entity.player.levelup",
-      "taskLogic:8": "OR",
-      "visibility:8": "ALWAYS",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "Flint and Tender and Flint and Steel can only go so far as you don\u0027t always get a light from them.  Once you find a Apatite vein, you will have the ability to make matches.  Within the vein you will have ore to give you Phosphor or Phosphorus dust. You can combine one dust with 4 short sticks (saw and 1 stick in crafting grid will give 2 short sticks).  Matches give you 90% chance to have a light.  1 Dust and 4 short sticks in a diamond will give you 4 matches.\n\nFlint and Tender is single use but only 50% of lighting\nFlint and Steel has more than a single use depending on the materials used but only 30% chance of lighting\na Match is single use but 90% chance of lighting.\n\nOnce you have the dusts from processing ores, you can make a bunch of matches.  Eventually when you get a machine, you can make a box of matches that will have 64 uses at 90% chance of lighting.\n§a\nTo complete the quest gather and craft:\n4 Short Sticks\n1 Phosphor or Phosphorus Dust\n4 Matches",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "gregtech:gt.multiitem.randomtools",
         "Count:3": 1,
         "Damage:2": 5000,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.multiitem.randomtools"
       },
-      "snd_update:8": "minecraft:entity.player.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Light My Fire (Matches)",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Flint and Tender and Flint and Steel can only go so far as you don\u0027t always get a light from them.  Once you find a Apatite vein, you will have the ability to make matches.  Within the vein you will have ore to give you Phosphor or Phosphorus dust. You can combine one dust with 4 short sticks (saw and 1 stick in crafting grid will give 2 short sticks).  Matches give you 90% chance to have a light.  1 Dust and 4 short sticks in a diamond will give you 4 matches.\n\nFlint and Tender is single use but only 50% of lighting\nFlint and Steel has more than a single use depending on the materials used but only 30% chance of lighting\na Match is single use but 90% chance of lighting.\n\nOnce you have the dusts from processing ores, you can make a bunch of matches.  Eventually when you get a machine, you can make a box of matches that will have 64 uses at 90% chance of lighting.\n§a\nTo complete the quest gather and craft:\n4 Short Sticks\n1 Phosphor or Phosphorus Dust\n4 Matches"
+      "lockedProgress:1": 0,
+      "name:8": "Light My Fire (Matches)",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "OR",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 243,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2005,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.food"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 2003,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.food"
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
     }
   },
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.multiitem.randomtools",
           "Count:3": 4,
           "Damage:2": 5000,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.randomtools"
         },
         "1:10": {
-          "id:8": "gregtech:gt.meta.dust",
           "Count:3": 1,
           "Damage:2": 150,
-          "OreDict:8": "dustPhosphor"
+          "OreDict:8": "dustPhosphor",
+          "id:8": "gregtech:gt.meta.dust"
         },
         "2:10": {
-          "id:8": "gregtech:gt.meta.bolt",
           "Count:3": 4,
           "Damage:2": 8221,
-          "OreDict:8": "boltAnyWood"
+          "OreDict:8": "boltAnyWood",
+          "id:8": "gregtech:gt.meta.bolt"
         }
       },
       "taskID:8": "bq_standard:retrieval"
     },
     "1:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 1,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.multiitem.randomtools",
           "Count:3": 4,
           "Damage:2": 5000,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.randomtools"
         },
         "1:10": {
-          "id:8": "gregtech:gt.meta.dust",
           "Count:3": 1,
           "Damage:2": 8208,
-          "OreDict:8": "dustAnyPhosphorus"
+          "OreDict:8": "dustAnyPhosphorus",
+          "id:8": "gregtech:gt.meta.dust"
         },
         "2:10": {
-          "id:8": "gregtech:gt.meta.bolt",
           "Count:3": 1,
           "Damage:2": 9403,
-          "OreDict:8": "boltAnyWood"
+          "OreDict:8": "boltAnyWood",
+          "id:8": "gregtech:gt.meta.bolt"
         }
       },
       "taskID:8": "bq_standard:retrieval"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:choice",
-      "index:3": 0,
-      "choices:9": {
-        "0:10": {
-          "id:8": "gregtech:gt.multiitem.food",
-          "Count:3": 1,
-          "Damage:2": 2005,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "gregtech:gt.multiitem.food",
-          "Count:3": 1,
-          "Damage:2": 2003,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }

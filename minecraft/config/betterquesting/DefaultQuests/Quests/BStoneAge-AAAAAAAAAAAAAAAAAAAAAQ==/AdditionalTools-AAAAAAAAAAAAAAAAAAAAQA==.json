@@ -1,5 +1,4 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
@@ -10,158 +9,160 @@
       "questIDLow:4": 268
     }
   },
-  "questIDLow:4": 64,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "minecraft:entity.player.levelup",
-      "taskLogic:8": "AND",
-      "visibility:8": "ALWAYS",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "Now is the time to make some additional tools that are needed to get you through the stone age and beyond.  You will need to make a saw so you can cut rods and wood.  You will need a screwdriver to assemble anything that contains a screw.  You should have a handy set of pincers to quickly take items out of your molds without burning yourself to death.  The pincers allows you to pull hot items from your molds so you can continue to use the molds faster before the molten metal solidifies in your crucible.  A soft hammer will be useful when making items out of wood like your first pipes and to reset machines and sensors back to default settings  Finally a pair of wire cutters will be useful to make some wire for machines and dealing with redstone alloy wires needed for automation.\n§e\nWarning:  You will need to make a hand drill in order to craft a soft hammer head from wood.  An early game hand drill is made from 3 sticks (any wood) and a metal arrow head and 2 metal bolts.  The arrow head and bolts need to be made from the same material.  You can pour the arrow head and bolts by using your crucible and pouring into the arrowhead and bolt molds.  Bronze will work so can lead.\n§d§b\nPro Tip:  You can make a mold of your saw and screwdriver using the tool and a clay mold.  If you use the completed tool, the tool will take some durability damage but will not be consumed.  If you use just the tool head, it will be consumed when making a mold.  There are no molds for the pincers, soft hammer, or wire cutters.  You can combine your screwdriver, saw, and wire cutters into the multitool.\n§3\nNew Use:  Greg added the ability to right-click a chest with pincers.  Doing this action will pull the contents of the chest into your inventory.  It will prioritize stackable items first.  This should greatly help with sorting through the contents of Loot Chests that you open at your base, like a sane person would do.\n§f§a\nSo we are going to make:\n1 Saw\n1 Screwdriver\n1 Set of Pincers\n1 Hand Drill\n1 Soft Hammer\n1 Wire Cutters",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "gregtech:gt.metatool.01",
         "Count:3": 1,
+        "Damage:2": 66,
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.metatool.01",
         "tag:10": {
-          "ench:9": {},
           "GT.ToolStats:10": {
             "a:2": 8610,
             "c:2": 8610,
             "j:3": 44800
-          }
-        },
-        "Damage:2": 66,
-        "OreDict:8": ""
+          },
+          "ench:9": {}
+        }
       },
-      "snd_update:8": "minecraft:entity.player.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Additional Tools",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Now is the time to make some additional tools that are needed to get you through the stone age and beyond.  You will need to make a saw so you can cut rods and wood.  You will need a screwdriver to assemble anything that contains a screw.  You should have a handy set of pincers to quickly take items out of your molds without burning yourself to death.  The pincers allows you to pull hot items from your molds so you can continue to use the molds faster before the molten metal solidifies in your crucible.  A soft hammer will be useful when making items out of wood like your first pipes and to reset machines and sensors back to default settings  Finally a pair of wire cutters will be useful to make some wire for machines and dealing with redstone alloy wires needed for automation.\n§e\nWarning:  You will need to make a hand drill in order to craft a soft hammer head from wood.  An early game hand drill is made from 3 sticks (any wood) and a metal arrow head and 2 metal bolts.  The arrow head and bolts need to be made from the same material.  You can pour the arrow head and bolts by using your crucible and pouring into the arrowhead and bolt molds.  Bronze will work so can lead.\n§d§b\nPro Tip:  You can make a mold of your saw and screwdriver using the tool and a clay mold.  If you use the completed tool, the tool will take some durability damage but will not be consumed.  If you use just the tool head, it will be consumed when making a mold.  There are no molds for the pincers, soft hammer, or wire cutters.  You can combine your screwdriver, saw, and wire cutters into the multitool.\n§3\nNew Use:  Greg added the ability to right-click a chest with pincers.  Doing this action will pull the contents of the chest into your inventory.  It will prioritize stackable items first.  This should greatly help with sorting through the contents of Loot Chests that you open at your base, like a sane person would do.\n§f§a\nSo we are going to make:\n1 Saw\n1 Screwdriver\n1 Set of Pincers\n1 Hand Drill\n1 Soft Hammer\n1 Wire Cutters"
+      "lockedProgress:1": 0,
+      "name:8": "Additional Tools",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 64,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2005,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.food"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 2003,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.food"
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
     }
   },
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 3,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.metatool.01",
           "Count:3": 1,
+          "Damage:2": 10,
+          "OreDict:8": "craftingToolSaw",
+          "id:8": "gregtech:gt.metatool.01",
           "tag:10": {
-            "ench:9": {},
             "GT.ToolStats:10": {
               "a:2": 8610,
               "c:2": 8221,
               "j:3": 44800,
               "k:1": 100
-            }
-          },
-          "Damage:2": 10,
-          "OreDict:8": "craftingToolSaw"
+            },
+            "ench:9": {}
+          }
         },
         "1:10": {
-          "id:8": "gregtech:gt.metatool.01",
           "Count:3": 1,
+          "Damage:2": 22,
+          "OreDict:8": "craftingToolScrewdriver",
+          "id:8": "gregtech:gt.metatool.01",
           "tag:10": {
-            "ench:9": {},
             "GT.ToolStats:10": {
               "a:2": 8610,
               "c:2": 8221,
               "j:3": 44800,
               "k:2": 400
-            }
-          },
-          "Damage:2": 22,
-          "OreDict:8": "craftingToolScrewdriver"
+            },
+            "ench:9": {}
+          }
         },
         "2:10": {
-          "id:8": "gregtech:gt.metatool.01",
           "Count:3": 1,
+          "Damage:2": 66,
+          "OreDict:8": "craftingToolPincers",
+          "id:8": "gregtech:gt.metatool.01",
           "tag:10": {
-            "ench:9": {},
             "GT.ToolStats:10": {
               "a:2": 8610,
               "c:2": 8610,
               "j:3": 44800
-            }
-          },
-          "Damage:2": 66,
-          "OreDict:8": "craftingToolPincers"
+            },
+            "ench:9": {}
+          }
         },
         "3:10": {
-          "id:8": "gregtech:gt.metatool.01",
           "Count:3": 1,
+          "Damage:2": 72,
+          "OreDict:8": "craftingToolHandDrill",
+          "id:8": "gregtech:gt.metatool.01",
           "tag:10": {
-            "ench:9": {},
             "GT.ToolStats:10": {
               "a:2": 8610,
               "d:8": "AnyWoodOrPlastic",
               "j:2": 11200
-            }
-          },
-          "Damage:2": 72,
-          "OreDict:8": "craftingToolHandDrill"
+            },
+            "ench:9": {}
+          }
         },
         "4:10": {
-          "id:8": "gregtech:gt.metatool.01",
           "Count:3": 1,
+          "Damage:2": 26,
+          "OreDict:8": "craftingToolWireCutter",
+          "id:8": "gregtech:gt.metatool.01",
           "tag:10": {
-            "ench:9": {},
             "GT.ToolStats:10": {
               "a:2": 8610,
               "c:2": 8610,
               "j:3": 44800
-            }
-          },
-          "Damage:2": 26,
-          "OreDict:8": "craftingToolWireCutter"
+            },
+            "ench:9": {}
+          }
         },
         "5:10": {
-          "id:8": "gregtech:gt.metatool.01",
           "Count:3": 1,
+          "Damage:2": 14,
+          "OreDict:8": "craftingToolSoftHammer",
+          "id:8": "gregtech:gt.metatool.01",
           "tag:10": {
-            "ench:9": {},
             "GT.ToolStats:10": {
               "a:2": 9300,
               "c:2": 8221,
               "j:2": 25600,
               "k:2": 6400
-            }
-          },
-          "Damage:2": 14,
-          "OreDict:8": "craftingToolSoftHammer"
+            },
+            "ench:9": {}
+          }
         }
       },
       "taskID:8": "bq_standard:retrieval"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:choice",
-      "index:3": 0,
-      "choices:9": {
-        "0:10": {
-          "id:8": "gregtech:gt.multiitem.food",
-          "Count:3": 1,
-          "Damage:2": 2005,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "gregtech:gt.multiitem.food",
-          "Count:3": 1,
-          "Damage:2": 2003,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }

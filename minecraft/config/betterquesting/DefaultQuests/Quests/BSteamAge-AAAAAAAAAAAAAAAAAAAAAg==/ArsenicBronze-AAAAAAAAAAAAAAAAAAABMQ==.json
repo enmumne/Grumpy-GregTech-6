@@ -1,74 +1,75 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 2
     }
   },
-  "questIDLow:4": 305,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "minecraft:entity.player.levelup",
-      "taskLogic:8": "AND",
-      "visibility:8": "ALWAYS",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "Another new alloy added in GregTech 6.16.02 is Arsenic Bronze.  This alloy is made from 3 copper, 1 tin, and 1 arsenic.  This alloy has more damage to slimes than arsenic copper.  This alloy also has better efficiency and higher heat output than bronze or arsenic copper burning boxes.  This alloy can also be used for diesel engines with slightly higher output than the bronze diesel engines.  This alloy can also be used for a tier 2 item pipe but has the same step size as tier 1 brass item pipes.  This is probably the easiest tier 2 as the other tier 2 item pipes require electum (silver/gold).\n§b\nNote you can create this alloy by smelting the 3 copper + 1 tin + 1 arsenic or 4 bronze + 1 arsenic or 4 arsenic copper + 1 tin.  You can get arsenic from washing native copper and tetrahedrite.\n§a\nTo complete this quest make :\n5 Arsenic Bronze Plates",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "gregtech:gt.meta.plate",
         "Count:3": 1,
         "Damage:2": 8615,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.meta.plate"
       },
-      "snd_update:8": "minecraft:entity.player.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Arsenic Bronze",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Another new alloy added in GregTech 6.16.02 is Arsenic Bronze.  This alloy is made from 3 copper, 1 tin, and 1 arsenic.  This alloy has more damage to slimes than arsenic copper.  This alloy also has better efficiency and higher heat output than bronze or arsenic copper burning boxes.  This alloy can also be used for diesel engines with slightly higher output than the bronze diesel engines.  This alloy can also be used for a tier 2 item pipe but has the same step size as tier 1 brass item pipes.  This is probably the easiest tier 2 as the other tier 2 item pipes require electum (silver/gold).\n§b\nNote you can create this alloy by smelting the 3 copper + 1 tin + 1 arsenic or 4 bronze + 1 arsenic or 4 arsenic copper + 1 tin.  You can get arsenic from washing native copper and tetrahedrite.\n§a\nTo complete this quest make :\n5 Arsenic Bronze Plates"
+      "lockedProgress:1": 0,
+      "name:8": "Arsenic Bronze",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 305,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2005,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.food"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 2003,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.food"
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
     }
   },
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.meta.plate",
           "Count:3": 5,
           "Damage:2": 8615,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.meta.plate"
         }
       },
       "taskID:8": "bq_standard:retrieval"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:choice",
-      "index:3": 0,
-      "choices:9": {
-        "0:10": {
-          "id:8": "gregtech:gt.multiitem.food",
-          "Count:3": 1,
-          "Damage:2": 2005,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "gregtech:gt.multiitem.food",
-          "Count:3": 1,
-          "Damage:2": 2003,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }

@@ -1,0 +1,81 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 231
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "Greg has a couple of covers that can receive and transmit redstone signals through Greg\u0027s machines.  These covers are useful when turning on and off Diesel Generators when machines do not have work ro do.  To craft these covers you only need a blank cover and a redstone wire.\n§a\nTo complete the quest craft:\n1 Redstone Conductor Cover (Accept)\n1 Redstone Conductor Cover (Emit)",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1029,
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.multiitem.technological"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Redstone Covers",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questIDHigh:4": -7590821489819628870,
+  "questIDLow:4": -8072303370556924279,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2005,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.food"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 2003,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.food"
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1029,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.technological"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 1030,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.technological"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

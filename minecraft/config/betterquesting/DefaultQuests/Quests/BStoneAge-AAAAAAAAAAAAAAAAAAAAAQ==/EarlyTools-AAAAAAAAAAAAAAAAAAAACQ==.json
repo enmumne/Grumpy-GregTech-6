@@ -1,122 +1,123 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 3
     }
   },
-  "questIDLow:4": 9,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "minecraft:entity.player.levelup",
-      "taskLogic:8": "AND",
-      "visibility:8": "ALWAYS",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "Flint tools are a great early game choice. If you can\u0027t find flint anywhere use rocks but you really want some flint for a knife,  Gather some sticks from the ground and pick up some stones.  If some of the rocks are ores, mark that location so you can come back later to mine the ore.  Ore bearing rocks indicate that there is an ore block somewhere below that rock location.  This is the primary way to find ore blocks.\n§b\n§c§bTip:  You can get flint from gravel.  Using your first piece of flint to make a shovel will make gathering gravel much faster.\n§f\nAll flint tools automatically get the fire aspect enchantment, which means hunting for meat yields cooked meat!\n§b§f\nSome information about rocks:\nAll rocks have a specific level due to the hardness of the rock.  This hardness will determine which rocks a pick axe can mine and the durability and how many uses that tool will have.\nFor example Minecraft stone, diorite, limestone and marble are all level 1 stones so you can mine with a level 1 pick axe or higher.  A level 1 pick axe is made of these same rocks or flint.\nLevel 2 stone such as Basalt, Komatite, or Kimberlite are level 2 rocks so if you want to mine these rocks, you will need a pick made of these rocks.\nLevel 3 stone such as Black Granite and Red Granite are level 3 rocks so if you want to mine these rocks, you will need a pick made of these rocks.  These rocks have the best durability of all stone tools.\n§4§b\nPro tip:  Make a hammer from 6 red/black granite and you can mine a piece of red/black granite.  This will give you red/black cobblestone.  Place that red/black cobble on the ground and mine  it with with your hammer again will result in 3-4 red/black granite rocks.  This will give you more rocks to make additional level 3 tools. \n§f§a\nTo complete the quest:\nGather flint and rocks and make the following tools:\n1 Pickaxe from flint or rocks\n1 Axe from flint or rocks\n1 Shovel from flint or rocks",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "gregtech:gt.metatool.01",
         "Count:3": 1,
+        "Damage:2": 2,
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.metatool.01",
         "tag:10": {
           "GT.ToolStats:10": {
             "a:2": 8002,
             "c:2": 8221,
             "j:2": 4800
           }
-        },
-        "Damage:2": 2,
-        "OreDict:8": ""
+        }
       },
-      "snd_update:8": "minecraft:entity.player.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Early Tools",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Flint tools are a great early game choice. If you can\u0027t find flint anywhere use rocks but you really want some flint for a knife,  Gather some sticks from the ground and pick up some stones.  If some of the rocks are ores, mark that location so you can come back later to mine the ore.  Ore bearing rocks indicate that there is an ore block somewhere below that rock location.  This is the primary way to find ore blocks.\n§b\n§c§bTip:  You can get flint from gravel.  Using your first piece of flint to make a shovel will make gathering gravel much faster.\n§f\nAll flint tools automatically get the fire aspect enchantment, which means hunting for meat yields cooked meat!\n§b§f\nSome information about rocks:\nAll rocks have a specific level due to the hardness of the rock.  This hardness will determine which rocks a pick axe can mine and the durability and how many uses that tool will have.\nFor example Minecraft stone, diorite, limestone and marble are all level 1 stones so you can mine with a level 1 pick axe or higher.  A level 1 pick axe is made of these same rocks or flint.\nLevel 2 stone such as Basalt, Komatite, or Kimberlite are level 2 rocks so if you want to mine these rocks, you will need a pick made of these rocks.\nLevel 3 stone such as Black Granite and Red Granite are level 3 rocks so if you want to mine these rocks, you will need a pick made of these rocks.  These rocks have the best durability of all stone tools.\n§4§b\nPro tip:  Make a hammer from 6 red/black granite and you can mine a piece of red/black granite.  This will give you red/black cobblestone.  Place that red/black cobble on the ground and mine  it with with your hammer again will result in 3-4 red/black granite rocks.  This will give you more rocks to make additional level 3 tools. \n§f§a\nTo complete the quest:\nGather flint and rocks and make the following tools:\n1 Pickaxe from flint or rocks\n1 Axe from flint or rocks\n1 Shovel from flint or rocks"
+      "lockedProgress:1": 0,
+      "name:8": "Early Tools",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 9,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2005,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.food"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 2003,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.food"
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
     }
   },
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.metatool.01",
           "Count:3": 1,
+          "Damage:2": 2,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metatool.01",
           "tag:10": {
-            "ench:9": {},
             "GT.ToolStats:10": {
               "a:2": 8002,
               "c:2": 8221,
               "j:2": 4800
-            }
-          },
-          "Damage:2": 2,
-          "OreDict:8": ""
+            },
+            "ench:9": {}
+          }
         },
         "1:10": {
-          "id:8": "gregtech:gt.metatool.01",
           "Count:3": 1,
+          "Damage:2": 6,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metatool.01",
           "tag:10": {
+            "GT.ToolStats:10": {
+              "a:2": 8002,
+              "c:2": 8221,
+              "j:2": 4800
+            },
             "ench:9": {
               "0:10": {
-                "lvl:2": 1,
-                "id:2": 20
+                "id:2": 20,
+                "lvl:2": 1
               }
-            },
-            "GT.ToolStats:10": {
-              "a:2": 8002,
-              "c:2": 8221,
-              "j:2": 4800
             }
-          },
-          "Damage:2": 6,
-          "OreDict:8": ""
+          }
         },
         "2:10": {
-          "id:8": "gregtech:gt.metatool.01",
           "Count:3": 1,
+          "Damage:2": 4,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metatool.01",
           "tag:10": {
-            "ench:9": {},
             "GT.ToolStats:10": {
               "a:2": 8002,
               "c:2": 8221,
               "j:2": 4800
-            }
-          },
-          "Damage:2": 4,
-          "OreDict:8": ""
+            },
+            "ench:9": {}
+          }
         }
       },
       "taskID:8": "bq_standard:retrieval"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:choice",
-      "index:3": 0,
-      "choices:9": {
-        "0:10": {
-          "id:8": "gregtech:gt.multiitem.food",
-          "Count:3": 1,
-          "Damage:2": 2005,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "gregtech:gt.multiitem.food",
-          "Count:3": 1,
-          "Damage:2": 2003,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }

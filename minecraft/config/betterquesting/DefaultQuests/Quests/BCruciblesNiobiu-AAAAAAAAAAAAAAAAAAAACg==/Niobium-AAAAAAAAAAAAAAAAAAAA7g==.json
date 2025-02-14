@@ -1,74 +1,75 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 237
     }
   },
-  "questIDLow:4": 238,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "minecraft:entity.player.levelup",
-      "taskLogic:8": "AND",
-      "visibility:8": "ALWAYS",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "Now we need to break down the Niobium Pentoxide into Niobium and for that we need to bath the Niobium Pentoxide into Molten Aluminum.  \n\nSo how do we get Molten Aluminum without a Smelter?  You can use you crucible and then use a ceramic measuring pot (See Quest under Utility Tab for details}.\n\nMachines needed for this quest:\n1 Bath\n§a§6\nBath Recipe:\n7 Niobium Pentoxide Dusts + 480L Molten Aluminum \u003d\u003e [Bath] \u003d\u003e 2 Niobium Dusts + 4200L Molten Alumina\n§6§a\nTo complete this quest gather:\n2 Niobium Dusts\n§b\nTip:\nYou can pour your Molten Alumina into ingots and send it back through your Aluminum processing to get Aluminum back.  You can do this by putting an ingot mold below the Bath and either use pinchers or a hopper and chest to collect the alumina ingots.",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "gregtech:gt.meta.dust",
         "Count:3": 1,
         "Damage:2": 410,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.meta.dust"
       },
-      "snd_update:8": "minecraft:entity.player.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Niobium",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Now we need to break down the Niobium Pentoxide into Niobium and for that we need to bath the Niobium Pentoxide into Molten Aluminum.  \n\nSo how do we get Molten Aluminum without a Smelter?  You can use you crucible and then use a ceramic measuring pot (See Quest under Utility Tab for details}.\n\nMachines needed for this quest:\n1 Bath\n§a§6\nBath Recipe:\n7 Niobium Pentoxide Dusts + 480L Molten Aluminum \u003d\u003e [Bath] \u003d\u003e 2 Niobium Dusts + 4200L Molten Alumina\n§6§a\nTo complete this quest gather:\n2 Niobium Dusts\n§b\nTip:\nYou can pour your Molten Alumina into ingots and send it back through your Aluminum processing to get Aluminum back.  You can do this by putting an ingot mold below the Bath and either use pinchers or a hopper and chest to collect the alumina ingots."
+      "lockedProgress:1": 0,
+      "name:8": "Niobium",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 238,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2005,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.food"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 2003,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.food"
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
     }
   },
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.meta.dust",
           "Count:3": 1,
           "Damage:2": 410,
-          "OreDict:8": "dustNiobium"
+          "OreDict:8": "dustNiobium",
+          "id:8": "gregtech:gt.meta.dust"
         }
       },
       "taskID:8": "bq_standard:retrieval"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:choice",
-      "index:3": 0,
-      "choices:9": {
-        "0:10": {
-          "id:8": "gregtech:gt.multiitem.food",
-          "Count:3": 1,
-          "Damage:2": 2005,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "gregtech:gt.multiitem.food",
-          "Count:3": 1,
-          "Damage:2": 2003,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }

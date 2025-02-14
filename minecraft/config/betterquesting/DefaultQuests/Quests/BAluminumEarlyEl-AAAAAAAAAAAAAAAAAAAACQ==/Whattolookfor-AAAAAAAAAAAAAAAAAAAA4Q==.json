@@ -1,37 +1,37 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {},
-  "questIDLow:4": 225,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "minecraft:entity.player.levelup",
-      "taskLogic:8": "AND",
-      "visibility:8": "ALWAYS",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "To get Aluminum, you will need alumina.  You can get alumina from washing Bauxite in a sluice.  You can also get alumina from centrifuging sapphire purified ores.\n\nLook for the following:\n\n- Bauxite ore.  This would be a layered rock type similar to coal, lignite, and milky quartz.\n\n- Sapphire ores.  An alternate way to get alumina dusts.\n\n- You will need some silicon dioxide.  You can use Milky Quartz, Nether Quartz, Certus Quartz, or you left over flint dust.\n\n§e§e\nWarning:  Alumina melts at 2345K so you are likely to melt your ceramic crucible if you throw alumina in there.\n\n§b§6\nProcessing Path:\n\nAlumina dusts + Hexafluorosilicic Acid -\u003e [ Mixer ] -\u003e Molten Aluminum Fluoride + water + Silicon Dioxide\n\nAlumina dusts + Molten Aluminum Fluoride -\u003e [ LV Electrolyzer ] -\u003e Aluminum",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "gregtech:gt.block.rockores",
         "Count:3": 1,
         "Damage:2": 4,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.block.rockores"
       },
-      "snd_update:8": "minecraft:entity.player.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "What to look for",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "To get Aluminum, you will need alumina.  You can get alumina from washing Bauxite in a sluice.  You can also get alumina from centrifuging sapphire purified ores.\n\nLook for the following:\n\n- Bauxite ore.  This would be a layered rock type similar to coal, lignite, and milky quartz.\n\n- Sapphire ores.  An alternate way to get alumina dusts.\n\n- You will need some silicon dioxide.  You can use Milky Quartz, Nether Quartz, Certus Quartz, or you left over flint dust.\n\n§e§e\nWarning:  Alumina melts at 2345K so you are likely to melt your ceramic crucible if you throw alumina in there.\n\n§b§6\nProcessing Path:\n\nAlumina dusts + Hexafluorosilicic Acid -\u003e [ Mixer ] -\u003e Molten Aluminum Fluoride + water + Silicon Dioxide\n\nAlumina dusts + Molten Aluminum Fluoride -\u003e [ LV Electrolyzer ] -\u003e Aluminum"
+      "lockedProgress:1": 0,
+      "name:8": "What to look for",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "ALWAYS"
     }
   },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 225,
+  "rewards:9": {},
   "tasks:9": {
     "0:10": {
       "index:3": 0,
       "taskID:8": "bq_standard:checkbox"
     }
-  },
-  "rewards:9": {}
+  }
 }

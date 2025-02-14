@@ -1,91 +1,92 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 31
     }
   },
-  "questIDLow:4": 270,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "minecraft:entity.player.levelup",
-      "taskLogic:8": "OR",
-      "visibility:8": "ALWAYS",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "Now that you made a thermometer sensor, there are some really useful sensors that you will need for future automation.  The Next one is a Weight-O-Meter.  This sensor measures the weight of the items in some inventory such as the crucible or tank.  It can be used to set a redstone signal when the weight is exactly zero (i.e. it is empty).  The redstone can be connected to a hopper to drop items back in the crucible.  This is how you set up automated smelting using the crucible.  A combination of thermometer sensor to shut off the burning box and to start pouring into the molds and a weight-o-meter to drop new items into the crucible.\n§6§e§b\nPro Tip:  View one of Bear\u0027s many automating videos to see how you can set up auto iron, bronze, brass, steel, and stainless steel using these items.\n§f\nFor now lets make a light version of the weight-o-meter as we only need it to read zero.  You only need 2 double tin alloy plates, 4 red alloy fine wire, a wooden pressure plate, and 2 tin alloy bolts.  Don\u0027t worry that the sensor uses a wood plate, it won\u0027t burn up even if on the side of a crucible.\n§a\nTo complete this quest craft:\n1 Light Weight-O-Meter \n       -or-\n1 Medium Weight-O-Meter",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "gregtech:gt.multitileentity",
         "Count:3": 1,
         "Damage:2": 31010,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.multitileentity"
       },
-      "snd_update:8": "minecraft:entity.player.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Weight-O-Meter",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Now that you made a thermometer sensor, there are some really useful sensors that you will need for future automation.  The Next one is a Weight-O-Meter.  This sensor measures the weight of the items in some inventory such as the crucible or tank.  It can be used to set a redstone signal when the weight is exactly zero (i.e. it is empty).  The redstone can be connected to a hopper to drop items back in the crucible.  This is how you set up automated smelting using the crucible.  A combination of thermometer sensor to shut off the burning box and to start pouring into the molds and a weight-o-meter to drop new items into the crucible.\n§6§e§b\nPro Tip:  View one of Bear\u0027s many automating videos to see how you can set up auto iron, bronze, brass, steel, and stainless steel using these items.\n§f\nFor now lets make a light version of the weight-o-meter as we only need it to read zero.  You only need 2 double tin alloy plates, 4 red alloy fine wire, a wooden pressure plate, and 2 tin alloy bolts.  Don\u0027t worry that the sensor uses a wood plate, it won\u0027t burn up even if on the side of a crucible.\n§a\nTo complete this quest craft:\n1 Light Weight-O-Meter \n       -or-\n1 Medium Weight-O-Meter"
+      "lockedProgress:1": 0,
+      "name:8": "Weight-O-Meter",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "OR",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 270,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2005,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.food"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 2003,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.food"
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
     }
   },
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.multitileentity",
           "Count:3": 1,
           "Damage:2": 31010,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multitileentity"
         }
       },
       "taskID:8": "bq_standard:retrieval"
     },
     "1:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 1,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.multitileentity",
           "Count:3": 1,
           "Damage:2": 31011,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multitileentity"
         }
       },
       "taskID:8": "bq_standard:retrieval"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:choice",
-      "index:3": 0,
-      "choices:9": {
-        "0:10": {
-          "id:8": "gregtech:gt.multiitem.food",
-          "Count:3": 1,
-          "Damage:2": 2005,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "gregtech:gt.multiitem.food",
-          "Count:3": 1,
-          "Damage:2": 2003,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }

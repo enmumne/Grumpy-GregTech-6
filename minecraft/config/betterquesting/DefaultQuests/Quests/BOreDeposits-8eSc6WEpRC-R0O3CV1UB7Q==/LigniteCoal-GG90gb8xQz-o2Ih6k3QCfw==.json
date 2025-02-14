@@ -1,50 +1,50 @@
 {
-  "questIDHigh:4": 1760754079932433215,
   "preRequisites:9": {},
-  "questIDLow:4": -6280119620326915457,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "visibility:8": "ALWAYS",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "Lignite Coal is a lesser coal which can burn.\n\nRock:  Lignite Coal Layer\nBiomes:  all\nY level: above 50 or so\nFound with:  none\n§\n§a\nTo complete the quest mine:\n1 Raw Lignite Ore",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "gregtech:gt.meta.oreRaw",
         "Count:3": 1,
         "Damage:2": 8337,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.meta.oreRaw"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Lignite Coal",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Lignite Coal is a lesser coal which can burn.\n\nRock:  Lignite Coal Layer\nBiomes:  all\nY level: above 50 or so\nFound with:  none\n§\n§a\nTo complete the quest mine:\n1 Raw Lignite Ore"
+      "lockedProgress:1": 0,
+      "name:8": "Lignite Coal",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "ALWAYS"
     }
   },
+  "questIDHigh:4": 1760754079932433215,
+  "questIDLow:4": -6280119620326915457,
+  "rewards:9": {},
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.meta.oreRaw",
           "Count:3": 1,
           "Damage:2": 8337,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.meta.oreRaw"
         }
       },
       "taskID:8": "bq_standard:retrieval"
     }
-  },
-  "rewards:9": {}
+  }
 }

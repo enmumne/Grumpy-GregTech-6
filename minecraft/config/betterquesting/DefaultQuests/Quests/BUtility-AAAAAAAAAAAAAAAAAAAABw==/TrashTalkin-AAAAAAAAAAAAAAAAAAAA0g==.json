@@ -1,74 +1,75 @@
 {
-  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 2
     }
   },
-  "questIDLow:4": 210,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "minecraft:entity.player.levelup",
-      "taskLogic:8": "AND",
-      "visibility:8": "ALWAYS",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "There will come a time that you will have too much of a specific fluid and you will need to void it.  In some cases this will occur first with waste water from your ore processing line.  Gregtech 6 has a solution for you.  The Ender Garbage Bin 5000 (Well it just called the Ender Garbage Bin).\n\nThe bin will take any fluid and send it into the ender void.  All uou need is an Eye of Ender and some obsidian plates, and 3 iron plates.  You will get the obsidian plates by putting an iron bucket of lava in you crucible (you may need to heat it a bit to get the lava molten again).  Then just pour your plates.  Finally you get the Eye of Ender by getting an Ender Pearl from an Enderman and a Tiny Blaze Power.  You can craft 2 tiny Blaze powers from one rod by hand or you can get 2 small blaze dusts bu using a shredder.\n§a\nTo complete the quest craft:\n1 Ender Garbage Bin",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "gregtech:gt.multitileentity",
         "Count:3": 1,
         "Damage:2": 32709,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.multitileentity"
       },
-      "snd_update:8": "minecraft:entity.player.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Trash Talkin\u0027",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "There will come a time that you will have too much of a specific fluid and you will need to void it.  In some cases this will occur first with waste water from your ore processing line.  Gregtech 6 has a solution for you.  The Ender Garbage Bin 5000 (Well it just called the Ender Garbage Bin).\n\nThe bin will take any fluid and send it into the ender void.  All uou need is an Eye of Ender and some obsidian plates, and 3 iron plates.  You will get the obsidian plates by putting an iron bucket of lava in you crucible (you may need to heat it a bit to get the lava molten again).  Then just pour your plates.  Finally you get the Eye of Ender by getting an Ender Pearl from an Enderman and a Tiny Blaze Power.  You can craft 2 tiny Blaze powers from one rod by hand or you can get 2 small blaze dusts bu using a shredder.\n§a\nTo complete the quest craft:\n1 Ender Garbage Bin"
+      "lockedProgress:1": 0,
+      "name:8": "Trash Talkin\u0027",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 210,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2005,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.food"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 2003,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.food"
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
     }
   },
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gregtech:gt.multitileentity",
           "Count:3": 1,
           "Damage:2": 32709,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multitileentity"
         }
       },
       "taskID:8": "bq_standard:retrieval"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "rewardID:8": "bq_standard:choice",
-      "index:3": 0,
-      "choices:9": {
-        "0:10": {
-          "id:8": "gregtech:gt.multiitem.food",
-          "Count:3": 1,
-          "Damage:2": 2005,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "gregtech:gt.multiitem.food",
-          "Count:3": 1,
-          "Damage:2": 2003,
-          "OreDict:8": ""
-        }
-      }
     }
   }
 }
