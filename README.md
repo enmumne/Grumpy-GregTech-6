@@ -11,7 +11,7 @@ This is a straight copy of my test instance, it should import and run with PolyM
 
 Since it's a copy of my own instance, you should redirect it to your local Java 23 copy. My Java flags (included in instance.cfg) work with GraalVM.
 I'm using Oracle official release (select "GraalVM for JDK 23" > "Windows"):  
-https://www.oracle.com/java/technologies/downloads/#graalvmjava23-windows 
+https://www.oracle.com/java/technologies/downloads/#graalvmjava23-windows  
 (direct link for windows) https://download.oracle.com/graalvm/23/latest/graalvm-jdk-23_windows-x64_bin.zip   
 Even if the link stays the same, the Java version gets updated every few months. Currently it's 23.0.2+7.1  
  
