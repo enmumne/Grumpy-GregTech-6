@@ -15,7 +15,7 @@ difficulty:3
 fancyGraphics:true
 ao:1
 clouds:true
-resourcePacks:["Old_Plates_for_GT6_v5.zip"]
+resourcePacks:["Old_Plates_for_GT6_v5.zip","NO MORE CHRISTMAS CHESTS v1.zip"]
 lastServer:
 lang:en_US
 chatVisibility:0
