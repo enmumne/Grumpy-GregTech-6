@@ -2,17 +2,17 @@
     "components": [
         {
             "cachedName": "LWJGL 3",
-            "cachedVersion": "3.4.0-20251111.002045-6",
+            "cachedVersion": "3.4.2-20260225.192616-2",
             "cachedVolatile": true,
             "dependencyOnly": true,
             "uid": "org.lwjgl3",
-            "version": "3.4.0-20251111.002045-6"
+            "version": "3.4.2-20260225.192616-2"
         },
         {
             "cachedName": "Minecraft with LWJGL3",
             "cachedRequires": [
                 {
-                    "suggests": "3.4.0-20251111.002045-6",
+                    "suggests": "3.4.2-20260225.192616-2",
                     "uid": "org.lwjgl3"
                 }
             ],
@@ -23,7 +23,7 @@
         },
         {
             "cachedName": "LWJGL3ify Early Classpath",
-            "cachedVersion": "3.0.0-beta.11",
+            "cachedVersion": "3.0.15",
             "uid": "me.eigenraven.lwjgl3ify.forgepatches"
         },
         {
@@ -40,7 +40,7 @@
         },
         {
             "cachedName": "LWJGL3ify launch args",
-            "cachedVersion": "3.0.0-beta.11",
+            "cachedVersion": "3.0.15",
             "uid": "me.eigenraven.lwjgl3ify.launchargs"
         }
     ],

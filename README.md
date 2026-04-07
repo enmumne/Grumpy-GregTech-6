@@ -11,7 +11,7 @@ Consider that GT6X mod is now included, a significant expansion of GT6. Since th
  
 This is a straight copy of my test instance, it should import and run with PolyMC/Prism, doesn't work on MultiMC because it needs to load patches to run on Java 25 (see lwjgl3ify link below).
 
-Since it's a copy of my own instance, you should redirect it to your unzipped local Java 25 copy. My Java flags (included in instance.cfg) work with GraalVM.
+Since it's a copy of my own instance, before you can launch it you need to edit the path to your own unzipped local Java 25 copy. My Java flags (included in instance.cfg) work with GraalVM.
 While Oracle recently discontinued GraalVM, it's still the best performing version at this moment:  
 https://www.graalvm.org/downloads/  
 (direct link for windows) https://download.oracle.com/graalvm/25/latest/graalvm-jdk-25_windows-x64_bin.zip   
